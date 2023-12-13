@@ -42,10 +42,12 @@ https://github.com/YoHaiYo/Team-SoolDamWha
 23.12.13. 깃허브 및 폴더세팅
 
 # 작업 고려사항
-- 랜더링이 안일어나도록 data폴더에서 하나의 json파일로 props 로 전달해주기
+- component폴더 -> section폴더 -> index.js 순의 컴포넌트 계층구조.
 
-- 컴포넌트 분리
+- workroom폴더에서 팀원이름으로 각각 작업폴더를 만들어서 작업충돌을 방지.
 
-- module.css로 연결 css 충돌없이 진행
+- 랜더링이 안일어나도록 data폴더에서 하나의 json파일로 props 로 전달해주기.
 
-- 빠른 데이터관리를 위해 SQL테이블의 필드명과 json데이터의 객체명을 통일 시켰다.
+- module.css로 연결 css 충돌없이 진행.
+
+- 빠른 데이터관리를 위해 SQL테이블의 필드명과 json데이터의 객체명을 통일 시키기.
