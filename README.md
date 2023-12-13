@@ -43,5 +43,7 @@ https://github.com/YoHaiYo/Team-SoolDamWha
 
 # 작업 고려사항
 랜더링이 안일어나도록 data폴더에서 하나의 json파일로 props 로 전달해주기
+
 컴포넌트 분리
+
 module.css로 연결 css 충돌없이 진행
