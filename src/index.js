@@ -1,17 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-// Section
-import Footer from './section/Footer';
-import Header from './section/Header';
-import Subscribe from './section/Subscribe';
+import King from './King.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Header />
-    <Subscribe />
-    <Footer />
+    <King />
   </React.StrictMode>
 );
 

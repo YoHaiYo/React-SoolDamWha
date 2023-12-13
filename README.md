@@ -42,7 +42,7 @@ https://github.com/YoHaiYo/Team-SoolDamWha
 23.12.13. 깃허브 및 폴더세팅
 
 # 작업 고려사항
-- component폴더 -> section폴더 -> index.js 순의 컴포넌트 계층구조.
+- component폴더 -> section폴더 -> King.js -> index.js 순의 컴포넌트 계층구조.
 
 - workroom폴더에서 팀원이름으로 각각 작업폴더를 만들어서 작업충돌을 방지.
 
