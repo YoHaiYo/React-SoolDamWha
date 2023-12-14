@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
@@ -25,50 +24,45 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="container mt-5">
-      <div className="row justify-content-center">
-        <div className="col-md-8">
-          <form onSubmit={handleSubmit} name="contact-info">
-            <div className="mb-3">
-              <label htmlFor="name" className="form-label">이름</label>
-              <input type="text" className="form-control" name="name" placeholder="이름" value={formData.name} onChange={handleChange} required />
+    <div className="contactbox d-flex">
+      <form onSubmit={handleSubmit} name="contact-info" className="containe">
+        <div className="text-center">
+          <div className="d-flex justify-content-center align-content-center">
+            <div id="n-c-e" className="d-flex flex-column">
+
+              <div className="him h-100">
+                <label htmlFor="name" className="me-4">이름</label>
+                <input className="ms-4" type="text" name="name" placeholder="이름" value={formData.name} onChange={handleChange} required />
+              </div>
+
+              <div className="him h-100">
+                <label htmlFor="num">전화번호</label>
+                <input type="text" name="num" placeholder="010-0000-0000" value={formData.num} onChange={handleChange} required />
+              </div>
+
+              <div className="him h-100">
+                <label htmlFor="email">이메일</label>
+                <input className="ms-3" type="email" name="email" placeholder="example@example.com" value={formData.email} onChange={handleChange} required />
+              </div>
+
+              <div className="him h-100 w-100" id="c-m">
+                <label htmlFor="message">메시지</label>
+                <textarea id="message" name="message" cols="19" rows="5" placeholder="메세지를 입력해주세요^^" value={formData.message} onChange={handleChange} required style={{ backgroundColor: 'transparent' }}></textarea>
+              </div>
             </div>
 
-            <div className="mb-3">
-              <label htmlFor="num" className="form-label">전화번호</label>
-              <input type="text" className="form-control" name="num" placeholder="010-0000-0000" value={formData.num} onChange={handleChange} required />
+            <div className="him h-100" id="send">
+              <div>
+                <label htmlFor="agree">개인정보수집 이용 동의</label>
+                <input type="checkbox" id="agree" name="agree" checked={formData.agree} onChange={handleChange} />
+                <input type="submit" name="send-btn" value="보내기" className="sooldam-btn mt-3" />
+              </div>
             </div>
-
-            <div className="mb-3">
-              <label htmlFor="email" className="form-label">이메일</label>
-              <input type="email" className="form-control" name="email" placeholder="example@example.com" value={formData.email} onChange={handleChange} required />
-            </div>
-
-            <div className="mb-3">
-              <label htmlFor="message" className="form-label">메시지</label>
-              <textarea className="form-control" id="message" name="message" rows="5" placeholder="메세지를 입력해주세요^^" value={formData.message} onChange={handleChange} required></textarea>
-            </div>
-
-            <div className="mb-3 form-check">
-              <input type="checkbox" className="form-check-input" id="agree" name="agree" checked={formData.agree} onChange={handleChange} />
-              <label className="form-check-label" htmlFor="agree">개인정보수집 이용 동의</label>
-            </div>
-
-            <button type="submit" className="btn btn-primary">보내기</button>
-          </form>
+          </div>
         </div>
-      </div>
+      </form>
     </div>
   );
 };
 
-const App = () => {
-  return (
-    <div>
-      <h1 className="text-center mt-5">React Contact Form</h1>
-      <ContactForm />
-    </div>
-  );
-};
-
-export default App;
+export default ContactForm;
