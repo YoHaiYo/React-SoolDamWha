@@ -55,45 +55,132 @@
 
   "product": [
     {
-        "categorydata": "gwashilju",
-        "imgsrc": "/assets/img/cheongju/cheongju01.jpg",
-        "productName": "샤인머스켓와인",
-        "productPrice": "12000원",
-        "starNum": 4,
-        "desc": "달콤한 샤인머스켓 향이 듬뿍~"
-      },   
-      {
-        "categorydata": "jeungryuju",
-        "imgsrc": "/assets/img/cheongju/cheongju02.jpg",
-        "productName": "겨울소주",
-        "productPrice": "12000원",
-        "starNum": 3,
-        "desc": "겨울을 머금은 그맛..!"
-      },   
-      {
-        "categorydata": "cheongju",
-        "imgsrc": "/assets/img/cheongju/cheongju03.jpg",
-        "productName": "유자주",
-        "productPrice": "12000원",
-        "starNum": 4,
-        "desc": "유자향이 듬뿍!"
-      },   
-      {
-        "categorydata": "gwashilju",
-        "imgsrc": "/assets/img/cheongju/cheongju04.jpg",
-        "productName": "심쿵하리 사과",
-        "productPrice": "12000원",
-        "starNum": 4,
-        "desc": "사과 99.9999%"
-      },   
-      {
-        "categorydata": "gwashilju",
-        "imgsrc": "/assets/img/cheongju/cheongju05.jpg",
-        "productName": "복숭아 와인",
-        "productPrice": "12000원",
-        "starNum": 4,
-        "desc": "말랑한 복숭아를 마시는 기분!"
-      }
+        "categorydata": "담화박스",
+        "imgsrc": "/assets/img/soolcatecoryicon/icon_set.png",
+        "productinfo":[
+            {
+                "imgsrc": "/assets/img/cheongju/set01.jpg",
+                "productName": "샤인머스켓와인",
+                "productPrice": "12000원",
+                "starNum": 4,
+                "desc": "달콤한 샤인머스켓 향이 듬뿍~"
+              },   
+              {
+                "imgsrc": "/assets/img/cheongju/set02.jpg",
+                "productName": "겨울소주",
+                "productPrice": "12000원",
+                "starNum": 3,
+                "desc": "겨울을 머금은 그맛..!"
+              }
+        ]
+    },
+    {
+        "categorydata": "청주",
+        "imgsrc": "/assets/img/soolcatecoryicon/icon_cheongju.png",
+        "productinfo":[
+            {
+                "imgsrc": "/assets/img/cheongju/cheongju01.jpg",
+                "productName": "샤인머스켓와인",
+                "productPrice": "12000원",
+                "starNum": 4,
+                "desc": "달콤한 샤인머스켓 향이 듬뿍~"
+              },   
+              {
+                "imgsrc": "/assets/img/cheongju/cheongju02.jpg",
+                "productName": "겨울소주",
+                "productPrice": "12000원",
+                "starNum": 3,
+                "desc": "겨울을 머금은 그맛..!"
+              }
+        ]
+    },
+    {
+        "categorydata": "과실주",
+        "imgsrc": "/assets/img/soolcatecoryicon/icon_gwashilju.png",
+        "productinfo":[
+            {
+                "imgsrc": "/assets/img/gwashilju/gwashilju01.jpg",
+                "productName": "샤인머스켓와인",
+                "productPrice": "12000원",
+                "starNum": 4,
+                "desc": "달콤한 샤인머스켓 향이 듬뿍~"
+              },   
+              {
+                "imgsrc": "/assets/img/gwashilju/gwashilju02.jpg",
+                "productName": "겨울소주",
+                "productPrice": "12000원",
+                "starNum": 3,
+                "desc": "겨울을 머금은 그맛..!"
+              }
+        ]
+    },
+    {
+        "categorydata": "증류주",
+        "imgsrc": "/assets/img/soolcatecoryicon/icon_jeungryuju.png",
+        "productinfo":[
+            {
+                "categorydata": "jeungryuju",
+                "imgsrc": "/assets/img/cheongjeungryujuju/jeungryuju01.jpg",
+                "productName": "샤인머스켓와인",
+                "productPrice": "12000원",
+                "starNum": 4,
+                "desc": "달콤한 샤인머스켓 향이 듬뿍~"
+              },   
+              {
+                "categorydata": "jeungryuju",
+                "imgsrc": "/assets/img/jeungryuju/jeungryuju02.jpg",
+                "productName": "겨울소주",
+                "productPrice": "12000원",
+                "starNum": 3,
+                "desc": "겨울을 머금은 그맛..!"
+              }
+        ]
+    },
+    {
+        "categorydata": "탁주",
+        "imgsrc": "/assets/img/soolcatecoryicon/icon_takju.png",
+        "productinfo":[
+            {
+                "categorydata": "takju",
+                "imgsrc": "/assets/img/takju/takju1.jpg",
+                "productName": "샤인머스켓와인",
+                "productPrice": "12000원",
+                "starNum": 4,
+                "desc": "달콤한 샤인머스켓 향이 듬뿍~"
+              },   
+              {
+                "categorydata": "takju",
+                "imgsrc": "/assets/img/takju/takju2.jpg",
+                "productName": "겨울소주",
+                "productPrice": "12000원",
+                "starNum": 3,
+                "desc": "겨울을 머금은 그맛..!"
+              }
+        ]
+    },
+    {
+        "categorydata": "술잔",
+        "imgsrc": "/assets/img/soolcatecoryicon/icon_merchandise.png",
+        "productinfo":[
+            {
+                "categorydata": "merchandise",
+                "imgsrc": "/assets/img/merchandise/merchandise01.jpg",
+                "productName": "샤인머스켓와인",
+                "productPrice": "12000원",
+                "starNum": 4,
+                "desc": "달콤한 샤인머스켓 향이 듬뿍~"
+              },   
+              {
+                "categorydata": "jeungryuju",
+                "imgsrc": "/assets/img/merchandise/merchandise02.jpg",
+                "productName": "겨울소주",
+                "productPrice": "12000원",
+                "starNum": 3,
+                "desc": "겨울을 머금은 그맛..!"
+              }
+        ]
+    }
+    
     
 ]
 }
