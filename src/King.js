@@ -3,14 +3,15 @@
 import Footer from './section/Footer';
 import Header from './section/Header';
 import Subscribe from './section/Subscribe';
-import ContactForm from './workroom/JR/Empty';
+import Review from './section/Review';
 
 function King() {
   return (
-    <>    
+    <>
       <Header />
       <Subscribe />
-      <ContactForm></ContactForm>
+      {/* <ContactForm></ContactForm> */}
+      <Review></Review>
       <Footer />
     </>
   );
