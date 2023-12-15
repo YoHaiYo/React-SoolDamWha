@@ -4,7 +4,7 @@ import React from 'react'
 
 import BestSwiper from '../workroom/SH/BestSwiper';
 
-function Best() {
+function Best(props) {
 
   return (
     <>
@@ -23,7 +23,7 @@ function Best() {
           </div>
         </div>
 
-        <BestSwiper />
+        <BestSwiper datasrc={props.datasrc}/>
        
       </div>
 

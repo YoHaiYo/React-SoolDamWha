@@ -5,12 +5,15 @@ import Header from './section/Header';
 import Subscribe from './section/Subscribe';
 import Best from './section/Best';
 
+// data
+import datasrc from './data/ssh.json'
+
 function King() {
   return (
     <>    
       <Header />
       <Subscribe />
-      <Best />
+      <Best datasrc={datasrc.bestswiper} />
       <Footer />
     </>
   );
