@@ -12,7 +12,7 @@ function King() {
   return (
     <>    
       <Header />
-      <Subscribe />
+      <Subscribe datasrc={datasrc.subscribe}/>
       <Best datasrc={datasrc.bestswiper} />
       <Footer />
     </>

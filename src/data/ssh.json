@@ -1,4 +1,19 @@
-{
+{   
+
+"subscribe": [
+    {
+        "imgsrc": "/assets/img/cheongju/cheongju01.jpg",
+        "nm": "증류주 담화박스"
+    },
+    {
+        "imgsrc": "/assets/img/cheongju/cheongju02.jpg",
+        "nm": "종합 담화박스"
+    },
+    {
+        "imgsrc": "/assets/img/cheongju/cheongju03.jpg",
+        "nm": "청주 담화박스"
+    }
+],
   "bestswiper": [
       {
           "picktitle": "하늘 벗삼아",
