@@ -4,24 +4,14 @@ import ReviewCard from '../workroom/JR/Reviwecard'
 function Review() {
   return (
     <>
-      <Swiper
-        modules={[Autoplay,]}
-        Autoplay={{
-          delay: 0,
-          disableOnInteraction: false
-        }}
-        spaceBetween={8}
-        slidesPerView={7}
 
-      >
-
-        <SwiperSlide><ReviewCard /></SwiperSlide>
-        {/* <SwiperSlide style={{ background: "gray", height: "500px" }}>Slide 2</SwiperSlide>
-        <SwiperSlide style={{ background: "blue", height: "500px" }}>Slide 3</SwiperSlide>
-        <SwiperSlide style={{ background: "yellow", height: "500px" }}>Slide 4</SwiperSlide> */}
-
-      </Swiper>
-
+      <section id="review" classNameName="mb-5">
+        <h2 className="text-center"><a href="#none">실시간 상품후기</a></h2>
+        <div id="photoRvbox" className="d-flex justify-content-center align-content-center">
+          <ReviewCard />
+          <ReviewCard />
+        </div>
+      </section >
     </>
   )
 }
