@@ -1,0 +1,35 @@
+{
+    "sdh_category": [
+        {
+            "id": "set",
+            "img": "/assets/img/icon/icon_only_sooldamhwa.png",
+            "nm": "술담화"
+        },
+        {
+            "id": "cheongju",
+            "img": "/assets/img/icon/icon_cheongju.png",
+            "nm": "청주"
+        },
+        {
+            "id": "gwashilju",
+            "img": "/assets/img/icon/icon_gwashilju.png",
+            "nm": "과실주"
+        },
+        {
+            "id": "jeungryuju",
+            "img": "/assets/img/icon/icon_jeungryuju.png",
+            "nm": "증류주"
+        },
+        {
+            "id": "takju",
+            "img": "/assets/img/icon/icon_takju.png",
+            "nm": "탁주"
+        },
+        {
+            "id": "merchandise",
+            "img": "/assets/img/icon/icon_merchandise.png",
+            "nm": "술잔"
+        }
+    ],
+    "sdhproduct": []
+}
