@@ -28,7 +28,7 @@ export default function ReviewCard() {
         className="mySwiper"
       >
         <SwiperSlide>
-          <div>
+          <div id='review'>
             {/* <img src="/assets/img/takju/takju1.jpg" alt="" className="ptrv"/> */}
               <p className='color-black'>어울리는 안주 만들어 남편과 같이 마셔봐야겠어요.</p>
               <div id="face" class="d-flex justify-content-center">
