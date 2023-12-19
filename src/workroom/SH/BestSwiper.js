@@ -19,7 +19,7 @@ function BestSwiper(props) {
       <Swiper
         spaceBetween={10}
         slidesPerView={6}
-        loop={true}
+        loop={false}
         centeredSlides={true}
         autoplay={{
           delay: 4000,
