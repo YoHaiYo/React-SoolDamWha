@@ -1,24 +1,33 @@
 import React, { useState } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
-function colorChange() {
-    var itemTitles = document.querySelectorAll(".itemTitle");
+// function colorChange() {
 
-    itemTitles.forEach(function (itemTitle) {
-        itemTitle.addEventListener('click', function () {
-            this.style.color = "#3395ED";
+//     var itemTitles = document.querySelectorAll(".itemTitle");
 
-            itemTitles.forEach(function (otherItemTitle) {
-                if (otherItemTitle !== itemTitle) {
-                    otherItemTitle.style.color = "";
-                }
-            });
+//     itemTitles.forEach(function (itemTitle) {
+//         itemTitle.addEventListener('click', function () {
+//             // this.style.color = "#3395ED";
 
-        });
-    });
-}
+//             itemTitles.forEach(function (otherItemTitle) {
+//                 if (otherItemTitle !== itemTitle) {
+//                     otherItemTitle.style.color = "";
+//                 }
+//             });
+
+//         });
+//     });
+// }
+
+
 function Category(props) {
-    const [tap, setTap] = useState(0)
+    const [tap, setTap] = useState(0);
+    const [a, setA] = useState(0);
+
+    const colorChange = (idx) => {
+        setA((prevIndex) => (prevIndex === idx ? "" : idx));
+    }
+
     return (
         <section section id="itemTitle" className="mb80 mt80 wrap container" >
             <h2 className="text-center">
@@ -30,9 +39,9 @@ function Category(props) {
                 {
                     props.sdhdt.map((v, idx) => {
                         return (
-                            <li className="d-flex flex-column align-items-center itemTitle" key={idx} onClick={() => {
+                            <li className={`d-flex flex-column align-items-center itemTitle ${a === idx ? 'b' : ''}`} key={idx} onClick={() => {
                                 setTap(idx)
-                                colorChange()
+                                colorChange(idx)
                             }}>
                                 <img src={v.imgsrc} alt="담화박스" />
                                 <div className="itemTitle">{v.categorytitle}</div>
@@ -43,7 +52,6 @@ function Category(props) {
             </ul>
             <div className="itemImgWrap ">
                 <div className="itemImgWrap_margin d-flex flex-wrap ">
-
                     {
                         props.sdhdt[tap].productinfo && (
 
@@ -59,10 +67,9 @@ function Category(props) {
                                             <div className="productName "><a href="">{vv.productName}</a></div>
                                             <div className="productPrice ">{vv.productPrice}</div>
                                             <div className="starNum d-flex">
-                                                <span></span>
-                                                <span></span>
-                                                <span></span>
-                                                <span></span>
+                                                <i class="bi bi-star-fill" key={i}>{vv.starNum}</i>
+
+                                                {/* <span>{vv.starNum}</span> */}
                                             </div>
                                             <p className="desc">{vv.desc}</p>
                                         </div>
@@ -72,8 +79,6 @@ function Category(props) {
                             })
                         )
                     }
-
-
                 </div>
             </div>
 
