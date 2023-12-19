@@ -1,23 +1,6 @@
 import React, { useState } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
-// function colorChange() {
-
-//     var itemTitles = document.querySelectorAll(".itemTitle");
-
-//     itemTitles.forEach(function (itemTitle) {
-//         itemTitle.addEventListener('click', function () {
-//             // this.style.color = "#3395ED";
-
-//             itemTitles.forEach(function (otherItemTitle) {
-//                 if (otherItemTitle !== itemTitle) {
-//                     otherItemTitle.style.color = "";
-//                 }
-//             });
-
-//         });
-//     });
-// }
 
 
 function Category(props) {
@@ -25,7 +8,8 @@ function Category(props) {
     const [a, setA] = useState(0);
 
     const colorChange = (idx) => {
-        setA((prevIndex) => (prevIndex === idx ? "" : idx));
+        // setA((prevIndex) => (prevIndex === idx ? "" : idx)); //클릭후 같은 자리 클릭하면 다시 원상복귀되는 오류발생
+        setA((prevIndex) => (prevIndex === idx ? prevIndex : idx));
     }
 
     return (
