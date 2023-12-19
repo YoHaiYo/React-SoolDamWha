@@ -12,24 +12,36 @@ import 'swiper/css/navigation';
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 
 // import datasrc from '../../data/ssh.json'
+// import bestswiper from './bestswiper.module.scss';
 
 function BestSwiper(props) {
   return (
-    <>
-      <Swiper
+      <Swiper 
         spaceBetween={10}
-        slidesPerView={6}
+        slidesPerView={1.5}
         loop={true}
-        centeredSlides={true}
+        // centeredSlides={true}
         autoplay={{
           delay: 4000,
           disableOnInteraction: false,
-
         }}
-    
+        breakpoints={{
+          735: {
+            slidesPerView: 2.5,
+          },
+          1035: {
+            slidesPerView: 3.5,
+          },
+          1335: {
+            slidesPerView: 4.5,
+          },
+          1665: {
+            slidesPerView: 5.5,
+          },
+        }}
+  
         navigation={true}
-        modules={[Autoplay, Navigation, Pagination]}
-        className="BestSwiper"
+        modules={[Autoplay, Navigation, Pagination]}        
       >
             {
       props.datasrc.map((el, idx)=> {
@@ -42,14 +54,13 @@ function BestSwiper(props) {
             <div className="picktitle">{el.picktitle}</div>
             <div className="hashtag">{el.hashtag}</div>
           </div>
-        </SwiperSlide>     
+        </SwiperSlide>         
           )
       })
       
     } 
  
       </Swiper>  
-    </>
   )
 }
 
