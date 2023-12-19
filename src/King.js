@@ -3,15 +3,15 @@ import React from 'react';
 import Footer from './section/Footer';
 import Header from './section/Header';
 import Subscribe from './section/Subscribe';
-import Item from './workroom/JY/Item';
-
+import sdhdata from './data/sdhdata.json'
+import Category from './workroom/JY/Category';
 
 function King() {
   return (
     <>
       <Header />
       <Subscribe />
-      <Item></Item>
+      <Category sdhdt={sdhdata.product}></Category>
       <Footer />
     </>
   );
