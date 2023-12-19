@@ -163,16 +163,16 @@ body {
    
   }
 
-  .swiper {
+  .swiper {    
     width: 1700px;
     padding: 2rem 0;
     // border: 1px solid #333;
       position: unset;
 
     .swiper-wrapper {
-      position: unset;
+      // position: unset;
       .swiper-slide { 
-        position: unset;            
+        // position: unset;            
         &:hover {
           .pickbox {
             opacity: 1;
