@@ -3,7 +3,7 @@ import React from 'react'
 function Btn(props) {
   return (
     <>
-      <button class="ssh--btn-apply">{props.text}</button>
+      <button className="ssh--btn-apply">{props.text}</button>
     </>
   )
 }

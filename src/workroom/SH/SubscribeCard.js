@@ -8,11 +8,11 @@ function SubscribeCard(props) {
     {
       props.datasrc.map((el, idx)=> {
         return (
-          <div class="subscribe-wrap" key={`div${idx}`}>
+          <div className="subscribe-wrap" key={`div${idx}`}>
           <a href="">
-            {/* <img class='rounded-circle' src="/assets/img/cheongju/cheongju01.jpg" alt="cheongju01" /> */}
-            <img class='rounded-circle' src={el.imgsrc} alt="" />
-            <div class="box-name">{el.nm}</div>
+            {/* <img className='rounded-circle' src="/assets/img/cheongju/cheongju01.jpg" alt="cheongju01" /> */}
+            <img className='rounded-circle' src={el.imgsrc} alt="" />
+            <div className="box-name">{el.nm}</div>
           </a>
         </div>
         )

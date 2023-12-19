@@ -6,11 +6,11 @@ import Btn from '../workroom/SH/Btn'
 function Subscribe(props) {
   return (
     <>
-        <section id="subscribe" class="wrap text-center mb-5">
+        <section id="subscribe" className="wrap text-center mb-5">
 
           <SectionTitle title="구독, 아직도 망설이시나요?"/>
 
-          <div class="subscribe-main-wrap d-flex justify-content-around">
+          <div className="subscribe-main-wrap d-flex justify-content-around">
             <SubscribeCard datasrc={props.datasrc} />
           </div>
 
