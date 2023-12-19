@@ -154,7 +154,7 @@ a {
 
 /* itemTitle hover */
 
-#itemTitle .itemImgWrap .Imgbox span {
+#itemTitle .itemImgWrap .Imgbox>div {
   overflow: hidden;
   width: 290px;
   height: 380px;
