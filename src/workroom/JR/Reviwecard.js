@@ -15,25 +15,23 @@ export default function ReviewCard() {
     <>
       <Swiper
         centeredSlides={true}
-        // spaceBetween={8}
-        // slidesPerView={7}
-        // speed={6000}
-        // autoplay={{
-        //   delay: 0,
-        //   disableOnInteraction: false,
-        // }}
-        pagination={{
-          clickable: true,
+        spaceBetween={8}
+        slidesPerView={7}
+        speed={6000}
+        autoplay={{
+          delay: 0,
+          disableOnInteraction: false,
         }}
-        navigation={true}
+        
+        
         modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper"
       >
         {
-          [1, 2, 3, 4].map((e, i) => {
+          [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map((e, i) => {
             return (
               <SwiperSlide>
-                <div id='review'>
+                <div>
                   <img src="/assets/img/takju/takju1.jpg" alt="" className="ptrv" />
                   <p className='color-black'>어울리는 안주 만들어 남편과 같이 마셔봐야겠어요.</p>
                   <div id="face" className="d-flex justify-content-center">
