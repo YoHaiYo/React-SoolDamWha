@@ -33,7 +33,7 @@ export default function ReviewCard() {
               <SwiperSlide>
                 <div>
                   <img src="/assets/img/takju/takju1.jpg" alt="" className="ptrv" />
-                  <p className='color-black'>어울리는 안주 만들어 남편과 같이 마셔봐야겠어요.</p>
+                  <p className='color-black'>good~</p>
                   <div id="face" className="d-flex justify-content-center">
                     <a className='face'><img src='/assets/img/face/face1-01.svg' alt="" />re15님</a>
                     <div className="rv-star">
