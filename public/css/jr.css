@@ -40,6 +40,10 @@
   flex-grow: 1;
 }
 
+#c-m textarea#message {
+  background-color: transparent;
+}
+
 #contact .contactbox label {
   padding: 0.5rem 0.1rem;
   margin: 0 1rem;

@@ -4,7 +4,7 @@ import Footer from './section/Footer';
 import Header from './section/Header';
 import Subscribe from './section/Subscribe';
 import Review from './section/Review';
-import Form from './data/form.json';
+import Formsdh from './workroom/JR/Formsdh';
 
 function King() {
   return (
@@ -12,7 +12,7 @@ function King() {
       <Header />
       <Subscribe />
       <Review></Review>
-      <Form />
+      <Formsdh />
       <Footer />
     </>
   );
