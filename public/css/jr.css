@@ -86,7 +86,10 @@
 
 
 /* --------------리뷰--------------- */
-
+#review a{
+  color: #333;
+  text-decoration: none;
+}
 #review .swiper {
   height: 480px;
 }

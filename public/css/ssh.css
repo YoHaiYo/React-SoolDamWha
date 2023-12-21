@@ -4,12 +4,20 @@ body {
   overflow-x: hidden;
 }
 
+#subscribe {
+  margin-top: 50px;
+}
 #subscribe h2 a {
+  color: #333;
+  text-decoration: none;
   font-family: "SOYOMapleBoldTTF";
   font-size: 35px;
 }
 #subscribe .subscribe-main-wrap {
   margin: 70px 0;
+}
+#subscribe .subscribe-main-wrap .subscribe-wrap a {
+  text-decoration: none;
 }
 #subscribe .subscribe-main-wrap .subscribe-wrap a img {
   width: 290px;
@@ -22,6 +30,10 @@ body {
 #subscribe .subscribe-main-wrap .subscribe-wrap a .box-name {
   font-size: 30px;
   font-family: "ImcreSoojin";
+  color: #333;
+  text-decoration: none !important;
+  border: none;
+  list-style: none;
 }
 #subscribe .subscribe-main-wrap .subscribe-wrap .box-explain {
   opacity: 0;

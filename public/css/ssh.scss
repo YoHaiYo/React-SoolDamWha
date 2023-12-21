@@ -6,8 +6,11 @@ body {
 
 // MAIN
 #subscribe {
+  margin-top: 50px;
   h2 {
     a {
+      color: #333;
+      text-decoration: none;
       font-family: 'SOYOMapleBoldTTF';
       font-size: 35px;
     }
@@ -20,6 +23,7 @@ body {
     .subscribe-wrap {
 
       a {
+        text-decoration: none;
         &:hover {
           img {
             // background-color: #333;
@@ -46,6 +50,10 @@ body {
         .box-name {
           font-size: 30px;
           font-family: 'ImcreSoojin';
+          color: #333;
+          text-decoration: none !important;
+          border: none;
+          list-style: none;
         }
       }
 
