@@ -12,7 +12,6 @@ import 'swiper/css/navigation';
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 
 // import datasrc from '../../data/ssh.json'
-// import bestswiper from './bestswiper.module.scss';
 
 function BestSwiper(props) {
   return (
