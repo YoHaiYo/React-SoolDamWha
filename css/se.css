@@ -1,0 +1,254 @@
+/* .swiper {
+  width: 100%;
+} */
+
+
+/* Common */
+
+
+/* #promotionSwiper {
+  max-width: 1440px;
+
+  margin: 0 auto; 
+} */
+/* -------------------------------------------------header------------------------------------------------------------------ */
+#promotionSwiper .swiper-slide {
+  height: 480px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  /* border: 1px solid black; */
+  box-sizing: border-box;
+  font-family: SOYOMapleBoldTTF;
+  font-weight: 700;
+
+
+}
+
+#login button {
+  border: none;
+  background-color: white;
+  font-family: Spoqa Han Sans Neo !important;
+  font-size: 14px;
+}
+
+#promotionSwiper .swiper-slide {
+  position: relative;
+}
+
+#promotionSwiper .swiper-slide .effecttext {
+  position: absolute;
+  max-width: 500px;
+  width: 50vw;
+  right: 30%;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  opacity: 0;
+  transition: 1s;
+  transform: translateY(50%);
+  color: white;
+
+}
+
+#promotionSwiper .swiper-slide.swiper-slide-active .effecttext {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+
+
+#hd a {
+  text-decoration: none;
+}
+
+#hd h1 {
+  margin-bottom: 40px;
+}
+
+
+#promotionSwiper .bgimg1 {
+  background-image: url(../img/bgimg_1.png);
+  /* width: 1919px; */
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  height: 480px;
+  background-position: 80% top;
+  background-color: #eecfa0;
+
+
+}
+
+#promotionSwiper .bgimg2 {
+  background-image: url(../img/event_2.png);
+  /* width: 1919px; */
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  height: 480px;
+
+
+
+}
+
+#promotionSwiper .bgimg3 {
+  background-image: url(../img/event3.png);
+  background-size: auto 100%;
+  background-color: #d8e2d5;
+  /* width: 1919px; */
+  height: 480px;
+  background-repeat: no-repeat;
+  /* background-position: 90% top; */
+
+}
+
+#promotionSwiper .bgimg3 .effecttext {
+  color: white;
+
+}
+
+#promotionSwiper .swiper-button-prev::after,
+#promotionSwiper .swiper-button-next::after {
+  color: #4B77E7;
+  margin-top: 2.5rem;
+}
+
+#promotionSwiper .btnsCenter {
+  top: 50%;
+  height: 0;
+  max-width: 1440px;
+  width: calc(100% - 30px);
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+}
+
+#login {
+  right: 0;
+  top: 0;
+  z-index: 1000;
+
+
+}
+
+#login a {
+  font-family: Spoqa Han Sans Neo !important;
+  color: black;
+  font-size: 14px;
+}
+
+#gnb {
+  font-family: Spoqa Han Sans Neo !important;
+  color: #435585 !important;
+  font-size: 20px;
+  font-weight: bold;
+  /* width: 486px;
+  height: 45px; */
+  margin-bottom: 20px;
+
+
+}
+
+#gnb a {
+  padding: 50px;
+}
+
+#hd.down h1 {
+  margin-bottom: 0;
+}
+
+#hd.down .wrap {
+  display: flex;
+  align-items: center;
+  padding-top: 0;
+}
+
+#hd.down #gnb a {
+  padding: 25px 50px;
+
+}
+
+#hd.down #gnb {
+  margin-bottom: 0;
+  margin-left: 9rem;
+}
+
+#hd.down h1 img {
+  height: 2rem;
+  margin-bottom: 1rem;
+  transform: translateX(-100%);
+}
+
+#hd.down {
+  border-bottom: 1px solid #EAEAEA;
+}
+
+#hd.down #login {
+  margin-top: 1rem;
+  transform: translateX(50%);
+}
+
+
+#promotionSwiper .effecttext p {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  /* margin-left: 1rem; */
+}
+
+
+#login label {
+  font-family: Spoqa Han Sans Neo !important;
+  color: black;
+  font-size: 14px;
+}
+
+#languageSelector {
+  border: none;
+}
+
+#languageSelector label {
+  position: absolute;
+  top: 0px;
+  left: 200px;
+
+
+}
+
+#languageSelector select {
+
+  position: absolute;
+  top: 0px;
+  left: 280px;
+  border: none;
+
+
+}
+
+#languageSelector {
+  outline: none !important;
+}
+
+#hd li {
+  list-style: none;
+}
+
+
+
+.resistabs {
+  position: absolute;
+  top: 2% !important;
+  right: 5% !important;
+
+}
+
+
+
+
+
+
+/* -------------------------------------------------header------------------------------------------------------------------ */
