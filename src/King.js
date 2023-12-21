@@ -4,14 +4,13 @@ import Footer from './section/Footer';
 import Header from './section/Header';
 import Subscribe from './section/Subscribe';
 import Review from './section/Review';
-import Form from './workroom/JR/form';
+import Form from './data/form.json';
 
 function King() {
   return (
     <>
       <Header />
       <Subscribe />
-      {/* <ContactForm></ContactForm> */}
       <Review></Review>
       <Form />
       <Footer />
