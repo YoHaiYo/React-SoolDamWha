@@ -1,7 +1,20 @@
 /* 폼태그 */
+section #contact {
+  margin-top: 8px;
+  margin-bottom: 8px;
+
+}
+
 #contact {
-  margin-top: 80px;
-  margin-bottom: 80px;
+  max-width: 500px;
+  /* 필요에 따라 적절한 최대 너비 설정 */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  text-align: center;
 }
 
 #contact h2 {
@@ -15,9 +28,15 @@
   display: inline-block;
   align-items: center;
   justify-content: center;
-  /* text-align: left; */
   margin-bottom: 15px;
 }
+
+.infoform {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
 
 #contact .contactbox .him {
   background-color: #FFDF80;
@@ -40,8 +59,15 @@
   flex-grow: 1;
 }
 
-#c-m textarea#message {
+.c-m {
+height: 9rem !important;
+width: 17rem;
+padding: 0.11rem 0.1rem;
+}
+
+.message {
   background-color: transparent;
+
 }
 
 #contact .contactbox label {
@@ -58,7 +84,7 @@
 }
 
 /*입점문의 메세지 라벨*/
-#contact .contactbox #c-m {
+#contact .contactbox .c-m {
   align-items: unset;
 }
 
