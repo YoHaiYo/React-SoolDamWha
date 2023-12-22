@@ -2,7 +2,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { EffectFade, Autoplay } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/effect-fade';
-import mainS from '../../data/MainSwiper.json'
+// import mainS from '../../data/MainSwiper.json'
 
 
 export default (props) => {

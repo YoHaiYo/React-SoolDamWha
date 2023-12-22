@@ -12,7 +12,7 @@ function HD(props) {
             <div className='text-center container-lg'>
                 <h1 id='Logo'>
                     <a href="#">
-                        <img src="/assets/img/icon/hd_logo.png" alt="로고" />
+                        <img src="./assets/img/icon/hd_logo.png" alt="로고" />
                     </a>
                 </h1>
                 <ul id="gnb" className='d-flex justify-content-center'>
