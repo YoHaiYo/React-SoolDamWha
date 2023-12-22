@@ -9,4 +9,3 @@ root.render(
     <King />
   // </React.StrictMode>
 );
-
