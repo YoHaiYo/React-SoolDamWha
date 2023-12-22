@@ -1,16 +1,10 @@
 import React, { useState } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
-/* function printStars(starNum) {
-    let stars = [];
-    for (let i = 0; i < starNum; i++) {
-    //   stars.push(i) += '<span></span>';
-      stars.push(i);
-    }
-    return stars;
-  } */
-
-function Category(props) {
+  
+  function Category(props) {
+    console.log('SSH !!',props.sdhdt)
+    
     const [tap, setTap] = useState(0);
     const [a, setA] = useState(0);
 
