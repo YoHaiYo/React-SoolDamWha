@@ -124,7 +124,8 @@ a {
   width: 30px;
   height: 30px;
   /* background-color: rgb(255, 255, 125); */
-  /* background: center / contain no-repeat url(../assets/img/icon/star.png); */
+  background: center / contain no-repeat url(../assets/img/icon/star.png);
+  /* font-size: 0; */
 }
 #itemTitle .itemImgWrap .Imgbox .starNum i{
   color: #ffd147;

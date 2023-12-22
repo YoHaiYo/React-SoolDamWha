@@ -8,7 +8,7 @@ function Category(props) {
     const [a, setA] = useState(0);
 
     const colorChange = (idx) => {
-        // setA((prevIndex) => (prevIndex === idx ? "" : idx)); //클릭후 같은 자리 클릭하면 다시 원상복귀되는 오류발생
+        // setA((prevIndex) => (prevIndex === idx ? "" : idx)); //클릭후 같은 자리 클릭하면 다시 원상복귀되는 오류발생..
         setA((prevIndex) => (prevIndex === idx ? prevIndex : idx));
     }
 
@@ -51,9 +51,10 @@ function Category(props) {
                                             <div className="productName "><a href="">{vv.productName}</a></div>
                                             <div className="productPrice ">{vv.productPrice}</div>
                                             <div className="starNum d-flex">
-                                                <i class="bi bi-star-fill" key={i}>{vv.starNum}</i>
-
-                                                {/* <span>{vv.starNum}</span> */}
+                                                {Array.from({ length: vv.starNum }, (_, index) => (
+                                                    <span key={index}></span>
+                                                ))}
+                                                {/* Array.from은 새로운 배열을 만들거나 기존의 유사배열 객체나 반복가능한 객체를 배열로 변환하는 메서드이다. */}
                                             </div>
                                             <p className="desc">{vv.desc}</p>
                                         </div>
