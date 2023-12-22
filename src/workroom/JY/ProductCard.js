@@ -2,8 +2,8 @@ import React, { useState } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
   
-  function Category(props) {
-    console.log('SSH !!',props.sdhdt)
+  function ProductCard(props) {
+    // console.log('SSH !!',props.datasrc)
     
     const [tap, setTap] = useState(0);
     const [a, setA] = useState(0);
@@ -28,7 +28,8 @@ import 'bootstrap/dist/css/bootstrap.min.css'
             </h2>
             <ul className="d-flex justify-content-around itemTitleBox">
                 {
-                    props.sdhdt.map((v, idx) => {
+                    props.datasrc.map((v, idx) => {
+                        console.log(v)
                         return (
                             <li className={`d-flex flex-column align-items-center itemTitle ${a === idx ? 'b' : ''}`} key={idx} onClick={() => {
                                 setTap(idx)
@@ -44,9 +45,9 @@ import 'bootstrap/dist/css/bootstrap.min.css'
             <div className="itemImgWrap ">
                 <div className="itemImgWrap_margin d-flex flex-wrap ">
                     {
-                        props.sdhdt[tap].productinfo && (
+                        props.datasrc[tap].productinfo && (
 
-                            props.sdhdt[tap].productinfo.map((vv, i) => {
+                            props.datasrc[tap].productinfo.map((vv, i) => {
                                 return (
                                     <div className="Imgbox gwashilju">
                                         <div>
@@ -88,4 +89,4 @@ import 'bootstrap/dist/css/bootstrap.min.css'
     )
 }
 
-export default Category
+export default ProductCard
