@@ -1,12 +1,12 @@
 import React from 'react'
-import Resist from './resist'
-import gnbdb from '../../data/gnb.json'
+// import Resist from './resist'
+// import gnbdb from '../../data/gnb.json'
 
 
 
 
 
-function HD() {
+function HD(props) {
     return (
         <header id="hd" className='d-flex justify-content-center align-items-center fixed-top bg-white pt-5 border-bottom position-relative'>
             <div className='text-center container-lg'>
@@ -17,7 +17,7 @@ function HD() {
                 </h1>
                 <ul id="gnb" className='d-flex justify-content-center'>
                     {
-                        gnbdb.gnbko.map((v, i) => {
+                        props.datasrc.map((v, i) => {
                             return (
                                 <li key={i}><a href={v.href}>{v.gnbtext}</a></li>
                             )
@@ -26,7 +26,7 @@ function HD() {
 
 
                 </ul>
-                <Resist></Resist>
+                {/* <Resist></Resist> */}
 
 
             </div>

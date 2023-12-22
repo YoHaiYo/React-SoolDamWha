@@ -27,7 +27,7 @@ const King = () => {
   return (
     <>
       <LanguageSwitcher changeLanguage={changeLanguage} /> {/* 언어 변경 컴포넌트 추가 */}
-      <Header />
+      <Header datasrc={datasrc[language].header} />
       <Subscribe datasrc={datasrc[language].subscribe} />
       <Best datasrc={datasrc[language].bestswiper} />
       <Product datasrc={datasrc[language].product}></Product>
