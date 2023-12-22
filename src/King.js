@@ -1,15 +1,14 @@
 
-
 import React, { useState } from 'react';
+
 // Section
 import Footer from './section/Footer';
 import Header from './section/Header';
 import Subscribe from './section/Subscribe';
 import Best from './section/Best';
 import Product from './section/Product';
-import Category from './workroom/JY/ProductCard';
 import Review from './section/Review';
-import Formsdh from './workroom/JR/Formsdh';
+import Contact from './section/Contact';
 
 // data
 // import sdhdata from './data/sdhdata.json'
@@ -31,11 +30,9 @@ const King = () => {
       <Header />
       <Subscribe datasrc={datasrc[language].subscribe} />
       <Best datasrc={datasrc[language].bestswiper} />
-      {/* <Product datasrc={datasrc[language].product} /> */}
-      {/* <Category datasrc={datasrc[language].product}></Category> */}
       <Product datasrc={datasrc[language].product}></Product>
       <Review />
-      <Formsdh />
+      <Contact />
       <Footer />
     </>
   );
