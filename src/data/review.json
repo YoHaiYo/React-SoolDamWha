@@ -1,11 +1,75 @@
 {
   "reivwe": [
     {
-      "img": "/assets/img/takju/takju1.jpg",
+      "img src": "/assets/img/takju/takju1.jpg",
       "coment": "완전 존맛탱!!",
       "faceimg": "/assets/img/face/face1-01.svg",
-      "rvid": "fhjk님",
+      "userid": "fhjk님",
+      "rvstar": "..."
+    },
+    {
+      "img src": "/assets/img/takju/takju2.jpg",
+      "coment": "완전 존맛탱!!",
+      "faceimg": "/assets/img/face/face1-01.svg",
+      "userid": "fhjk님",
+      "rvstar": "..."
+    },
+    {
+      "img src": "/assets/img/takju/takju3.jpg",
+      "coment": "완전 존맛탱!!",
+      "faceimg": "/assets/img/face/face1-01.svg",
+      "userid": "fhjk님",
+      "rvstar": "..."
+    },
+    {
+      "img src": "/assets/img/takju/takju4.jpg",
+      "coment": "완전 존맛탱!!",
+      "faceimg": "/assets/img/face/face1-01.svg",
+      "userid": "fhjk님",
+      "rvstar": "..."
+    },
+    {
+      "img src": "/assets/img/takju/takju5.jpg",
+      "coment": "완전 존맛탱!!",
+      "faceimg": "/assets/img/face/face1-01.svg",
+      "userid": "fhjk님",
+      "rvstar": "..."
+    },
+    {
+      "img src": "/assets/img/takju/takju6.jpg",
+      "coment": "완전 존맛탱!!",
+      "faceimg": "/assets/img/face/face1-01.svg",
+      "userid": "fhjk님",
+      "rvstar": "..."
+    },
+    {
+      "img src": "/assets/img/takju/takju7.jpg",
+      "coment": "완전 존맛탱!!",
+      "faceimg": "/assets/img/face/face1-01.svg",
+      "userid": "fhjk님",
+      "rvstar": "..."
+    },
+    {
+      "img src": "/assets/img/takju/takju8.jpg",
+      "coment": "완전 존맛탱!!",
+      "faceimg": "/assets/img/face/face1-01.svg",
+      "userid": "fhjk님",
+      "rvstar": "..."
+    },
+    {
+      "img src": "/assets/img/takju/takju9.jpg",
+      "coment": "완전 존맛탱!!",
+      "faceimg": "/assets/img/face/face1-01.svg",
+      "userid": "fhjk님",
+      "rvstar": "..."
+    },
+    {
+      "img src": "/assets/img/takju/takju10.jpg",
+      "coment": "완전 존맛탱!!",
+      "faceimg": "/assets/img/face/face1-01.svg",
+      "userid": "fhjk님",
       "rvstar": "..."
     }
+    
   ]
 }
