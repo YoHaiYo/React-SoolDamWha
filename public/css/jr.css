@@ -60,9 +60,9 @@ section #contact {
 }
 
 .c-m {
-height: 9rem !important;
-width: 17rem;
-padding: 0.11rem 0.1rem;
+  height: 9rem !important;
+  width: 17rem;
+  padding: 0.11rem 0.1rem;
 }
 
 .message {
@@ -118,7 +118,7 @@ padding: 0.11rem 0.1rem;
 /* --------------리뷰--------------- */
 
 #review .swiper {
-  height: 480px;
+  height: 500px;
 
 }
 
@@ -138,14 +138,7 @@ padding: 0.11rem 0.1rem;
 }
 
 
-#review .rv-star .starNum span {
-  margin-bottom: 10px;
-  text-align: center;
-  width: 20px;
-  height: 45px;
-  display: flex;
-  background: center / contain no-repeat url(../img/star.png);
-}
+
 
 #review .photoRvbox .swiper-slide {
   border-radius: 30px;
@@ -242,6 +235,10 @@ padding: 0.11rem 0.1rem;
 
 #review .swiper-slide .rv-star {
   align-items: center;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
 #review .swiper-slide .face img {
@@ -251,11 +248,19 @@ padding: 0.11rem 0.1rem;
   margin-bottom: 0;
 }
 
+.starNum {
+  display: flex;
+  width: 100px;
+
+}
+
 #review .swiper-slide .rv-star .starNum span {
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
+  display: block;
   text-align: center;
   width: 20px;
   height: 45px;
   display: flex;
-  background: center / contain no-repeat url(/public/assets/img/etc/star.png);
+  z-index: 999999999;
+  background: center / contain no-repeat url(../assets/img/icon/star.png);
 }

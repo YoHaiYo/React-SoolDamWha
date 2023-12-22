@@ -1,6 +1,8 @@
 import React, { useRef, useState } from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
+import reviewsdh from '../../data/review.json'
+
 
 // Import Swiper styles
 import 'swiper/css';
@@ -22,27 +24,26 @@ export default function ReviewCard() {
           delay: 0,
           disableOnInteraction: false,
         }}
-        
-        
+
+
         modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper"
       >
         {
-          [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map((e, i) => {
+          reviewsdh.review.map((e, i) => {
             return (
               <SwiperSlide>
                 <div>
-                  <img src="/assets/img/takju/takju1.jpg" alt="" className="ptrv" />
-                  <p className='color-black'>good~</p>
-                  <div id="face" className="d-flex justify-content-center">
-                    <a className='face'><img src='/assets/img/face/face1-01.svg' alt="" />re15님</a>
+                  <img src={e['img src']} alt="" className="ptrv" />
+                  <p className='color-black'>{e.coment}</p>
+                  <div id="face">
+                    <a className='face'><img src={e['faceimg']} alt="" />re15님</a>
                     <div className="rv-star">
-                      <div className="starNum d-flex text-center w-100">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
+                      <div className="starNum">
+
+                        {Array.from({ length: e.rvstar }, (_, index) => (
+                          <span key={index}></span>
+                        ))}
                       </div>
                     </div>
                   </div>
