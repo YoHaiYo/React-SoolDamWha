@@ -70,47 +70,47 @@
               {
                   "picktitle": "하늘 벗삼아",
                   "hashtag": "#부드러운 #고급막걸리",
-                  "imgsrc": "/assets/img/cheongju/cheongju01.jpg"
+                  "imgsrc": "./assets/img/cheongju/cheongju01.jpg"
               },
               {
                   "picktitle": "하늘 벗삼아",
                   "hashtag": "#부드러운 #고급막걸리",
-                  "imgsrc": "/assets/img/cheongju/cheongju02.jpg"
+                  "imgsrc": "./assets/img/cheongju/cheongju02.jpg"
               },
               {
                   "picktitle": "하늘 벗삼아",
                   "hashtag": "#부드러운 #고급막걸리",
-                  "imgsrc": "/assets/img/cheongju/cheongju03.jpg"
+                  "imgsrc": "./assets/img/cheongju/cheongju03.jpg"
               },
               {
                   "picktitle": "하늘 벗삼아",
                   "hashtag": "#부드러운 #고급막걸리",
-                  "imgsrc": "/assets/img/cheongju/cheongju04.jpg"
+                  "imgsrc": "./assets/img/cheongju/cheongju04.jpg"
               },
               {
                   "picktitle": "구름을 벗삼아",
                   "hashtag": "#부드러운 #고급막걸리",
-                  "imgsrc": "/assets/img/cheongju/cheongju05.jpg"
+                  "imgsrc": "./assets/img/cheongju/cheongju05.jpg"
               },
               {
                   "picktitle": "구름을 벗삼아",
                   "hashtag": "#부드러운 #고급막걸리",
-                  "imgsrc": "/assets/img/cheongju/cheongju06.jpg"
+                  "imgsrc": "./assets/img/cheongju/cheongju06.jpg"
               },
               {
                   "picktitle": "구름을 벗삼아",
                   "hashtag": "#부드러운 #고급막걸리",
-                  "imgsrc": "/assets/img/cheongju/cheongju07.jpg"
+                  "imgsrc": "./assets/img/cheongju/cheongju07.jpg"
               },
               {
                   "picktitle": "구름을 벗삼아",
                   "hashtag": "#부드러운 #고급막걸리",
-                  "imgsrc": "/assets/img/cheongju/cheongju08.jpg"
+                  "imgsrc": "./assets/img/cheongju/cheongju08.jpg"
               },
               {
                   "picktitle": "구름을 벗삼아",
                   "hashtag": "#부드러운 #고급막걸리",
-                  "imgsrc": "/assets/img/cheongju/cheongju09.jpg"
+                  "imgsrc": "./assets/img/cheongju/cheongju09.jpg"
               }
               
           ],
@@ -119,11 +119,11 @@
           "product": [
             {
                 "categorytitle": "담화박스",
-                "imgsrc": "/assets/img/soolcatecoryicon/icon_set.png",
+                "imgsrc": "./assets/img/soolcatecoryicon/icon_set.png",
                 "productinfo":[
                     {
                         "categorydata": "set",
-                        "imgsrc": "/assets/img/set/set01.jpg",
+                        "imgsrc": "./assets/img/set/set01.jpg",
                         "productName": "샤인머스켓와인",
                         "productPrice": "12000원",
                         "starNum": 4,
@@ -131,7 +131,7 @@
                       },   
                       {
                         "categorydata": "set",
-                        "imgsrc": "/assets/img/set/set02.jpg",
+                        "imgsrc": "./assets/img/set/set02.jpg",
                         "productName": "겨울소주",
                         "productPrice": "12000원",
                         "starNum": 3,
@@ -141,11 +141,11 @@
             },
             {
                 "categorytitle": "청주",
-                "imgsrc": "/assets/img/soolcatecoryicon/icon_cheongju.png",
+                "imgsrc": "./assets/img/soolcatecoryicon/icon_cheongju.png",
                 "productinfo":[
                     {
                         "categorydata": "cheongju",
-                        "imgsrc": "/assets/img/cheongju/cheongju01.jpg",
+                        "imgsrc": "./assets/img/cheongju/cheongju01.jpg",
                         "productName": "샤인머스켓와인",
                         "productPrice": "12000원",
                         "starNum": 4,
@@ -153,7 +153,7 @@
                       },   
                       {
                         "categorydata": "cheongju",
-                        "imgsrc": "/assets/img/cheongju/cheongju02.jpg",
+                        "imgsrc": "./assets/img/cheongju/cheongju02.jpg",
                         "productName": "겨울소주",
                         "productPrice": "12000원",
                         "starNum": 3,
@@ -163,11 +163,11 @@
             },
             {
                 "categorytitle": "과실주",
-                "imgsrc": "/assets/img/soolcatecoryicon/icon_gwashilju.png",
+                "imgsrc": "./assets/img/soolcatecoryicon/icon_gwashilju.png",
                 "productinfo":[
                     {
                         "categorydata": "gwashilju",
-                        "imgsrc": "/assets/img/gwashilju/gwashilju01.jpg",
+                        "imgsrc": "./assets/img/gwashilju/gwashilju01.jpg",
                         "productName": "샤인머스켓와인",
                         "productPrice": "12000원",
                         "starNum": 4,
@@ -175,7 +175,7 @@
                       },   
                       {
                         "categorydata": "gwashilju",
-                        "imgsrc": "/assets/img/gwashilju/gwashilju02.jpg",
+                        "imgsrc": "./assets/img/gwashilju/gwashilju02.jpg",
                         "productName": "겨울소주",
                         "productPrice": "12000원",
                         "starNum": 3,
@@ -185,11 +185,11 @@
             },
             {
                 "categorytitle": "증류주",
-                "imgsrc": "/assets/img/soolcatecoryicon/icon_jeungryuju.png",
+                "imgsrc": "./assets/img/soolcatecoryicon/icon_jeungryuju.png",
                 "productinfo":[
                     {
                         "categorydata": "jeungryuju",
-                        "imgsrc": "/assets/img/jeungryuju/jeungryuju01.jpg",
+                        "imgsrc": "./assets/img/jeungryuju/jeungryuju01.jpg",
                         "productName": "샤인머스켓와인",
                         "productPrice": "12000원",
                         "starNum": 4,
@@ -197,7 +197,7 @@
                       },   
                       {
                         "categorydata": "jeungryuju",
-                        "imgsrc": "/assets/img/jeungryuju/jeungryuju02.jpg",
+                        "imgsrc": "./assets/img/jeungryuju/jeungryuju02.jpg",
                         "productName": "겨울소주",
                         "productPrice": "12000원",
                         "starNum": 3,
@@ -207,11 +207,11 @@
             },
             {
                 "categorytitle": "탁주",
-                "imgsrc": "/assets/img/soolcatecoryicon/icon_takju.png",
+                "imgsrc": "./assets/img/soolcatecoryicon/icon_takju.png",
                 "productinfo":[
                     {
                         "categorydata": "takju",
-                        "imgsrc": "/assets/img/takju/takju1.jpg",
+                        "imgsrc": "./assets/img/takju/takju1.jpg",
                         "productName": "샤인머스켓와인",
                         "productPrice": "12000원",
                         "starNum": 4,
@@ -219,7 +219,7 @@
                       },   
                       {
                         "categorydata": "takju",
-                        "imgsrc": "/assets/img/takju/takju2.jpg",
+                        "imgsrc": "./assets/img/takju/takju2.jpg",
                         "productName": "겨울소주",
                         "productPrice": "12000원",
                         "starNum": 3,
@@ -229,11 +229,11 @@
             },
             {
                 "categorytitle": "술잔",
-                "imgsrc": "/assets/img/soolcatecoryicon/icon_merchandise.png",
+                "imgsrc": "./assets/img/soolcatecoryicon/icon_merchandise.png",
                 "productinfo":[
                     {
                         "categorydata": "merchandise",
-                        "imgsrc": "/assets/img/merchandise/merchandise01.jpg",
+                        "imgsrc": "./assets/img/merchandise/merchandise01.jpg",
                         "productName": "샤인머스켓와인",
                         "productPrice": "12000원",
                         "starNum": 4,
@@ -241,7 +241,7 @@
                       },   
                       {
                         "categorydata": "merchandise",
-                        "imgsrc": "/assets/img/merchandise/merchandise02.jpg",
+                        "imgsrc": "./assets/img/merchandise/merchandise02.jpg",
                         "productName": "겨울소주",
                         "productPrice": "12000원",
                         "starNum": 3,
@@ -307,15 +307,15 @@
         },
         "subscribe": [
             {
-                "imgsrc": "/assets/img/cheongju/cheongju01.jpg",
+                "imgsrc": "./assets/img/cheongju/cheongju01.jpg",
                 "nm": "Hard liquor Box"
             },
             {
-                "imgsrc": "/assets/img/cheongju/cheongju02.jpg",
+                "imgsrc": "./assets/img/cheongju/cheongju02.jpg",
                 "nm": "Comprehensive Box"
             },
             {
-                "imgsrc": "/assets/img/cheongju/cheongju03.jpg",
+                "imgsrc": "./assets/img/cheongju/cheongju03.jpg",
                 "nm": "Cheongju Box"
             }
         ],
@@ -324,47 +324,47 @@
               {
                   "picktitle": "as friend of sky",
                   "hashtag": "#Soft #high-end makgeolli",
-                  "imgsrc": "/assets/img/cheongju/cheongju01.jpg"
+                  "imgsrc": "./assets/img/cheongju/cheongju01.jpg"
               },
               {
                   "picktitle": "as friend of sky",
                   "hashtag": "#Soft #high-end makgeolli",
-                  "imgsrc": "/assets/img/cheongju/cheongju02.jpg"
+                  "imgsrc": "./assets/img/cheongju/cheongju02.jpg"
               },
               {
                   "picktitle": "as friend of sky",
                   "hashtag": "#Soft #high-end makgeolli",
-                  "imgsrc": "/assets/img/cheongju/cheongju03.jpg"
+                  "imgsrc": "./assets/img/cheongju/cheongju03.jpg"
               },
               {
                   "picktitle": "as friend of sky",
                   "hashtag": "#Soft #high-end makgeolli",
-                  "imgsrc": "/assets/img/cheongju/cheongju04.jpg"
+                  "imgsrc": "./assets/img/cheongju/cheongju04.jpg"
               },
               {
                   "picktitle": "as friend of cloud",
                   "hashtag": "#Soft #high-end makgeolli",
-                  "imgsrc": "/assets/img/cheongju/cheongju05.jpg"
+                  "imgsrc": "./assets/img/cheongju/cheongju05.jpg"
               },
               {
                   "picktitle": "as friend of cloud",
                   "hashtag": "#Soft #high-end makgeolli",
-                  "imgsrc": "/assets/img/cheongju/cheongju06.jpg"
+                  "imgsrc": "./assets/img/cheongju/cheongju06.jpg"
               },
               {
                   "picktitle": "as friend of cloud",
                   "hashtag": "#Soft #high-end makgeolli",
-                  "imgsrc": "/assets/img/cheongju/cheongju07.jpg"
+                  "imgsrc": "./assets/img/cheongju/cheongju07.jpg"
               },
               {
                   "picktitle": "as friend of cloud",
                   "hashtag": "#Soft #high-end makgeolli",
-                  "imgsrc": "/assets/img/cheongju/cheongju08.jpg"
+                  "imgsrc": "./assets/img/cheongju/cheongju08.jpg"
               },
               {
                   "picktitle": "as friend of cloud",
                   "hashtag": "#Soft #high-end makgeolli",
-                  "imgsrc": "/assets/img/cheongju/cheongju09.jpg"
+                  "imgsrc": "./assets/img/cheongju/cheongju09.jpg"
               }
               
           ],
@@ -373,11 +373,11 @@
           "product": [
             {
                 "categorytitle": "DamHwa Box",
-                "imgsrc": "/assets/img/soolcatecoryicon/icon_set.png",
+                "imgsrc": "./assets/img/soolcatecoryicon/icon_set.png",
                 "productinfo":[
                     {
                         "categorydata": "set",
-                        "imgsrc": "/assets/img/set/set01.jpg",
+                        "imgsrc": "./assets/img/set/set01.jpg",
                         "productName": "Shine Muscat Wine",
                         "productPrice": "12000원",
                         "starNum": 4,
@@ -385,7 +385,7 @@
                       },   
                       {
                         "categorydata": "set",
-                        "imgsrc": "/assets/img/set/set02.jpg",
+                        "imgsrc": "./assets/img/set/set02.jpg",
                         "productName": "Winter Soju",
                         "productPrice": "12000원",
                         "starNum": 3,
@@ -395,11 +395,11 @@
             },
             {
                 "categorytitle": "청주",
-                "imgsrc": "/assets/img/soolcatecoryicon/icon_cheongju.png",
+                "imgsrc": "./assets/img/soolcatecoryicon/icon_cheongju.png",
                 "productinfo":[
                     {
                         "categorydata": "cheongju",
-                        "imgsrc": "/assets/img/cheongju/cheongju01.jpg",
+                        "imgsrc": "./assets/img/cheongju/cheongju01.jpg",
                         "productName": "샤인머스켓와인",
                         "productPrice": "12000원",
                         "starNum": 4,
@@ -407,7 +407,7 @@
                       },   
                       {
                         "categorydata": "cheongju",
-                        "imgsrc": "/assets/img/cheongju/cheongju02.jpg",
+                        "imgsrc": "./assets/img/cheongju/cheongju02.jpg",
                         "productName": "겨울소주",
                         "productPrice": "12000원",
                         "starNum": 3,
@@ -417,11 +417,11 @@
             },
             {
                 "categorytitle": "과실주",
-                "imgsrc": "/assets/img/soolcatecoryicon/icon_gwashilju.png",
+                "imgsrc": "./assets/img/soolcatecoryicon/icon_gwashilju.png",
                 "productinfo":[
                     {
                         "categorydata": "gwashilju",
-                        "imgsrc": "/assets/img/gwashilju/gwashilju01.jpg",
+                        "imgsrc": "./assets/img/gwashilju/gwashilju01.jpg",
                         "productName": "샤인머스켓와인",
                         "productPrice": "12000원",
                         "starNum": 4,
@@ -429,7 +429,7 @@
                       },   
                       {
                         "categorydata": "gwashilju",
-                        "imgsrc": "/assets/img/gwashilju/gwashilju02.jpg",
+                        "imgsrc": "./assets/img/gwashilju/gwashilju02.jpg",
                         "productName": "겨울소주",
                         "productPrice": "12000원",
                         "starNum": 3,
@@ -439,11 +439,11 @@
             },
             {
                 "categorytitle": "증류주",
-                "imgsrc": "/assets/img/soolcatecoryicon/icon_jeungryuju.png",
+                "imgsrc": "./assets/img/soolcatecoryicon/icon_jeungryuju.png",
                 "productinfo":[
                     {
                         "categorydata": "jeungryuju",
-                        "imgsrc": "/assets/img/jeungryuju/jeungryuju01.jpg",
+                        "imgsrc": "./assets/img/jeungryuju/jeungryuju01.jpg",
                         "productName": "샤인머스켓와인",
                         "productPrice": "12000원",
                         "starNum": 4,
@@ -451,7 +451,7 @@
                       },   
                       {
                         "categorydata": "jeungryuju",
-                        "imgsrc": "/assets/img/jeungryuju/jeungryuju02.jpg",
+                        "imgsrc": "./assets/img/jeungryuju/jeungryuju02.jpg",
                         "productName": "겨울소주",
                         "productPrice": "12000원",
                         "starNum": 3,
@@ -461,11 +461,11 @@
             },
             {
                 "categorytitle": "탁주",
-                "imgsrc": "/assets/img/soolcatecoryicon/icon_takju.png",
+                "imgsrc": "./assets/img/soolcatecoryicon/icon_takju.png",
                 "productinfo":[
                     {
                         "categorydata": "takju",
-                        "imgsrc": "/assets/img/takju/takju1.jpg",
+                        "imgsrc": "./assets/img/takju/takju1.jpg",
                         "productName": "샤인머스켓와인",
                         "productPrice": "12000원",
                         "starNum": 4,
@@ -473,7 +473,7 @@
                       },   
                       {
                         "categorydata": "takju",
-                        "imgsrc": "/assets/img/takju/takju2.jpg",
+                        "imgsrc": "./assets/img/takju/takju2.jpg",
                         "productName": "겨울소주",
                         "productPrice": "12000원",
                         "starNum": 3,
@@ -483,11 +483,11 @@
             },
             {
                 "categorytitle": "술잔",
-                "imgsrc": "/assets/img/soolcatecoryicon/icon_merchandise.png",
+                "imgsrc": "./assets/img/soolcatecoryicon/icon_merchandise.png",
                 "productinfo":[
                     {
                         "categorydata": "merchandise",
-                        "imgsrc": "/assets/img/merchandise/merchandise01.jpg",
+                        "imgsrc": "./assets/img/merchandise/merchandise01.jpg",
                         "productName": "샤인머스켓와인",
                         "productPrice": "12000원",
                         "starNum": 4,
@@ -495,7 +495,7 @@
                       },   
                       {
                         "categorydata": "merchandise",
-                        "imgsrc": "/assets/img/merchandise/merchandise02.jpg",
+                        "imgsrc": "./assets/img/merchandise/merchandise02.jpg",
                         "productName": "겨울소주",
                         "productPrice": "12000원",
                         "starNum": 3,

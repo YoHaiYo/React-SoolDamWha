@@ -2,7 +2,7 @@
   "name": "03-1_react-sooldamwha",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://YoHaiYo.github.io/React-SoolDamWha.github.io",
+  "homepage": "https://YoHaiYo.github.io/React-SoolDamWha.github.io/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
