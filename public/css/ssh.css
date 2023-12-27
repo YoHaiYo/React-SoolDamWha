@@ -104,11 +104,15 @@ body {
 }
 #bestTitle .slide-box {
   min-width: 260px !important;
-  height: 330px;
+  height: 360px;
+  width: 100px;
   background-color: white;
   border: 1px solid #333;
   border-radius: 20px;
-  bottom: 67px;
+  bottom: 67px;  
+  /* height: 0;
+  padding-top: 133.39%; */
+
 }
 #bestTitle .slide-box .best-ment {
   margin-top: 50px;
@@ -148,6 +152,7 @@ body {
   left:0; right:0; top:0; bottom:0;
   background-color: transparent;
   transition: 0.5s;
+  border-radius: 5%;
 }
 #bestTitle .swiper .swiper-wrapper .swiper-slide:hover a:before{
   background-color: rgba(0,0,0,.5);
