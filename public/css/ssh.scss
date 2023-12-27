@@ -6,8 +6,11 @@ body {
 
 // MAIN
 #subscribe {
+  margin-top: 50px;
   h2 {
     a {
+      color: #333;
+      text-decoration: none;
       font-family: 'SOYOMapleBoldTTF';
       font-size: 35px;
     }
@@ -20,6 +23,7 @@ body {
     .subscribe-wrap {
 
       a {
+        text-decoration: none;
         &:hover {
           img {
             // background-color: #333;
@@ -46,6 +50,10 @@ body {
         .box-name {
           font-size: 30px;
           font-family: 'ImcreSoojin';
+          color: #333;
+          text-decoration: none !important;
+          border: none;
+          list-style: none;
         }
       }
 
@@ -131,9 +139,10 @@ body {
 #bestTitle {
   margin-top: 50px;
   margin-bottom: 50px;
+  position: relative;
 
   .slide-box {
-    width: 260px;
+    min-width: 260px !important;
     height: 330px;
     background-color: white;
     border: 1px solid #333;
@@ -156,41 +165,22 @@ body {
       color: white;
     }
 
-    .slide-box-btns {
       // background-color: red;
       bottom: 67px;
 
-      .swiper-button-prev {
-        position: unset;
-        margin-left: 30px;
-        margin-right: 50px;
-        color: rgb(128, 149, 255);
-      }
-
-      .swiper-button-next {
-        position: unset;
-        color: #0000008c;
-      }
-
-      .swiper-button-prev::after {
-        content: "←";
-
-      }
-
-      .swiper-button-next::after {
-        content: "→";
-        // font-size: 0;
-      }
-    }
+   
   }
 
-  .swiper {
+  .swiper {    
     width: 1700px;
     padding: 2rem 0;
     // border: 1px solid #333;
+      position: unset;
 
     .swiper-wrapper {
-      .swiper-slide {        
+      // position: unset;
+      .swiper-slide { 
+        // position: unset;            
         &:hover {
           .pickbox {
             opacity: 1;
@@ -232,7 +222,32 @@ body {
           }
         }
       }
+
     }
+    
+    .swiper-button-prev {
+      position: absolute;
+      left: 60px;
+      top: 300px;
+      color: rgb(128, 149, 255);
+    }
+
+    .swiper-button-next {
+      position: absolute;
+      left: 160px;
+      top: 300px;
+      color: #0000008c;
+    }
+
+    .swiper-button-prev::after {
+      content: "←";
+
+    }
+
+    .swiper-button-next::after {
+      content: "→";
+      // font-size: 0;
+    } 
   }
 }
 
@@ -241,4 +256,16 @@ body {
   #bestTitle .slide-box {
     display: none !important;   
   }
+  .swiper-button-prev, .swiper-button-next {
+    display: none !important;
+  }   
 }
+
+// 리액트서 추가작업
+// #bestTitle .swiper-button-prev::after {
+//   content: "←";
+// } 
+// #bestTitle .swiper-button-next::after {
+//   content: "→";
+//   color: rgb(109, 109, 109);
+// } 

@@ -2,8 +2,8 @@
 **Team-SolDamWha**
 프론트엔드반 술담화 리액트 - 프로젝트 방입니다.
 
-# 배포용링크(임시)
-추가예정
+# 배포용링크
+https://yohaiyo.github.io/React-SoolDamWha.github.io/
 
 # 팀원 소개
 
@@ -51,3 +51,5 @@ https://github.com/YoHaiYo/Team-SoolDamWha
 - module.css로 연결 css 충돌없이 진행.
 
 - 빠른 데이터관리를 위해 SQL테이블의 필드명과 json데이터의 객체명을 통일 시키기.
+
+- 데이터파일 이미지 경로에 ./ 붙여서 쓰기. / 로만 쓰면 deploy 인식안됨 ! 

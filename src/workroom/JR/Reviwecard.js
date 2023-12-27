@@ -1,7 +1,7 @@
 import React, { useRef, useState } from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
-import reviewsdh from '../../data/review.json'
+import sdhdata from '../../data/sdhdata.json'
 
 
 // Import Swiper styles
@@ -30,7 +30,7 @@ export default function ReviewCard() {
         className="mySwiper"
       >
         {
-          reviewsdh.review.map((e, i) => {
+          sdhdata.ko.review.map((e, i) => {
             return (
               <SwiperSlide>
                 <div>

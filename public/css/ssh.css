@@ -4,12 +4,20 @@ body {
   overflow-x: hidden;
 }
 
+#subscribe {
+  margin-top: 50px;
+}
 #subscribe h2 a {
+  color: #333;
+  text-decoration: none;
   font-family: "SOYOMapleBoldTTF";
   font-size: 35px;
 }
 #subscribe .subscribe-main-wrap {
   margin: 70px 0;
+}
+#subscribe .subscribe-main-wrap .subscribe-wrap a {
+  text-decoration: none;
 }
 #subscribe .subscribe-main-wrap .subscribe-wrap a img {
   width: 290px;
@@ -22,6 +30,10 @@ body {
 #subscribe .subscribe-main-wrap .subscribe-wrap a .box-name {
   font-size: 30px;
   font-family: "ImcreSoojin";
+  color: #333;
+  text-decoration: none !important;
+  border: none;
+  list-style: none;
 }
 #subscribe .subscribe-main-wrap .subscribe-wrap .box-explain {
   opacity: 0;
@@ -88,13 +100,15 @@ body {
 #bestTitle {
   margin-top: 50px;
   margin-bottom: 50px;
+  position: relative;
 }
 #bestTitle .slide-box {
-  width: 260px;
+  min-width: 260px !important;
   height: 330px;
   background-color: white;
   border: 1px solid #333;
   border-radius: 20px;
+  bottom: 67px;
 }
 #bestTitle .slide-box .best-ment {
   margin-top: 50px;
@@ -109,28 +123,10 @@ body {
   background-color: #0d6efd;
   color: white;
 }
-#bestTitle .slide-box .slide-box-btns {
-  bottom: 67px;
-}
-#bestTitle .slide-box .slide-box-btns .swiper-button-prev {
-  position: unset;
-  margin-left: 30px;
-  margin-right: 50px;
-  color: rgb(128, 149, 255);
-}
-#bestTitle .slide-box .slide-box-btns .swiper-button-next {
-  position: unset;
-  color: rgba(0, 0, 0, 0.5490196078);
-}
-#bestTitle .slide-box .slide-box-btns .swiper-button-prev::after {
-  content: "←";
-}
-#bestTitle .slide-box .slide-box-btns .swiper-button-next::after {
-  content: "→";
-}
 #bestTitle .swiper {
   width: 1700px;
   padding: 2rem 0;
+  position: unset;
 }
 #bestTitle .swiper .swiper-wrapper .swiper-slide:hover .pickbox {
   opacity: 1;
@@ -167,9 +163,30 @@ body {
   color: #fff;
   white-space: nowrap;
 }
+#bestTitle .swiper .swiper-button-prev {
+  position: absolute;
+  left: 60px;
+  top: 300px;
+  color: rgb(128, 149, 255);
+}
+#bestTitle .swiper .swiper-button-next {
+  position: absolute;
+  left: 160px;
+  top: 300px;
+  color: rgba(0, 0, 0, 0.5490196078);
+}
+#bestTitle .swiper .swiper-button-prev::after {
+  content: "←";
+}
+#bestTitle .swiper .swiper-button-next::after {
+  content: "→";
+}
 
 @media (max-width: 535px) {
   #bestTitle .slide-box {
+    display: none !important;
+  }
+  .swiper-button-prev, .swiper-button-next {
     display: none !important;
   }
 }

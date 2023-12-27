@@ -70,6 +70,10 @@ a {
   width: 80px;
 }
 
+.itemTitle {
+  color: black;
+}
+
 /* itemTitle img Area*/
 #itemTitle .itemImgWrap {
   font-family: 'Spoqa Han Sans';
@@ -120,9 +124,12 @@ a {
   width: 30px;
   height: 30px;
   /* background-color: rgb(255, 255, 125); */
-  background: center / contain no-repeat url(../img/star.png);
+  background: center / contain no-repeat url(../assets/img/icon/star.png);
 }
-
+#itemTitle .itemImgWrap .Imgbox .starNum i{
+  color: #ffd147;
+  font-size: 25px;
+}
 #itemTitle .itemImgWrap .Imgbox img {
   margin-bottom: 20px;
   width: 100%;
@@ -154,7 +161,7 @@ a {
 
 /* itemTitle hover */
 
-#itemTitle .itemImgWrap .Imgbox span {
+#itemTitle .itemImgWrap .Imgbox>div {
   overflow: hidden;
   width: 290px;
   height: 380px;
@@ -273,12 +280,15 @@ a {
   }
 }
 
+.b {
+  color: #3395ED !important;
+}
 
 /* 메뉴클릭 on */
 
-#itemTitle .menu.on .itemTitle {
-  color: #3395ED;
-}
+/* #itemTitle .menu.on .itemTitle.b {
+  color: #3395ED !important;
+} */
 
 /* #itemTitle .hide {
   display: none !important;

@@ -42,7 +42,7 @@
   position: absolute;
   max-width: 500px;
   width: 50vw;
-  right: 20%;
+  right: 30%;
   margin: auto;
   top: 0;
   bottom: 0;
@@ -53,6 +53,7 @@
   opacity: 0;
   transition: 1s;
   transform: translateY(50%);
+  color: white;
 
 }
 
@@ -148,7 +149,7 @@
   font-weight: bold;
   /* width: 486px;
   height: 45px; */
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 
 
 }
@@ -230,6 +231,19 @@
 
 #languageSelector {
   outline: none !important;
+}
+
+#hd li {
+  list-style: none;
+}
+
+
+
+.resistabs {
+  position: absolute;
+  top: 2% !important;
+  right: 5% !important;
+
 }
 
 

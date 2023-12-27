@@ -33,7 +33,7 @@ function Formsdh() {
               <div className=" c-m him h-100 w-100" id="">
                 <label for="message">메시지</label>
                 <textarea className="message" name="message" cols="19" rows="5" placeholder="메세지를 입력해주세요^^" required
-                  ></textarea>
+                ></textarea>
               </div>
             </div>
 
@@ -42,11 +42,11 @@ function Formsdh() {
 
                 <label for="agree">개인정보수집 이용 동의</label>
                 <input type="checkbox" id="agree" />
-                  <input type="submit" name="send-btn" value="보내기" onclick='sendInfo()' className="sooldam-btn mt-3" />
+                <input type="submit" name="send-btn" value="보내기" onclick='sendInfo()' className="sooldam-btn mt-3" />
 
-                  </div>
               </div>
             </div>
+          </div>
         </form>
       </div>
     </section>
