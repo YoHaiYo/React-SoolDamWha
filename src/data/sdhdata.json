@@ -719,11 +719,11 @@
                     },
                     {
                         "categorydata": "takju",
-                        "imgsrc": "./assets/img/takju/takju11.jpg",
-                        "productName": "원숭이",
+                        "imgsrc": "./assets/img/takju/takju11.png",
+                        "productName": "설하담 2병",
                         "productPrice": "20000원",
                         "starNum": 4,
-                        "desc": "붉은 맛을 느껴봐~"
+                        "desc": "눈처럼 맑은 막거리~"
                     },
                     {
                         "categorydata": "takju",
@@ -804,6 +804,21 @@
                         "desc": "볼록한 귀여운 술잔"
                     }
                 ]
+            }
+        ],
+        "footer": [
+            {
+                "representative": "대표 : OOO",
+                "buisness": "사업자등록번호 : 000-00-00000",
+                "address": "주소 : 서울특별시 서초구 강남대로 527, 10층(브랜드칸타워, 술담화",
+                "call": "대표 전화 : 070-1234-5678",
+                "email": "이메일 : info@sooldamhwa.com",
+                "Privacy": "개인정보 처리방침",
+                "terms": "이용약관",
+                "StoreEntryInquiry": "입점문의",
+                "company": "담화컴퍼니 주식회사",
+                "serviceCenter": "고객센터: 070-5014-1282",
+                "time": "평일 10:00 - 18:00, 주말 휴무"
             }
         ]
     },
@@ -928,130 +943,705 @@
                     {
                         "categorydata": "set",
                         "imgsrc": "./assets/img/set/set01.jpg",
-                        "productName": "Shine Muscat Wine",
-                        "productPrice": "12000원",
-                        "starNum": 4,
-                        "desc": "달콤한 샤인머스켓 향이 듬뿍~"
+                        "productName": "Comprehensive Tasting Box",
+                        "productPrice": "₩52,000",
+                        "starNum": 5,
+                        "desc": "A comprehensive tasting set for soju enthusiasts."
                     },
                     {
                         "categorydata": "set",
                         "imgsrc": "./assets/img/set/set02.jpg",
-                        "productName": "Winter Soju",
-                        "productPrice": "12000원",
+                        "productName": "Distilled Spirits Tasting Box",
+                        "productPrice": "₩55,000",
+                        "starNum": 4,
+                        "desc": "For those who enjoy high-proof spirits."
+                    },
+                    {
+                        "categorydata": "set",
+                        "imgsrc": "./assets/img/set/set03.jpg",
+                        "productName": "Medicinal Rice Wine Set",
+                        "productPrice": "₩55,000",
+                        "starNum": 5,
+                        "desc": "A set composed of medicinal and clear rice wines."
+                    },
+                    {
+                        "categorydata": "set",
+                        "imgsrc": "./assets/img/set/set04.jpg",
+                        "productName": "Fatigue Recovery Set",
+                        "productPrice": "₩36,900",
+                        "starNum": 4,
+                        "desc": "Perfect as a gift for parents!"
+                    },
+                    {
+                        "categorydata": "set",
+                        "imgsrc": "./assets/img/set/set05.jpg",
+                        "productName": "Late Night Tasting Set",
+                        "productPrice": "₩26,000",
+                        "starNum": 5,
+                        "desc": "A blend of taste and emotion that can't be missed!"
+                    },
+                    {
+                        "categorydata": "set",
+                        "imgsrc": "./assets/img/set/set06.jpg",
+                        "productName": "Sooju Opener Set",
+                        "productPrice": "₩20,600",
                         "starNum": 3,
-                        "desc": "겨울을 머금은 그맛..!"
+                        "desc": "Real soju made from rice!"
+                    },
+                    {
+                        "categorydata": "set",
+                        "imgsrc": "./assets/img/set/set07.jpg",
+                        "productName": "Apple Cider 4-Flavor Starter Pack",
+                        "productPrice": "₩22,900",
+                        "starNum": 4,
+                        "desc": "Sparkling fruit wine made from apples."
+                    },
+                    {
+                        "categorydata": "set",
+                        "imgsrc": "./assets/img/set/set08.jpg",
+                        "productName": "Chateau Miso Miniature Wine 6-Pack Set",
+                        "productPrice": "₩42,000",
+                        "starNum": 5,
+                        "desc": "Try 6 different flavors at once!"
+                    },
+                    {
+                        "categorydata": "set",
+                        "imgsrc": "./assets/img/set/set09.jpg",
+                        "productName": "MilDam 24+2 Bottle Set",
+                        "productPrice": "₩26,000",
+                        "starNum": 5,
+                        "desc": "Sweet soju in a large quantity!"
+                    },
+                    {
+                        "categorydata": "set",
+                        "imgsrc": "./assets/img/set/set10.jpg",
+                        "productName": "YeoPo's Dream Set",
+                        "productPrice": "₩45,000",
+                        "starNum": 4,
+                        "desc": "The winery of Yeongdong's famous house."
+                    },
+                    {
+                        "categorydata": "set",
+                        "imgsrc": "./assets/img/set/set11.jpg",
+                        "productName": "King Sejong's Eoju 2-Bottle Gift Set",
+                        "productPrice": "₩37,180",
+                        "starNum": 3,
+                        "desc": "Liquor brewed with pure spring water."
+                    },
+                    {
+                        "categorydata": "set",
+                        "imgsrc": "./assets/img/set/set12.jpg",
+                        "productName": "Jiranjigyo 3-Flavor Set",
+                        "productPrice": "₩49,000",
+                        "starNum": 4,
+                        "desc": "For those who love hefty liquor!"
+                    },
+                    {
+                        "categorydata": "set",
+                        "imgsrc": "./assets/img/set/set13.jpg",
+                        "productName": "SeoSeol Gift Set",
+                        "productPrice": "₩33,000",
+                        "starNum": 5,
+                        "desc": "Clear and clean without any bitterness."
+                    },
+                    {
+                        "categorydata": "set",
+                        "imgsrc": "./assets/img/set/set14.jpg",
+                        "productName": "Samcheonggapja Eastern Wine Gift Set",
+                        "productPrice": "₩30,000",
+                        "starNum": 4,
+                        "desc": "Whole ginseng root in the liquor!"
+                    },
+                    {
+                        "categorydata": "set",
+                        "imgsrc": "./assets/img/set/set15.jpg",
+                        "productName": "Pine Mushroom Liquor Gift Set",
+                        "productPrice": "₩98,000",
+                        "starNum": 4,
+                        "desc": "For those who love pine-flavored beverages!"
+                    },
+                    {
+                        "categorydata": "set",
+                        "imgsrc": "./assets/img/set/set16.jpg",
+                        "productName": "Gosori Soju Gift Set",
+                        "productPrice": "₩110,000",
+                        "starNum": 5,
+                        "desc": "Traditional distilled Gosori soju."
                     }
                 ]
             },
             {
-                "categorytitle": "청주",
+                "categorytitle": "Cheongju",
                 "imgsrc": "./assets/img/soolcatecoryicon/icon_cheongju.png",
                 "productinfo": [
                     {
                         "categorydata": "cheongju",
                         "imgsrc": "./assets/img/cheongju/cheongju01.jpg",
-                        "productName": "샤인머스켓와인",
-                        "productPrice": "12000원",
+                        "productName": "Yuja Liquor",
+                        "productPrice": "₩12,000",
                         "starNum": 4,
-                        "desc": "달콤한 샤인머스켓 향이 듬뿍~"
+                        "desc": "Abundant aroma of yuja!"
                     },
                     {
                         "categorydata": "cheongju",
                         "imgsrc": "./assets/img/cheongju/cheongju02.jpg",
-                        "productName": "겨울소주",
-                        "productPrice": "12000원",
+                        "productName": "Chrysanthemum Liquor",
+                        "productPrice": "₩20,000",
+                        "starNum": 5,
+                        "desc": "A liquor suitable for autumn."
+                    },
+                    {
+                        "categorydata": "cheongju",
+                        "imgsrc": "./assets/img/cheongju/cheongju03.jpg",
+                        "productName": "Nimome",
+                        "productPrice": "₩7,700",
+                        "starNum": 4,
+                        "desc": "Liquor with kumquat peel."
+                    },
+                    {
+                        "categorydata": "cheongju",
+                        "imgsrc": "./assets/img/cheongju/cheongju04.jpg",
+                        "productName": "Neungi Liquor",
+                        "productPrice": "₩9,900",
                         "starNum": 3,
-                        "desc": "겨울을 머금은 그맛..!"
+                        "desc": "Medicinal liquor."
+                    },
+                    {
+                        "categorydata": "cheongju",
+                        "imgsrc": "./assets/img/cheongju/cheongju05.jpg",
+                        "productName": "Sol Song Liquor",
+                        "productPrice": "₩8,550",
+                        "starNum": 4,
+                        "desc": "Refreshing pine scent."
+                    },
+                    {
+                        "categorydata": "cheongju",
+                        "imgsrc": "./assets/img/cheongju/cheongju06.jpg",
+                        "productName": "Seoseol",
+                        "productPrice": "₩13,500",
+                        "starNum": 5,
+                        "desc": "Liquor with a taste as clear as snow."
+                    },
+                    {
+                        "categorydata": "cheongju",
+                        "imgsrc": "./assets/img/cheongju/cheongju07.jpg",
+                        "productName": "Cheongmyeongju",
+                        "productPrice": "₩19,500",
+                        "starNum": 4,
+                        "desc": "Selected by the Blue House."
+                    },
+                    {
+                        "categorydata": "cheongju",
+                        "imgsrc": "./assets/img/cheongju/cheongju08.jpg",
+                        "productName": "Donghak",
+                        "productPrice": "₩3,420",
+                        "starNum": 5,
+                        "desc": "Rich taste of rice."
+                    },
+                    {
+                        "categorydata": "cheongju",
+                        "imgsrc": "./assets/img/cheongju/cheongju09.jpg",
+                        "productName": "Hancheong",
+                        "productPrice": "₩20,000",
+                        "starNum": 4,
+                        "desc": "Sweet and sour cheongju."
+                    },
+                    {
+                        "categorydata": "cheongju",
+                        "imgsrc": "./assets/img/cheongju/cheongju10.jpg",
+                        "productName": "Dansangjigyo",
+                        "productPrice": "₩20,000",
+                        "starNum": 5,
+                        "desc": "A liquor suitable for autumn."
+                    },
+                    {
+                        "categorydata": "cheongju",
+                        "imgsrc": "./assets/img/cheongju/cheongju11.jpg",
+                        "productName": "Dugyeonju",
+                        "productPrice": "₩7,700",
+                        "starNum": 4,
+                        "desc": "Liquor with kumquat peel."
+                    },
+                    {
+                        "categorydata": "cheongju",
+                        "imgsrc": "./assets/img/cheongju/cheongju12.jpg",
+                        "productName": "Maehwageunbam",
+                        "productPrice": "₩9,900",
+                        "starNum": 3,
+                        "desc": "Liquor with a deep floral scent."
+                    },
+                    {
+                        "categorydata": "cheongju",
+                        "imgsrc": "./assets/img/cheongju/cheongju13.jpg",
+                        "productName": "HongSamMyeongju",
+                        "productPrice": "₩24,000",
+                        "starNum": 5,
+                        "desc": "Liquor as a health remedy."
+                    },
+                    {
+                        "categorydata": "cheongju",
+                        "imgsrc": "./assets/img/cheongju/cheongju14.jpg",
+                        "productName": "Sogokju",
+                        "productPrice": "₩13,500",
+                        "starNum": 5,
+                        "desc": "Liquor with a taste as clear as snow."
+                    },
+                    {
+                        "categorydata": "cheongju",
+                        "imgsrc": "./assets/img/cheongju/cheongju15.jpg",
+                        "productName": "Ureongisul Cheongju",
+                        "productPrice": "₩19,500",
+                        "starNum": 4,
+                        "desc": "Savor the rich taste of rice."
+                    },
+                    {
+                        "categorydata": "cheongju",
+                        "imgsrc": "./assets/img/cheongju/cheongju16.jpg",
+                        "productName": "Jatjinju",
+                        "productPrice": "₩4,900",
+                        "starNum": 5,
+                        "desc": "Fragrant liquor."
                     }
                 ]
             },
             {
-                "categorytitle": "과실주",
+                "categorytitle": "Fruit Liquor",
                 "imgsrc": "./assets/img/soolcatecoryicon/icon_gwashilju.png",
                 "productinfo": [
                     {
                         "categorydata": "gwashilju",
                         "imgsrc": "./assets/img/gwashilju/gwashilju01.jpg",
-                        "productName": "샤인머스켓와인",
-                        "productPrice": "12000원",
+                        "productName": "Shine Muscat Wine",
+                        "productPrice": "₩12,000",
                         "starNum": 4,
-                        "desc": "달콤한 샤인머스켓 향이 듬뿍~"
+                        "desc": "Sweet aroma of Shine Muscat in abundance!"
                     },
                     {
                         "categorydata": "gwashilju",
                         "imgsrc": "./assets/img/gwashilju/gwashilju02.jpg",
-                        "productName": "겨울소주",
-                        "productPrice": "12000원",
+                        "productName": "Heart-throbbing Apple",
+                        "productPrice": "₩15,000",
+                        "starNum": 5,
+                        "desc": "99.99999% apple aroma."
+                    },
+                    {
+                        "categorydata": "gwashilju",
+                        "imgsrc": "./assets/img/gwashilju/gwashilju03.jpg",
+                        "productName": "Peach Wine",
+                        "productPrice": "₩13,000",
+                        "starNum": 4,
+                        "desc": "Drinking the soft peach feeling!"
+                    },
+                    {
+                        "categorydata": "gwashilju",
+                        "imgsrc": "./assets/img/gwashilju/gwashilju04.jpg",
+                        "productName": "Sanmeru Liquor",
+                        "productPrice": "₩5,700",
+                        "starNum": 5,
+                        "desc": "Rich sweetness."
+                    },
+                    {
+                        "categorydata": "gwashilju",
+                        "imgsrc": "./assets/img/gwashilju/gwashilju05.jpg",
+                        "productName": "Persimmon Liquor",
+                        "productPrice": "₩10,200",
+                        "starNum": 5,
+                        "desc": "Good liquor has persimmon!"
+                    },
+                    {
+                        "categorydata": "gwashilju",
+                        "imgsrc": "./assets/img/gwashilju/gwashilju06.jpg",
+                        "productName": "Godo-ri Plum Wine",
+                        "productPrice": "₩25,000",
+                        "starNum": 5,
+                        "desc": "Wine made with plums."
+                    },
+                    {
+                        "categorydata": "gwashilju",
+                        "imgsrc": "./assets/img/gwashilju/gwashilju07.jpg",
+                        "productName": "Honeybee Wine",
+                        "productPrice": "₩21,000",
+                        "starNum": 5,
+                        "desc": "Contains acacia flower honey."
+                    },
+                    {
+                        "categorydata": "gwashilju",
+                        "imgsrc": "./assets/img/gwashilju/gwashilju08.jpg",
+                        "productName": "Chikipichi",
+                        "productPrice": "₩6,600",
                         "starNum": 3,
-                        "desc": "겨울을 머금은 그맛..!"
+                        "desc": "Peach apple cider."
+                    },
+                    {
+                        "categorydata": "gwashilju",
+                        "imgsrc": "./assets/img/gwashilju/gwashilju09.jpg",
+                        "productName": "Chusa Apple Wine",
+                        "productPrice": "₩22,000",
+                        "starNum": 4,
+                        "desc": "Wine full of apple aroma."
+                    },
+                    {
+                        "categorydata": "gwashilju",
+                        "imgsrc": "./assets/img/gwashilju/gwashilju10.jpg",
+                        "productName": "SinAe Yuzu",
+                        "productPrice": "₩5,900",
+                        "starNum": 5,
+                        "desc": "Yuzu cider."
+                    },
+                    {
+                        "categorydata": "gwashilju",
+                        "imgsrc": "./assets/img/gwashilju/gwashilju11.jpg",
+                        "productName": "Godo-ri White Wine",
+                        "productPrice": "₩20,000",
+                        "starNum": 4,
+                        "desc": "Wine made with pomegranate."
+                    },
+                    {
+                        "categorydata": "gwashilju",
+                        "imgsrc": "./assets/img/gwashilju/gwashilju12.jpg",
+                        "productName": "Sweet Mama",
+                        "productPrice": "₩5,700",
+                        "starNum": 3,
+                        "desc": "Rich sweetness."
+                    },
+                    {
+                        "categorydata": "gwashilju",
+                        "imgsrc": "./assets/img/gwashilju/gwashilju13.jpg",
+                        "productName": "Geum-Isan Peach Wine",
+                        "productPrice": "₩10,200",
+                        "starNum": 5,
+                        "desc": "Experience the true taste of peach."
+                    },
+                    {
+                        "categorydata": "gwashilju",
+                        "imgsrc": "./assets/img/gwashilju/gwashilju14.jpg",
+                        "productName": "HonDiJu",
+                        "productPrice": "₩25,000",
+                        "starNum": 5,
+                        "desc": "Range Range Orange."
+                    },
+                    {
+                        "categorydata": "gwashilju",
+                        "imgsrc": "./assets/img/gwashilju/gwashilju15.jpg",
+                        "productName": "Yuchae",
+                        "productPrice": "₩21,000",
+                        "starNum": 5,
+                        "desc": "Embraced the scent of Yuchae flowers!"
+                    },
+                    {
+                        "categorydata": "gwashilju",
+                        "imgsrc": "./assets/img/gwashilju/gwashilju16.jpg",
+                        "productName": "Yosel Rose",
+                        "productPrice": "₩6,600",
+                        "starNum": 3,
+                        "desc": "Feel the apple aroma."
                     }
                 ]
             },
             {
-                "categorytitle": "증류주",
+                "categorytitle": "Distilled Spirits",
                 "imgsrc": "./assets/img/soolcatecoryicon/icon_jeungryuju.png",
                 "productinfo": [
                     {
                         "categorydata": "jeungryuju",
                         "imgsrc": "./assets/img/jeungryuju/jeungryuju01.jpg",
-                        "productName": "샤인머스켓와인",
-                        "productPrice": "12000원",
+                        "productName": "Winter Soju",
+                        "productPrice": "₩10,000",
                         "starNum": 4,
-                        "desc": "달콤한 샤인머스켓 향이 듬뿍~"
+                        "desc": "The taste imbued with winter!"
                     },
                     {
                         "categorydata": "jeungryuju",
                         "imgsrc": "./assets/img/jeungryuju/jeungryuju02.jpg",
-                        "productName": "겨울소주",
-                        "productPrice": "12000원",
+                        "productName": "Honey Scent",
+                        "productPrice": "₩12,000",
+                        "starNum": 4,
+                        "desc": "Comfortably slips like honey..."
+                    },
+                    {
+                        "categorydata": "jeungryuju",
+                        "imgsrc": "./assets/img/jeungryuju/jeungryuju03.jpg",
+                        "productName": "Persimmon Vodka Gambotka",
+                        "productPrice": "₩16,000",
                         "starNum": 3,
-                        "desc": "겨울을 머금은 그맛..!"
+                        "desc": "Gambotka with a sweet scent resembling autumn leaves."
+                    },
+                    {
+                        "categorydata": "jeungryuju",
+                        "imgsrc": "./assets/img/jeungryuju/jeungryuju04.jpg",
+                        "productName": "Moon Pear Soju",
+                        "productPrice": "₩12,800",
+                        "starNum": 5,
+                        "desc": "The splendid scent of moon pear surrounds me."
+                    },
+                    {
+                        "categorydata": "jeungryuju",
+                        "imgsrc": "./assets/img/jeungryuju/jeungryuju05.jpg",
+                        "productName": "Won Soju Classic",
+                        "productPrice": "₩21,900",
+                        "starNum": 3,
+                        "desc": "Korea's first Won Soju with NO.5 yeast, the pressure ver."
+                    },
+                    {
+                        "categorydata": "jeungryuju",
+                        "imgsrc": "./assets/img/jeungryuju/jeungryuju06.jpg",
+                        "productName": "MaeSil Wonju",
+                        "productPrice": "₩6,200",
+                        "starNum": 4,
+                        "desc": "Sweet MaeSil Soju. Not MaeSil drink!"
+                    },
+                    {
+                        "categorydata": "jeungryuju",
+                        "imgsrc": "./assets/img/jeungryuju/jeungryuju07.jpg",
+                        "productName": "Lee Kang Soju",
+                        "productPrice": "₩13,000",
+                        "starNum": 4,
+                        "desc": "One of the top three famous sojus in Joseon with pear and ginger!"
+                    },
+                    {
+                        "categorydata": "jeungryuju",
+                        "imgsrc": "./assets/img/jeungryuju/jeungryuju08.jpg",
+                        "productName": "DamSol",
+                        "productPrice": "₩22,000",
+                        "starNum": 5,
+                        "desc": "It wouldn't be bad to become a pine tree worm at least once."
+                    },
+                    {
+                        "categorydata": "jeungryuju",
+                        "imgsrc": "./assets/img/jeungryuju/jeungryuju09.jpg",
+                        "productName": "Mori",
+                        "productPrice": "₩22,000",
+                        "starNum": 5,
+                        "desc": "Soju made from barley."
+                    },
+                    {
+                        "categorydata": "jeungryuju",
+                        "imgsrc": "./assets/img/jeungryuju/jeungryuju10.jpg",
+                        "productName": "ChuSa",
+                        "productPrice": "₩30,000",
+                        "starNum": 5,
+                        "desc": "Brandy matured in oak barrels by distilling apple wine."
+                    },
+                    {
+                        "categorydata": "jeungryuju",
+                        "imgsrc": "./assets/img/jeungryuju/jeungryuju11.jpg",
+                        "productName": "Seoul Night",
+                        "productPrice": "₩7,900",
+                        "starNum": 4,
+                        "desc": "Korea's gin made with Maesil!"
+                    },
+                    {
+                        "categorydata": "jeungryuju",
+                        "imgsrc": "./assets/img/jeungryuju/jeungryuju12.jpg",
+                        "productName": "JinDo Arirang Hongju",
+                        "productPrice": "₩17,900",
+                        "starNum": 3,
+                        "desc": "It must be brewed in JinDo to be real JinDo Hongju."
+                    },
+                    {
+                        "categorydata": "jeungryuju",
+                        "imgsrc": "./assets/img/jeungryuju/jeungryuju13.jpg",
+                        "productName": "Seoul Premium Red",
+                        "productPrice": "₩13,000",
+                        "starNum": 3,
+                        "desc": "Korean premium liquor with a pineapple scent."
+                    },
+                    {
+                        "categorydata": "jeungryuju",
+                        "imgsrc": "./assets/img/jeungryuju/jeungryuju14.jpg",
+                        "productName": "Andong Soju Special Gold",
+                        "productPrice": "₩27,000",
+                        "starNum": 5,
+                        "desc": "The grand finale of the Andong Soju Special series, Gold!"
                     }
                 ]
             },
             {
-                "categorytitle": "탁주",
+                "categorytitle": "Takju",
                 "imgsrc": "./assets/img/soolcatecoryicon/icon_takju.png",
                 "productinfo": [
                     {
                         "categorydata": "takju",
                         "imgsrc": "./assets/img/takju/takju1.jpg",
-                        "productName": "샤인머스켓와인",
-                        "productPrice": "12000원",
-                        "starNum": 4,
-                        "desc": "달콤한 샤인머스켓 향이 듬뿍~"
+                        "productName": "DaedaePo Blue",
+                        "productPrice": "₩3,610",
+                        "starNum": 5,
+                        "desc": "Clear and sweet makgeolli"
                     },
                     {
                         "categorydata": "takju",
                         "imgsrc": "./assets/img/takju/takju2.jpg",
-                        "productName": "겨울소주",
-                        "productPrice": "12000원",
+                        "productName": "Take Off the Clouds [10 bottles/12 bottles]",
+                        "productPrice": "₩20,000",
+                        "starNum": 5,
+                        "desc": "Clean and light"
+                    },
+                    {
+                        "categorydata": "takju",
+                        "imgsrc": "./assets/img/takju/takju3.jpg",
+                        "productName": "Makcurt",
+                        "productPrice": "₩5,200",
+                        "starNum": 5,
+                        "desc": "The meeting of yogurt and makgeolli"
+                    },
+                    {
+                        "categorydata": "takju",
+                        "imgsrc": "./assets/img/takju/takju4.jpg",
+                        "productName": "Pour Purple 3 bottles",
+                        "productPrice": "₩26,700",
+                        "starNum": 4,
+                        "desc": "Sweet and sour grape sparkling"
+                    },
+                    {
+                        "categorydata": "takju",
+                        "imgsrc": "./assets/img/takju/takju5.jpg",
+                        "productName": "BokSoon Dogga 3 bottles",
+                        "productPrice": "₩36,000",
+                        "starNum": 5,
+                        "desc": "Caution! Champagne makgeolli!"
+                    },
+                    {
+                        "categorydata": "takju",
+                        "imgsrc": "./assets/img/takju/takju6.jpg",
+                        "productName": "Munsami Gong Jat",
+                        "productPrice": "₩22,000",
                         "starNum": 3,
-                        "desc": "겨울을 머금은 그맛..!"
+                        "desc": "Homemade nulook"
+                    },
+                    {
+                        "categorydata": "takju",
+                        "imgsrc": "./assets/img/takju/takju7.jpg",
+                        "productName": "Drunk Monkey 4 bottles",
+                        "productPrice": "₩36,000",
+                        "starNum": 5,
+                        "desc": "The alcohol that created a home party"
+                    },
+                    {
+                        "categorydata": "takju",
+                        "imgsrc": "./assets/img/takju/takju8.jpg",
+                        "productName": "Seolhadam 2 bottles",
+                        "productPrice": "₩24,000",
+                        "starNum": 4,
+                        "desc": "Yogurt-like sweet and sourness"
+                    },
+                    {
+                        "categorydata": "takju",
+                        "imgsrc": "./assets/img/takju/takju9.jpg",
+                        "productName": "Samyang Chun",
+                        "productPrice": "₩3,610",
+                        "starNum": 5,
+                        "desc": "Clear and sweet makgeolli"
+                    },
+                    {
+                        "categorydata": "takju",
+                        "imgsrc": "./assets/img/takju/takju10.jpg",
+                        "productName": "Sul Gongbang",
+                        "productPrice": "₩20,000",
+                        "starNum": 5,
+                        "desc": "Clean and light"
+                    },
+                    {
+                        "categorydata": "takju",
+                        "imgsrc": "./assets/img/takju/takju11.png",
+                        "productName": "Seolhadam 2 bottles",
+                        "productPrice": "₩20,000",
+                        "starNum": 4,
+                        "desc": "Clear and clear makgeolli~"
+                    },
+                    {
+                        "categorydata": "takju",
+                        "imgsrc": "./assets/img/takju/takju12.jpg",
+                        "productName": "Nature-Filled Bokbunja Makgeolli",
+                        "productPrice": "₩26,700",
+                        "starNum": 5,
+                        "desc": "Rich Bokbunja flavor makgeolli"
                     }
                 ]
             },
             {
-                "categorytitle": "술잔",
+                "categorytitle": "Glassware",
                 "imgsrc": "./assets/img/soolcatecoryicon/icon_merchandise.png",
                 "productinfo": [
                     {
                         "categorydata": "merchandise",
                         "imgsrc": "./assets/img/merchandise/merchandise01.jpg",
-                        "productName": "샤인머스켓와인",
-                        "productPrice": "12000원",
+                        "productName": "Basque Goblet Glass Set",
+                        "productPrice": "₩13,200",
                         "starNum": 4,
-                        "desc": "달콤한 샤인머스켓 향이 듬뿍~"
+                        "desc": "Durable reinforced glass!"
                     },
                     {
                         "categorydata": "merchandise",
                         "imgsrc": "./assets/img/merchandise/merchandise02.jpg",
-                        "productName": "겨울소주",
-                        "productPrice": "12000원",
+                        "productName": "Glass Goblet Sensibility Soju Glass",
+                        "productPrice": "₩13,200",
+                        "starNum": 5,
+                        "desc": "Small in size but meticulously detailed"
+                    },
+                    {
+                        "categorydata": "merchandise",
+                        "imgsrc": "./assets/img/merchandise/merchandise03.jpg",
+                        "productName": "Holjak Glass",
+                        "productPrice": "₩17,600",
+                        "starNum": 5,
+                        "desc": "Ceramic glass for makgeolli"
+                    },
+                    {
+                        "categorydata": "merchandise",
+                        "imgsrc": "./assets/img/merchandise/merchandise04.jpg",
+                        "productName": "Place Here Glass",
+                        "productPrice": "₩8,850",
                         "starNum": 3,
-                        "desc": "겨울을 머금은 그맛..!"
+                        "desc": "Looking for cute glassware?"
+                    },
+                    {
+                        "categorydata": "merchandise",
+                        "imgsrc": "./assets/img/merchandise/merchandise05.jpg",
+                        "productName": "Place Here Lucky Makgeolli Glass",
+                        "productPrice": "₩11,200",
+                        "starNum": 4,
+                        "desc": "A lucky glass to wish for happiness"
+                    },
+                    {
+                        "categorydata": "merchandise",
+                        "imgsrc": "./assets/img/merchandise/merchandise06.jpg",
+                        "productName": "Contemplation Glass Set",
+                        "productPrice": "₩9,180",
+                        "starNum": 5,
+                        "desc": "No need to worry even when many friends come over"
+                    },
+                    {
+                        "categorydata": "merchandise",
+                        "imgsrc": "./assets/img/merchandise/merchandise07.png",
+                        "productName": "Soil Baker Egg Glass",
+                        "productPrice": "₩8,500",
+                        "starNum": 3,
+                        "desc": "One-handed- Premium handmade glass"
+                    },
+                    {
+                        "categorydata": "merchandise",
+                        "imgsrc": "./assets/img/merchandise/merchandise08.jpg",
+                        "productName": "Reinforced Glass Bubble Glass",
+                        "productPrice": "₩1,470",
+                        "starNum": 3,
+                        "desc": "Round and cute glass"
                     }
                 ]
+            }
+        ],
+        "footer": [
+            {
+                "representative": "Representative: OOO",
+                "business": "Business Registration Number: 000-00-00000",
+                "address": "Address: 527 Gangnam-daero, Seocho-gu, Seoul, 10th Floor (Brand Cantower, Sool Damhwa)",
+                "call": "Representative Phone: 070-1234-5678",
+                "email": "Email: info@sooldamhwa.com",
+                "Privacy": "Privacy Policy",
+                "terms": "Terms of Service",
+                "StoreEntryInquiry": "Store Entry Inquiry",
+                "company": "Damhwa Company Co., Ltd.",
+                "serviceCenter": "Customer Center: 070-5014-1282",
+                "time": "Weekdays 10:00 - 18:00, Closed on weekends"
             }
         ]
     }
