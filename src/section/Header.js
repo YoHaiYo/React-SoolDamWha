@@ -1,8 +1,13 @@
 import React from 'react'
+import Hd from '../workroom/SE/Hd'
+import MainSwiper from '../workroom/SE/MainSwiper'
 
-function Header() {
+function Header(props) {
   return (
-    <div></div>
+    <>
+      <Hd datasrc={props.datasrc.gnb}></Hd>
+      <MainSwiper datasrc={props.datasrc.mainbanner}></MainSwiper>
+    </>
   )
 }
 

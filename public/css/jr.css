@@ -1,7 +1,20 @@
 /* 폼태그 */
+section #contact {
+  margin-top: 8px;
+  margin-bottom: 8px;
+
+}
+
 #contact {
-  margin-top: 80px;
-  margin-bottom: 80px;
+  max-width: 500px;
+  /* 필요에 따라 적절한 최대 너비 설정 */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  text-align: center;
 }
 
 #contact h2 {
@@ -15,9 +28,15 @@
   display: inline-block;
   align-items: center;
   justify-content: center;
-  /* text-align: left; */
   margin-bottom: 15px;
 }
+
+.infoform {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
 
 #contact .contactbox .him {
   background-color: #FFDF80;
@@ -40,6 +59,17 @@
   flex-grow: 1;
 }
 
+.c-m {
+height: 9rem !important;
+width: 17rem;
+padding: 0.11rem 0.1rem;
+}
+
+.message {
+  background-color: transparent;
+
+}
+
 #contact .contactbox label {
   padding: 0.5rem 0.1rem;
   margin: 0 1rem;
@@ -54,7 +84,7 @@
 }
 
 /*입점문의 메세지 라벨*/
-#contact .contactbox #c-m {
+#contact .contactbox .c-m {
   align-items: unset;
 }
 
@@ -89,6 +119,7 @@
 
 #review .swiper {
   height: 480px;
+
 }
 
 #review .swiper-wrapper {
@@ -116,7 +147,7 @@
   background: center / contain no-repeat url(../img/star.png);
 }
 
-#review #photoRvbox .swiper-slide {
+#review .photoRvbox .swiper-slide {
   border-radius: 30px;
   box-shadow: -2px 10px 25px -7px rgba(94, 90, 90, 0.63);
   -webkit-box-shadow: -2px 10px 25px -7px rgba(94, 90, 90, 0.63);
@@ -127,7 +158,7 @@
 }
 
 
-#review #photoRvbox .swiper-slide img {
+#review .photoRvbox .swiper-slide img {
   /* width: 262.1px; */
   width: 240px;
   /* height: 300px; */
@@ -182,4 +213,49 @@
   width: 70px;
   height: 70px;
   margin: 0%;
+}
+
+
+/* 리액트 스와이퍼 */
+
+#review .swiper-slide {
+  border-radius: 30px;
+  box-shadow: -2px 10px 25px -7px rgba(94, 90, 90, 0.63);
+  -webkit-box-shadow: -2px 10px 25px -7px rgba(94, 90, 90, 0.63);
+  -moz-box-shadow: -2px 10px 25px -7px rgba(94, 90, 90, 0.63);
+  height: 85%;
+}
+
+#review .swiper .swiper-slide p {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 10px;
+  padding: 0 30px;
+}
+
+#review .swiper .swiper-slide .ptrv {
+  width: 240px;
+  height: 265px;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+}
+
+#review .swiper-slide .rv-star {
+  align-items: center;
+}
+
+#review .swiper-slide .face img {
+  width: 50px;
+  height: 50px;
+  bottom: 0;
+  margin-bottom: 0;
+}
+
+#review .swiper-slide .rv-star .starNum span {
+  margin-bottom: 10px;
+  text-align: center;
+  width: 20px;
+  height: 45px;
+  display: flex;
+  background: center / contain no-repeat url(/public/assets/img/etc/star.png);
 }

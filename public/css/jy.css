@@ -127,15 +127,14 @@ a {
   background: center / contain no-repeat url(../assets/img/icon/star.png);
   /* font-size: 0; */
 }
-#itemTitle .itemImgWrap .Imgbox .starNum i{
+
+#itemTitle .itemImgWrap .Imgbox .starNum i {
   color: #ffd147;
   font-size: 25px;
 }
+
 #itemTitle .itemImgWrap .Imgbox img {
-  margin-bottom: 20px;
   width: 100%;
-  /* object-fit: cover; */
-  /* transform: scale(1.0); */
   transition: .5s;
 }
 
@@ -165,7 +164,7 @@ a {
 #itemTitle .itemImgWrap .Imgbox>div {
   overflow: hidden;
   width: 290px;
-  height: 380px;
+  height: auto;
   display: block;
   border-radius: 20px;
 }
