@@ -20,10 +20,10 @@ function BestSwiper(props) {
         slidesPerView={1.5}
         loop={true}
         // centeredSlides={true}
-        autoplay={{
+        /* autoplay={{
           delay: 4000,
           disableOnInteraction: false,
-        }}
+        }} */
         breakpoints={{
           735: {
             slidesPerView: 2.5,
@@ -46,13 +46,14 @@ function BestSwiper(props) {
       props.datasrc.map((el, idx)=> {
         return (
           <SwiperSlide key={`SwiperSlide${idx}`} >
-          <a href="">
-            <img src={el.imgsrc} alt="" />
+          <a href=""  style={{backgroundImage : `url(${el.imgsrc})` }}>
+            <span className="pickbox d-block">
+              <strong className="picktitle d-block">{el.picktitle}</strong>
+              <strong className="hashtag d-block">{el.hashtag}</strong>
+            </span>
           </a>
-          <div className="pickbox">
-            <div className="picktitle">{el.picktitle}</div>
-            <div className="hashtag">{el.hashtag}</div>
-          </div>
+
+      
         </SwiperSlide>         
           )
       })

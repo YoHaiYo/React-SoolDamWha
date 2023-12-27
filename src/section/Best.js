@@ -12,13 +12,17 @@ function Best(props) {
       <div className="d-flex align-items-center bg-transparent">
 
         <div className="slide-box">
-          <h2 className="best-ment">술고래들의<br/>PICK !</h2>
-          <button className="ssh--btn-go-now">지금 바로 보러가기
+          <h2 className="best-ment">
+            {props.datasrc.etc.title1}<br/>
+            {props.datasrc.etc.title2}
+          </h2>
+          <button className="ssh--btn-go-now">
+          {props.datasrc.etc.btn}
             <i className="bi bi-box-arrow-up-right"></i>
           </button>
         </div>
 
-        <BestSwiper datasrc={props.datasrc}/>
+        <BestSwiper datasrc={props.datasrc.item}/>
        
       </div>
 
