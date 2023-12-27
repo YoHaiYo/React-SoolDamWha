@@ -49,7 +49,7 @@ function ProductCard(props) {
                     {
                         props.datasrc[tap].productinfo && (
 
-                            props.datasrc[tap].productinfo.map((vv, i) => {
+                            props.datasrc[tap].productinfo.slice(0, 8).map((vv, i) => {
                                 return (
                                     <div className="Imgbox gwashilju">
                                         <div>

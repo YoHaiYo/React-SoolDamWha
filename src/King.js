@@ -33,7 +33,7 @@ const King = () => {
       <Product datasrc={datasrc[language].product}></Product>
       <Review />
       <Contact />
-      <Footer datasrc={datsrc[language].product} />
+      <Footer datasrc={datasrc[language].footer} />
     </>
   );
 };

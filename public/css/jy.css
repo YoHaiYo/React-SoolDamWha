@@ -6,6 +6,14 @@ h2 {
   font-family: 'SOYOMapleBoldTTF', sans-serif;
 }
 
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none !important;
+}
+
 /* Common */
 /* .wrap {
   max-width: 1280px;
@@ -190,7 +198,7 @@ a {
   margin: 0 auto;
   width: 100px;
   height: 88px;
-  background: center/contain no-repeat url(../img/sooldamhwa_logo_1627542258\ copy.svg);
+  background: center/contain no-repeat url(../assets/img/icon/hd_logo.png);
   display: block;
 }
 
@@ -217,7 +225,7 @@ a {
 }
 
 #fd .rightFtInfo {
-  width: 240px;
+  width: 260px;
 }
 
 #fd .rightFtInfo span {
