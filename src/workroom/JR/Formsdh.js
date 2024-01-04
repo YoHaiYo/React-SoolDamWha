@@ -15,36 +15,37 @@ function Formsdh() {
 
   return (
     <div className='text-center '>
-      <button onClick={toggleform} style={{ border: "1px solid #fff", backgroundColor: "#3395ED", marginBottom: "0" }}>{`${showForm ? "close" : "show"}`}</button>
-      {showForm && (<div style={{ backgroundColor: "#3395ED", marginTop: "0" }}><section id="contact" className="mx-auto wrap">
+      <button onClick={toggleform} style={{ border: "1px solid rgba(141, 180, 238, 1)", backgroundColor: "#71b6f1", marginBottom: "0", borderBottom: "none", borderTopLeftRadius: "10px", borderTopRightRadius: "10px", color: "white" }}>{`${showForm ? "close" : "show"}`}</button>
+      {showForm && (<div style={{ backgroundColor: "#71b6f1", margin: "0", borderTop: "rgba(141, 180, 238, 1)" }}><section id="contact" className="mx-auto wrap">
 
         <h2 class="text-center">
-          <a>입점문의</a>
+          <a href='/'>입점문의</a>
         </h2>
 
-        <div className="contactbox d-flex">
-          <form action="#" name="contact-info" method="post" className="containe">
-            <div className="text-center">
-              <div className="infoform">
-                <div id="n-c-e" className="d-flex flex-column">
+        <div className="contactbox">
+          <form action="#" name="contact-info" method="post" className="container">
+            <div className="text-center ">
+              <div className="infoform row">
 
-                  <div className="him h-100">
-                    <label for="name" className="me-4">이름</label>
-                    <input className="ms-4" type="text" name="name" placeholder="이름" required />
+                <div className="flex-column">
+                  <div className='d-flex'>
+                    <div className="him h-100 col-6">
+                      <label for="name" className="me-4">이름</label>
+                      <input className="ms-4" type="text" name="name" placeholder="이름" required />
+                    </div>
+                    <div className="him h-100 col-6">
+                      <label for="num">전화번호</label>
+                      <input type="text" name="num" placeholder="010-0000-0000" required />
+                    </div>
                   </div>
 
-                  <div className="him h-100">
-                    <label for="num">전화번호</label>
-                    <input type="text" name="num" placeholder="010-0000-0000" required />
-                  </div>
-
-                  <div className="him h-100">
+                  <div className="him h-80 col-12">
                     <label for="email">이메일</label>
                     <input className="ms-3" type="email" name="email" placeholder="example@example.com" required />
                   </div>
                 </div>
 
-                <div className=" c-m him h-100 w-100" id="">
+                <div className=" c-m him">
                   <label for="message">메시지</label>
                   <textarea className="message" name="message" cols="19" rows="5" placeholder="메세지를 입력해주세요^^" required
                   ></textarea>
