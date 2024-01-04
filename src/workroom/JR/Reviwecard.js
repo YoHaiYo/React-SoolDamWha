@@ -17,6 +17,7 @@ export default function ReviewCard() {
     <>
       <Swiper
         centeredSlides={true}
+        loop={true}
         spaceBetween={8}
         slidesPerView={7}
         speed={6000}
