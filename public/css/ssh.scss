@@ -20,7 +20,7 @@ body {
 
   .subscribe-main-wrap {
 
-    margin: 70px 0;
+    margin: 30px 0;
 
     .subscribe-wrap {
 
@@ -52,6 +52,7 @@ body {
         }
 
         .box-name {
+          margin-top: 30px;
           font-size: 30px;
           font-family: 'ImcreSoojin';
           color: #333;
@@ -284,6 +285,7 @@ body {
 // 반응형
 .mo-title {
   display: none;
+  font-size: 35px;
 }
 
 @media (max-width: 535px) {
@@ -306,7 +308,7 @@ body {
   display: none;
 
   .tabbtns {
-    margin-bottom: 1rem;
+    margin-bottom: 70px;
     display: flex;
     padding: 0 2rem;
 
@@ -326,6 +328,7 @@ body {
     button.off {
       background-color: #dcdcdc;
       color: gray;
+      border-radius: 1rem 1rem 0 0;
 
     }
   }
