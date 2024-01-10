@@ -15,8 +15,11 @@ function Formsdh() {
 
   return (
     <div className='text-center '>
-      <button onClick={toggleform} style={{ border: "1px solid rgba(141, 180, 238, 1)", backgroundColor: "#71b6f1", marginBottom: "0", borderBottom: "none", borderTopLeftRadius: "10px", borderTopRightRadius: "10px", color: "white" }}>{`${showForm ? "close" : "show"}`}</button>
-      {showForm && (<div style={{ backgroundColor: "#71b6f1", margin: "0", borderTop: "rgba(141, 180, 238, 1)" }}><section id="contact" className="mx-auto wrap">
+
+      <button className='formbtn' onClick={toggleform}>
+          {`${showForm ? "close" : "show"}`}</button>
+      {showForm && (<div style={{ backgroundColor: "#71b6f1", margin: "0", borderTop: "rgba(141, 180, 238, 1)" }}>
+        <section id="contact" className="mx-auto wrap">
 
         <h2 class="text-center">
           <a href='/'>입점문의</a>

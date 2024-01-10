@@ -1,3 +1,8 @@
+
+body{
+  overflow-x: hidden;
+}
+
 /* 폼태그 */
 section #contact {
   margin-top: 8px;
@@ -104,6 +109,11 @@ section #contact {
   color: #868282;
 
 }
+.row>* {
+  
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+ }
 
 /*input 속성*/
 #contact input {
@@ -119,6 +129,24 @@ section #contact {
 }
 
 
+/* 폼태그 open,close 버튼 */
+
+.formbtn{
+  position: block;
+  transition: 0.5s;
+  bottom: 0%;
+  border-top: 1px solid rgb(141, 180, 238); 
+  border-right: 1px solid rgb(141, 180, 238); 
+  border-bottom: none; 
+  border-left: 1px solid rgb(141, 180, 238); 
+  border-image: initial; 
+  background-color: rgb(113, 182, 241); 
+  margin-bottom: 0px; 
+  border-top-left-radius: 10px; 
+  border-top-right-radius: 10px; 
+  color: white;
+}
+
 
 /* --------------리뷰--------------- */
 
@@ -129,6 +157,10 @@ section #contact {
 
 #review .swiper-wrapper {
   transition-timing-function: linear;
+}
+
+.w-260{
+  width: 260px !important;
 }
 
 #review {
