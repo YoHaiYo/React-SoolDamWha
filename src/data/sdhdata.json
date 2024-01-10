@@ -1,7 +1,8 @@
 {
     "ko": {
         "header": {
-            "register": [{
+            "register": [
+                {
                     "cont": "로그인",
                     "href": "#"
                 },
@@ -10,28 +11,30 @@
                     "href": "#"
                 }
             ],
-            "gnb": [{
+            "gnb": [
+                {
                     "gnbtext": "구독",
-                    "href": "#"
+                    "href": "subscribe"
                 },
                 {
                     "gnbtext": "전체상품",
-                    "href": "#"
+                    "href": "all"
                 },
                 {
                     "gnbtext": "베스트",
-                    "href": "#"
+                    "href": "best"
                 },
                 {
                     "gnbtext": "이벤트",
-                    "href": "#"
+                    "href": "event"
                 },
                 {
                     "gnbtext": "Q & A",
-                    "href": "#"
+                    "href": "qna"
                 }
             ],
-            "mainbanner": [{
+            "mainbanner": [
+                {
                     "background": "event1.png",
                     "strong": "첫 구독은 10% 할인!",
                     "Mtext": "신규 가입 혜택 받고 소믈리에가 엄선한 전통주를 매월 경험하세요."
@@ -49,8 +52,8 @@
             ]
         },
         "subscribe": {
-
-            "item": [{
+            "item": [
+                {
                     "imgsrc": "./assets/img/cheongju/cheongju01.jpg",
                     "nm": "증류주 담화박스"
                 },
@@ -67,11 +70,10 @@
                 "title": "구독, 아직도 망설이시나요?",
                 "btn": "구독 바로가기"
             }
-
         },
-
         "bestswiper": {
-            "item": [{
+            "item": [
+                {
                     "picktitle": "벗꽃막걸리",
                     "hashtag": "#청량한 #맑은막걸리",
                     "imgsrc": "/assets/img/cheongju/cheongju01.jpg"
@@ -123,11 +125,12 @@
                 "btn": "지금 바로 보러가기"
             }
         },
-
-        "product": [{
+        "product": [
+            {
                 "categorytitle": "담화박스",
                 "imgsrc": "/assets/img/soolcatecoryicon/icon_set.png",
-                "productinfo": [{
+                "productinfo": [
+                    {
                         "categorydata": "set",
                         "imgsrc": "/assets/img/set/set01.jpg",
                         "productName": "샤인머스켓와인",
@@ -148,7 +151,8 @@
             {
                 "categorytitle": "청주",
                 "imgsrc": "/assets/img/soolcatecoryicon/icon_cheongju.png",
-                "productinfo": [{
+                "productinfo": [
+                    {
                         "categorydata": "cheongju",
                         "imgsrc": "/assets/img/cheongju/cheongju01.jpg",
                         "productName": "샤인머스켓와인",
@@ -169,7 +173,8 @@
             {
                 "categorytitle": "과실주",
                 "imgsrc": "/assets/img/soolcatecoryicon/icon_gwashilju.png",
-                "productinfo": [{
+                "productinfo": [
+                    {
                         "categorydata": "gwashilju",
                         "imgsrc": "/assets/img/gwashilju/gwashilju01.jpg",
                         "productName": "샤인머스켓와인",
@@ -190,7 +195,8 @@
             {
                 "categorytitle": "증류주",
                 "imgsrc": "/assets/img/soolcatecoryicon/icon_jeungryuju.png",
-                "productinfo": [{
+                "productinfo": [
+                    {
                         "categorydata": "jeungryuju",
                         "imgsrc": "/assets/img/jeungryuju/jeungryuju01.jpg",
                         "productName": "샤인머스켓와인",
@@ -211,7 +217,8 @@
             {
                 "categorytitle": "탁주",
                 "imgsrc": "/assets/img/soolcatecoryicon/icon_takju.png",
-                "productinfo": [{
+                "productinfo": [
+                    {
                         "categorydata": "takju",
                         "imgsrc": "/assets/img/takju/takju1.jpg",
                         "productName": "샤인머스켓와인",
@@ -232,7 +239,8 @@
             {
                 "categorytitle": "술잔",
                 "imgsrc": "/assets/img/soolcatecoryicon/icon_merchandise.png",
-                "productinfo": [{
+                "productinfo": [
+                    {
                         "categorydata": "merchandise",
                         "imgsrc": "/assets/img/merchandise/merchandise01.jpg",
                         "productName": "샤인머스켓와인",
@@ -250,13 +258,12 @@
                     }
                 ]
             }
-
-
         ]
     },
     "en": {
         "header": {
-            "register": [{
+            "register": [
+                {
                     "cont": "Sign In",
                     "href": "#"
                 },
@@ -265,7 +272,8 @@
                     "href": "#"
                 }
             ],
-            "gnb": [{
+            "gnb": [
+                {
                     "gnbtext": "Subscribe",
                     "href": "#"
                 },
@@ -286,7 +294,8 @@
                     "href": "#"
                 }
             ],
-            "mainbanner": [{
+            "mainbanner": [
+                {
                     "background": "event1.png",
                     "strong": "10% Sale For First Subs!",
                     "Mtext": ""
@@ -304,8 +313,8 @@
             ]
         },
         "subscribe": {
-
-            "item": [{
+            "item": [
+                {
                     "imgsrc": "./assets/img/cheongju/cheongju01.jpg",
                     "nm": "Hard liquor Box"
                 },
@@ -322,69 +331,67 @@
                 "title": "Subscribe, are you still hesitant?",
                 "btn": "Go Subscribe"
             }
-
         },
-
         "bestswiper": {
             "item": [
                 {
-                  "picktitle": "Cherry Blossom Makgeolli",
-                  "hashtag": "#Refreshing #ClearMakgeolli",
-                  "imgsrc": "/assets/img/cheongju/cheongju01.jpg"
+                    "picktitle": "Cherry Blossom Makgeolli",
+                    "hashtag": "#Refreshing #ClearMakgeolli",
+                    "imgsrc": "/assets/img/cheongju/cheongju01.jpg"
                 },
                 {
-                  "picktitle": "Autumn Star Sausage Makgeolli",
-                  "hashtag": "#Smooth #PremiumMakgeolli",
-                  "imgsrc": "/assets/img/cheongju/cheongju02.jpg"
+                    "picktitle": "Autumn Star Sausage Makgeolli",
+                    "hashtag": "#Smooth #PremiumMakgeolli",
+                    "imgsrc": "/assets/img/cheongju/cheongju02.jpg"
                 },
                 {
-                  "picktitle": "Pure Petal Makgeolli",
-                  "hashtag": "#Fresh #PremiumMakgeolli",
-                  "imgsrc": "/assets/img/cheongju/cheongju03.jpg"
+                    "picktitle": "Pure Petal Makgeolli",
+                    "hashtag": "#Fresh #PremiumMakgeolli",
+                    "imgsrc": "/assets/img/cheongju/cheongju03.jpg"
                 },
                 {
-                  "picktitle": "Mountain Clear Makgeolli",
-                  "hashtag": "#Natural #PremiumMakgeolli",
-                  "imgsrc": "/assets/img/cheongju/cheongju04.jpg"
+                    "picktitle": "Mountain Clear Makgeolli",
+                    "hashtag": "#Natural #PremiumMakgeolli",
+                    "imgsrc": "/assets/img/cheongju/cheongju04.jpg"
                 },
                 {
-                  "picktitle": "Moonlight Strawberry Makgeolli",
-                  "hashtag": "#Abundant #PremiumMakgeolli",
-                  "imgsrc": "/assets/img/cheongju/cheongju05.jpg"
+                    "picktitle": "Moonlight Strawberry Makgeolli",
+                    "hashtag": "#Abundant #PremiumMakgeolli",
+                    "imgsrc": "/assets/img/cheongju/cheongju05.jpg"
                 },
                 {
-                  "picktitle": "Breeze Flower Fragrance Makgeolli",
-                  "hashtag": "#Tranquil #PremiumMakgeolli",
-                  "imgsrc": "/assets/img/cheongju/cheongju06.jpg"
+                    "picktitle": "Breeze Flower Fragrance Makgeolli",
+                    "hashtag": "#Tranquil #PremiumMakgeolli",
+                    "imgsrc": "/assets/img/cheongju/cheongju06.jpg"
                 },
                 {
-                  "picktitle": "Happy Golden Makgeolli",
-                  "hashtag": "#Gorgeous #PremiumMakgeolli",
-                  "imgsrc": "/assets/img/cheongju/cheongju07.jpg"
+                    "picktitle": "Happy Golden Makgeolli",
+                    "hashtag": "#Gorgeous #PremiumMakgeolli",
+                    "imgsrc": "/assets/img/cheongju/cheongju07.jpg"
                 },
                 {
-                  "picktitle": "Dumpling Makgeolli",
-                  "hashtag": "#Refreshing #PremiumMakgeolli",
-                  "imgsrc": "/assets/img/cheongju/cheongju08.jpg"
+                    "picktitle": "Dumpling Makgeolli",
+                    "hashtag": "#Refreshing #PremiumMakgeolli",
+                    "imgsrc": "/assets/img/cheongju/cheongju08.jpg"
                 },
                 {
-                  "picktitle": "Enchanted Forest Makgeolli",
-                  "hashtag": "#Tranquil #PremiumMakgeolli",
-                  "imgsrc": "/assets/img/cheongju/cheongju09.jpg"
+                    "picktitle": "Enchanted Forest Makgeolli",
+                    "hashtag": "#Tranquil #PremiumMakgeolli",
+                    "imgsrc": "/assets/img/cheongju/cheongju09.jpg"
                 }
-              ],
+            ],
             "etc": {
                 "title1": "Liquor Whale's",
                 "title2": "PICK !",
                 "btn": "Read more "
             }
         },
-
-
-        "product": [{
+        "product": [
+            {
                 "categorytitle": "DamHwa Box",
                 "imgsrc": "/assets/img/soolcatecoryicon/icon_set.png",
-                "productinfo": [{
+                "productinfo": [
+                    {
                         "categorydata": "set",
                         "imgsrc": "/assets/img/set/set01.jpg",
                         "productName": "Shine Muscat Wine",
@@ -405,7 +412,8 @@
             {
                 "categorytitle": "청주",
                 "imgsrc": "/assets/img/soolcatecoryicon/icon_cheongju.png",
-                "productinfo": [{
+                "productinfo": [
+                    {
                         "categorydata": "cheongju",
                         "imgsrc": "/assets/img/cheongju/cheongju01.jpg",
                         "productName": "샤인머스켓와인",
@@ -426,7 +434,8 @@
             {
                 "categorytitle": "과실주",
                 "imgsrc": "/assets/img/soolcatecoryicon/icon_gwashilju.png",
-                "productinfo": [{
+                "productinfo": [
+                    {
                         "categorydata": "gwashilju",
                         "imgsrc": "/assets/img/gwashilju/gwashilju01.jpg",
                         "productName": "샤인머스켓와인",
@@ -447,7 +456,8 @@
             {
                 "categorytitle": "증류주",
                 "imgsrc": "/assets/img/soolcatecoryicon/icon_jeungryuju.png",
-                "productinfo": [{
+                "productinfo": [
+                    {
                         "categorydata": "jeungryuju",
                         "imgsrc": "/assets/img/jeungryuju/jeungryuju01.jpg",
                         "productName": "샤인머스켓와인",
@@ -468,7 +478,8 @@
             {
                 "categorytitle": "탁주",
                 "imgsrc": "/assets/img/soolcatecoryicon/icon_takju.png",
-                "productinfo": [{
+                "productinfo": [
+                    {
                         "categorydata": "takju",
                         "imgsrc": "/assets/img/takju/takju1.jpg",
                         "productName": "샤인머스켓와인",
@@ -489,7 +500,8 @@
             {
                 "categorytitle": "술잔",
                 "imgsrc": "/assets/img/soolcatecoryicon/icon_merchandise.png",
-                "productinfo": [{
+                "productinfo": [
+                    {
                         "categorydata": "merchandise",
                         "imgsrc": "/assets/img/merchandise/merchandise01.jpg",
                         "productName": "샤인머스켓와인",
@@ -507,9 +519,6 @@
                     }
                 ]
             }
-
-
         ]
     }
-
 }
