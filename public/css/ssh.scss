@@ -72,6 +72,7 @@ body {
     }
   }
 
+
   .ssh--btn-apply {
     background-color: #ffdf80;
     font-family: 'SOYOMapleBoldTTF';
@@ -140,6 +141,8 @@ body {
     }
 
   }
+
+
 }
 
 #bestTitle {
@@ -277,7 +280,12 @@ body {
 
 // }
 
+
 // 반응형
+.mo-title {
+  display: none;
+}
+
 @media (max-width: 535px) {
   #bestTitle .slide-box {
     display: none !important;
@@ -287,13 +295,51 @@ body {
   .swiper-button-next {
     display: none !important;
   }
+
+  .mo-title {
+    display: block;
+  }
 }
 
-// 리액트서 추가작업
-// #bestTitle .swiper-button-prev::after {
-//   content: "←";
-// } 
-// #bestTitle .swiper-button-next::after {
-//   content: "→";
-//   color: rgb(109, 109, 109);
-// } 
+
+.subscribe-mobile-view {
+  display: none;
+
+  .tabbtns {
+    margin-bottom: 1rem;
+    display: flex;
+    padding: 0 2rem;
+
+    button {
+      width: 33vw;
+      border: transparent;
+      border-radius: 1rem;
+      height: 40px;
+      font-size: 1.5rem;
+    }
+
+    button.on {
+      background-color: white;
+      border-top: 3px solid #0d6efd;
+    }
+
+    button.off {
+      background-color: #dcdcdc;
+      color: gray;
+
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  #subscribe {
+    .subscribe-pc-view {
+      display: none;
+    }
+
+    .subscribe-mobile-view {
+      display: block;
+      width: 100vw;
+    }
+  }
+}

@@ -192,6 +192,10 @@ body {
   content: "→";
 }
 
+.mo-title {
+  display: none;
+}
+
 @media (max-width: 535px) {
   #bestTitle .slide-box {
     display: none !important;
@@ -199,5 +203,41 @@ body {
   .swiper-button-prev,
   .swiper-button-next {
     display: none !important;
+  }
+  .mo-title {
+    display: block;
+  }
+}
+.subscribe-mobile-view {
+  display: none;
+}
+.subscribe-mobile-view .tabbtns {
+  margin-bottom: 1rem;
+  display: flex;
+  padding: 0 2rem;
+}
+.subscribe-mobile-view .tabbtns button {
+  width: 33vw;
+  border: transparent;
+  border-radius: 1rem;
+  height: 40px;
+  font-size: 1.5rem;
+}
+.subscribe-mobile-view .tabbtns button.on {
+  background-color: white;
+  border-top: 3px solid #0d6efd;
+}
+.subscribe-mobile-view .tabbtns button.off {
+  background-color: #dcdcdc;
+  color: gray;
+}
+
+@media (max-width: 900px) {
+  #subscribe .subscribe-pc-view {
+    display: none;
+  }
+  #subscribe .subscribe-mobile-view {
+    display: block;
+    width: 100vw;
   }
 }
