@@ -126,10 +126,12 @@ a {
   /* background-color: rgb(255, 255, 125); */
   background: center / contain no-repeat url(../assets/img/icon/star.png);
 }
-#itemTitle .itemImgWrap .Imgbox .starNum i{
+
+#itemTitle .itemImgWrap .Imgbox .starNum i {
   color: #ffd147;
   font-size: 25px;
 }
+
 #itemTitle .itemImgWrap .Imgbox img {
   margin-bottom: 20px;
   width: 100%;
@@ -164,7 +166,7 @@ a {
 #itemTitle .itemImgWrap .Imgbox>div {
   overflow: hidden;
   width: 290px;
-  height: 380px;
+  /* height: 380px; */
   display: block;
   border-radius: 20px;
 }
