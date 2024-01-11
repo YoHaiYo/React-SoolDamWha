@@ -1,89 +1,128 @@
 import React from 'react'
 import { useState, useEffect } from 'react';
+import styled from 'styled-components';
+
+const SdhBg = styled.div`
+  background-color: #FFDF80;
+  padding-top: 2rem;
+`;
 
 function AllPage(props) {
   // console.log('SSH !!',props.datasrc)
+  const [searchTerm, setSearchTerm] = useState('');
+  const [selectedCategory, setSelectedCategory] = useState('');
+  const [sortOrder, setSortOrder] = useState('desc'); // desc: 내림차순, asc: 오름차순
+  const [sortField, setSortField] = useState(''); // 기본 정렬 필드 (starNum으로 설정)
 
-  const [tap, setTap] = useState(0);
-  const [a, setA] = useState(0);
+  const sdhSorting = props.datasrc
+    .filter((category) => selectedCategory === '' || category.categorytitle === selectedCategory)
+    .flatMap((category) => category.productinfo)
+    .filter((vv) =>
+      vv.productName.toLowerCase().includes(searchTerm.toLowerCase())
+    )
+    .sort((a, b) => {
+      const fieldA = sortField === 'productPrice' ? parseFloat(a[sortField]) : a[sortField];
+      const fieldB = sortField === 'productPrice' ? parseFloat(b[sortField]) : b[sortField];
 
-  let stars = [];
-  for (let i = 0; i < 4; i++) {
-    //   stars.push(i) += '<span></span>';
-    stars.push(i);
-  }
+      return sortOrder === 'desc' ? fieldB - fieldA : fieldA - fieldB;
+    });
 
-  const colorChange = (idx) => {
-    // setA((prevIndex) => (prevIndex === idx ? "" : idx)); //클릭후 같은 자리 클릭하면 다시 원상복귀되는 오류발생
-    setA((prevIndex) => (prevIndex === idx ? prevIndex : idx));
-  }
+
+  const handleSortFieldChange = (field) => {
+    setSortField(field);
+  };
 
   return (
-    <section id="itemTitle" className="mb80 mt80 wrap container" >
-      <h2 className="text-center">
-        <a href="#closeTop" className="text-decoration-none scrollTop">
-          지금 당장 술 담아보기
-        </a>
-      </h2>
-      <ul className="d-flex justify-content-around itemTitleBox">
-        {
-          props.datasrc.map((v, idx) => {
-            console.log(v)
-            return (
-              <li className={`d-flex flex-column align-items-center itemTitle ${a === idx ? 'b' : ''}`} key={idx} onClick={() => {
-                setTap(idx)
-                colorChange(idx)
-              }}>
-                <img src={v.imgsrc} alt="담화박스" />
-                <div className="itemTitle">{v.categorytitle}</div>
-              </li>
-            )
-          })
-        }
-      </ul>
-      <div className="itemImgWrap ">
-        <div className="itemImgWrap_margin d-flex flex-wrap ">
-          {
-            props.datasrc[tap].productinfo && (
+    <>
+      <SdhBg>
+        <h2 className="text-center">
+          담화마켓의 모든 술을 만나보세요!
+        </h2>
 
-              props.datasrc[tap].productinfo.map((vv, i) => {
-                return (
-                  <div className="Imgbox gwashilju">
-                    <div>
-                      <a href="">
-                        <img src={vv.imgsrc} alt="" />
-                      </a>
-                    </div>
-                    <div className="ItemDesc">
-                      <div className="productName "><a href="">{vv.productName}</a></div>
-                      <div className="productPrice ">{vv.productPrice}</div>
-                      <div className="starNum d-flex">
-                        {
+        {/* 검색창 추가 */}
+        <input
+          type="text"
+          placeholder="제품명 검색"
+          value={searchTerm}
+          onChange={(e) => setSearchTerm(e.target.value)}
+        />
 
-                          // vv.starNum
-                        }
-                        {/* <i class="bi bi-star-fill" key={i}>{vv.starNum}</i> */}
-                        {/* {printStars(vv.starNum)} */}
-                        {
-                          stars.map((vvv, iii) => {
-                            return (
-                              <span key={iii}></span>
-                            )
-                          })
-                        }
-                      </div>
-                      <p className="desc">{vv.desc}</p>
-                    </div>
-                  </div>
+        {/* 카테고리 선택을 위한 버튼들 */}
+        <div>
+          {props.datasrc.map((category) => (
+            <button
+              key={category.categorytitle}
+              onClick={() => setSelectedCategory(category.categorytitle)}
+            >
+              {category.categorytitle}
+            </button>
+          ))}
 
-                )
-              })
-            )
-          }
+          {/* 전체 카테고리를 선택하는 버튼 */}
+          <button onClick={() => setSelectedCategory('')}>
+            전체 카테고리
+          </button>
         </div>
-      </div>
 
-    </section >
+        {/* 정렬 순서를 토글하는 버튼 */}
+        <div>
+          <button onClick={() => {
+            handleSortFieldChange('starNum');
+            setSortOrder('desc')
+          }}>
+            별점낮은순
+          </button>
+          <button onClick={() => {
+            handleSortFieldChange('starNum');
+            setSortOrder('asc')
+          }}>
+            별점높은순
+          </button>
+          <button onClick={() => {
+            handleSortFieldChange('productPrice');
+            setSortOrder('asc')
+          }}>
+            가격낮은순
+          </button>
+          <button onClick={() => {
+            handleSortFieldChange('productPrice');
+            setSortOrder('desc')
+          }}>
+            가격높은순
+          </button>
+        </div>
+      </SdhBg>
+      <section id="itemTitle" className="mb80 mt80 wrap container" >
+
+        <div className="itemImgWrap ">
+          <div className="itemImgWrap_margin d-flex flex-wrap ">
+            {sdhSorting.map((vv, i) => {
+              return (
+                <div className="Imgbox gwashilju">
+                  <div>
+                    <a href="">
+                      <img src={vv.imgsrc} alt="" />
+                    </a>
+                  </div>
+                  <div className="ItemDesc">
+                    <div className="productName "><a href="">{vv.productName}</a></div>
+                    <div className="productPrice ">{vv.productPrice}</div>
+                    <div className="starNum d-flex">
+                      {Array.from({ length: vv.starNum }, (_, index) => (
+                        <span key={index}></span>
+                      ))}
+                      {/* Array.from은 새로운 배열을 만들거나 기존의 유사배열 객체나 반복가능한 객체를 배열로 변환하는 메서드이다. */}
+                    </div>
+                    <p className="desc">{vv.desc}</p>
+                  </div>
+                </div>
+              )
+            })
+            }
+          </div>
+        </div>
+      </section >
+    </>
 
   )
 }
