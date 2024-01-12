@@ -21,7 +21,7 @@ function Category({ datasrc, onCategoryClick }) {
                     return (
                         <li className={`d-flex flex-column align-items-center itemTitle ${a === idx ? 'b' : ''}`} key={idx} onClick={() => {
                             //현재인덱스가 맵핑된 인덱스와 같으면 클래스 b를 넣어서 클릭한 글자색상을 바꿔준다.
-                            onCategoryClick(idx)
+                            onCategoryClick(idx) // 카테고리를 클릭하면 해당제품이 나오는 함수
                             colorChange(idx)//클릭한 리스트의 색상을 바꿔주는 함수호출
                         }}>
                             <img src={v.imgsrc} alt="담화박스" />

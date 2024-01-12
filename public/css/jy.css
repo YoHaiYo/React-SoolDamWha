@@ -1,7 +1,3 @@
-/* .swiper {
-  width: 100%;
-} */
-
 h2 {
   font-family: 'SOYOMapleBoldTTF', sans-serif;
 }
@@ -14,16 +10,6 @@ a {
   text-decoration: none !important;
 }
 
-/* Common */
-/* .wrap {
-  max-width: 1280px;
-  margin: 0 auto;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-} */
 
 /* itemTitle */
 #itemTitle * {
@@ -205,6 +191,7 @@ a {
 #fd .ftinfo .ftdesc p {
   margin: 5px 0;
   font-size: 14px;
+  font-weight: 400;
 }
 
 #fd .ftinfo .ftinfoUrl {
@@ -213,6 +200,7 @@ a {
 }
 
 #fd .ftinfoUrl li {
+  display: inline;
   padding: 5px 15px;
   border-radius: 30px;
   background-color: #EAEAEA;
@@ -272,19 +260,36 @@ a {
   color: #FFDF80;
 }
 
-@media(max-width:1200px) {
+/* 제품섹션 ,footer 반응형 */
+@media(max-width:1140px) {
 
   #itemTitle .itemTitleBox li {
     margin: 0;
   }
+}
 
-  #itemTitle .itemTitleBox img {
-    width: 50px;
+@media(max-width:680px) {
+
+  /* footer */
+  .ftinfoUrl {
+    /* margin: 1.5rem; */
   }
 
-  #itemTitle .itemImgWrap>div {
-    width: 100%;
-    justify-content: center;
+  .rightFtInfo {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .rightFtInfo span {
+    margin-bottom: 0 !important;
+  }
+
+  .ftdesc {
+    padding: 1rem;
+  }
+
+  .ftdesc p {
+    margin-bottom: 0;
   }
 }
 
