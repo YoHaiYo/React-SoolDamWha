@@ -250,41 +250,72 @@ body {
     }
 
     .swiper-button-prev {
-      position: absolute;
-      left: 60px;
-      top: 300px;
-      color: rgb(128, 149, 255);
+      // position: absolute;
+      // left: 60px;
+      // top: 300px;
+      // position: absolute;
+      // left: 60px;
+      width: 50px;
+      height: 50px;
+      // top: 300px;
+      // color: #0000008c;
+      background-image: url("https://d38cxpfv0ljg7q.cloudfront.net/assets/icon_prev_arrow_inactive.png");
+      background-size: cover;
     }
 
     .swiper-button-next {
-      position: absolute;
-      left: 160px;
-      top: 300px;
-      color: #0000008c;
+      // position: absolute;
+      // left: 160px;
+      width: 50px;
+      height: 50px;
+      // top: 300px;
+      // color: #0000008c;
+      background-image: url("https://d38cxpfv0ljg7q.cloudfront.net/assets/icon_next_arrow_inactive.png");
+      background-size: cover;
     }
+  }
 
-    .swiper-button-prev::after {
-      content: "←";
+  .swiper-button-prev::after {
+    content: "";
 
-    }
+  }
 
-    .swiper-button-next::after {
-      content: "→";
-      // font-size: 0;
+  .swiper-button-next::after {
+    content: "";
+    // font-size: 0;
+  }
+
+  .swiper-slide-active {
+    transform: translateY(-15px);
+    transition: .5s;
+
+    // scale: 1.05;
+    a {
+      box-shadow: 6px 6px 23px -6px rgba(14, 67, 104, 0.75);
     }
   }
 }
 
-// // 추가
-// #bestTitle .swiper .swiper-wrapper .swiper-slide:hover a:before {
-//   background-color: rgba(0, 0, 0, .5);
 
-// }
+/// 술고래픽 네비바 변경
+.slide-box {
+  display: none;
+}
 
+.ssh--btn-go-now {
+  padding: 0.5rem 1rem;
+  border: 1px solid transparent;
+  border-radius: 1rem;
+
+  font-family: "SOYOMapleBoldTTF";
+  font-size: 25px;
+  background-color: #0d6efd;
+  color: white;
+}
 
 // 반응형
 .mo-title {
-  display: none;
+  // display: none;
   font-size: 35px;
 }
 

@@ -30,6 +30,12 @@ function Best(props) {
 
         </div>
 
+
+        <button className="ssh--btn-go-now">
+          {props.datasrc.etc.btn}
+          {/* <i className="bi bi-box-arrow-up-right"></i> */}
+        </button>
+
       </section>
     </>
   )
