@@ -12,6 +12,8 @@ import Best from './section/Best';
 import Product from './section/Product';
 import Review from './section/Review';
 import Contact from './section/Contact';
+import MainSwiper from './workroom/SE/MainSwiper';
+import HD from './workroom/SE/Hd';
 
 // Page
 import AllPage from './page/AllPage';
@@ -30,11 +32,13 @@ const King = () => {
     <>
       {/* 네비 */}
       <LanguageSwitcher changeLanguage={changeLanguage} /> {/* 언어 변경 컴포넌트 추가 */}
-      <Header datasrc={datasrc[language].header} />
+      {/* <Header datasrc={datasrc[language].header} /> */}
+      <HD datasrc={datasrc[language].header.gnb} />
       <Routes>
         {/* 초기페이지 */}
         <Route path='/'
           element={<>
+            <MainSwiper datasrc={datasrc[language].header.mainbanner} />
             <Subscribe datasrc={datasrc[language].subscribe} />
             <Best datasrc={datasrc[language].bestswiper} />
             <Product datasrc={datasrc[language].product}></Product>
