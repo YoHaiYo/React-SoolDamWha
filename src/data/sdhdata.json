@@ -323,6 +323,24 @@
                 "userid": "fhjk님",
                 "rvstar": "5"
             }
+        ],
+        "qna" : [
+            {
+                "question": " 구독 서비스에 대해서 알려주세요",
+                "answer": "음... 일단 구독을 하시면 알게될겁니다 ^^"
+            },
+            {
+                "question": " 배송은 얼마나 걸리나요?",
+                "answer": "3일 안에 배송 되며, 오후 3시 이전 주문건은 당일 출고 입니다!"
+            },
+            {
+                "question": " 구독했다가 상품 변경하고 싶을 때는 어케하쥬?",
+                "answer": "마이페이지 가셔서 변경하시면 됩니다."
+            },
+            {
+                "question": " 술담화 오프라인 매장은 없나용?",
+                "answer": "유감스럽지만 아직 오프라인 매장은 없습니다."
+            }
         ]
     },
     "en" : {        
@@ -648,6 +666,24 @@
                 "faceimg": "/assets/img/face/face1-03.svg",
                 "userid": "fhjk님",
                 "rvstar": "5"
+            }
+        ],
+        "qna" : [
+            {
+                "question": " Please tell me about the subscription service",
+                "answer": "You'll find out once you subscribe :)"
+            },
+            {
+                "question": " How long will the delivery take?",
+                "answer": "It will be delivered within 3 days, and orders before 3 p.m. will be shipped on the same day!"
+            },
+            {
+                "question": " What do I do when I subscribe and want to change the product?",
+                "answer": "You can go to My Page and change it"
+            },
+            {
+                "question": " Are there any offline stores for drinking conversations?",
+                "answer": "Unfortunately, we don't have any offline stores yet."
             }
         ]
     }

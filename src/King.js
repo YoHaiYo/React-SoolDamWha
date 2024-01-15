@@ -50,7 +50,7 @@ const King = () => {
         </Route>
         <Route path='/qna'
           element={<>
-            <Qna />
+            <Qna datasrc={datasrc[language].qna}/>
           </>}>
         </Route>
 

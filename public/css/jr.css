@@ -323,20 +323,52 @@ padding: 0 0.5rem;
 
 /* Q & A 페이지*/
 
+
+
 #faq li {
   list-style: none;
 }
 
 #faq li div {
-  background-color: #ccc;
   padding: 0 2rem;
-  font-size: 0.85em;
+  font-size: 1.2em;
   max-height: 0;
   overflow: hidden;
   transition: 0.5s;
+
 }
 
-#faq li.act div {
-  max-height: 200px;
+#faq ul li div.act{
+  max-height: 150px;
   padding: 2rem;
+  /* border-bottom: 0.5px solid #333; */
+
 }
+
+#faq h3.act{
+  transition: 1s;
+
+}
+#faq h3::before{
+  content: "＋";
+  font-size: 40px;
+}
+#faq h3.act::before{
+  content: "－";
+  font-size: 40px;  
+}
+
+#faq h3{
+  /* border-top:1px solid #333; */
+  border-bottom: 2px solid #333;
+}
+#faq h3:last-child{
+  border-top:2px solid #333;
+}
+
+#faq h2{
+  text-align: center;
+  margin-top: 5rem;
+  font-size: 40px;
+}
+
