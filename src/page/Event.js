@@ -3,7 +3,7 @@ import React, { Fragment } from 'react'
 
 function Event(props) {
   return (
-    <section style={{ marginTop: "50px" }} className='container eventpage'>
+    <section style={{ marginTop: "400px" }} className='container eventpage'>
 
       {
         props.datasrc.map((el, idx) => {

@@ -234,6 +234,10 @@
   outline: none !important;
 }
 
+#hd {
+  position: fixed !important;
+}
+
 #hd li {
   list-style: none;
 }

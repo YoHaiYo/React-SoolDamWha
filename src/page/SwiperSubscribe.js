@@ -12,7 +12,7 @@ import { Pagination, Navigation } from 'swiper/modules';
 
 export default function Subscribepage(props) {
   return (
-    <div className='subscribepage_swiper container'>
+    <div className='subscribepage_swiper container' style={{ marginTop: "240px", marginBottom: "100px" }}>
       <Swiper
         slidesPerView={1}
         spaceBetween={30}

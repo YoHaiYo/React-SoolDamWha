@@ -35,7 +35,7 @@ function AllPage(props) {
 
   return (
     <>
-      <div className='allpage_bg'>
+      <div className='allpage_bg' style={{ marginTop: "280px", marginBottom: "100px" }}>
         <div className='allpage_container'>
           <h2 className="text-center">
             담화마켓의 모든 술을 만나보세요!
