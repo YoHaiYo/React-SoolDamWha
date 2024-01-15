@@ -14,23 +14,23 @@
             "gnb": [
                 {
                     "gnbtext": "구독",
-                    "href": "#"
+                    "href": "subscribe"
                 },
                 {
                     "gnbtext": "전체상품",
-                    "href": "#"
+                    "href": "all"
                 },
                 {
                     "gnbtext": "베스트",
-                    "href": "#"
+                    "href": "best"
                 },
                 {
                     "gnbtext": "이벤트",
-                    "href": "#"
+                    "href": "event"
                 },
                 {
                     "gnbtext": "Q & A",
-                    "href": "#"
+                    "href": "qna"
                 }
             ],
             "mainbanner": [
@@ -339,24 +339,24 @@
             ],
             "gnb": [
                 {
-                    "gnbtext": "Subscribe",
-                    "href": "#"
+                    "gnbtext": "구독",
+                    "href": "subscribe"
                 },
                 {
-                    "gnbtext": "Product",
-                    "href": "#"
+                    "gnbtext": "전체상품",
+                    "href": "all"
                 },
                 {
-                    "gnbtext": "Best",
-                    "href": "#"
+                    "gnbtext": "베스트",
+                    "href": "best"
                 },
                 {
-                    "gnbtext": "Event",
-                    "href": "#"
+                    "gnbtext": "이벤트",
+                    "href": "event"
                 },
                 {
                     "gnbtext": "Q & A",
-                    "href": "#"
+                    "href": "qna"
                 }
             ],
             "mainbanner": [

@@ -32,11 +32,11 @@ function Formsdh() {
 
                 <div className="flex-column">
                   <div className='d-flex'>
-                    <div className="him h-100 col-6">
+                    <div className="him h-100 col-6 himname">
                       <label for="name" className="me-4">이름</label>
                       <input className="ms-4" type="text" name="name" placeholder="이름" required />
                     </div>
-                    <div className="him h-100 col-6">
+                    <div className="him h-100 col-6 himcall">
                       <label for="num">전화번호</label>
                       <input type="text" name="num" placeholder="010-0000-0000" required />
                     </div>
@@ -48,7 +48,7 @@ function Formsdh() {
                   </div>
                 </div>
 
-                <div className=" c-m him">
+                <div className=" cm him">
                   <label for="message">메시지</label>
                   <textarea className="message" name="message" cols="19" rows="5" placeholder="메세지를 입력해주세요^^" required
                   ></textarea>
