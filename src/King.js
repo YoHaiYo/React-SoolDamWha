@@ -35,7 +35,6 @@ const King = () => {
       {/* <Header datasrc={datasrc[language].header} /> */}
       <HD datasrc={datasrc[language].header.gnb} />
       <Routes>
-        {/* 초기페이지 */}
         <Route path='/'
           element={<>
             <MainSwiper datasrc={datasrc[language].header.mainbanner} />
