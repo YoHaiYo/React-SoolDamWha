@@ -31,7 +31,6 @@ function Category({ datasrc, onCategoryClick }) {
         })
       }
     </ul>
-
   )
 }
 
