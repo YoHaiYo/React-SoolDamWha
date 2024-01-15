@@ -1,4 +1,5 @@
 @import url('./font.css');
+
 // Common
 body {
   overflow-x: hidden;
@@ -7,6 +8,7 @@ body {
 // MAIN
 #subscribe {
   margin-top: 50px;
+
   h2 {
     a {
       color: #333;
@@ -18,12 +20,13 @@ body {
 
   .subscribe-main-wrap {
 
-    margin: 70px 0;
+    margin: 30px 0;
 
     .subscribe-wrap {
 
       a {
         text-decoration: none;
+
         &:hover {
           img {
             // background-color: #333;
@@ -41,13 +44,15 @@ body {
           width: 290px;
           height: 290px;
           transition: .5s;
+
           &:hover {
             transform: scale(1.03);
-            
+
           }
         }
 
         .box-name {
+          margin-top: 30px;
           font-size: 30px;
           font-family: 'ImcreSoojin';
           color: #333;
@@ -67,6 +72,7 @@ body {
       }
     }
   }
+
 
   .ssh--btn-apply {
     background-color: #ffdf80;
@@ -125,15 +131,19 @@ body {
       }
     }
   }
+
   #cat {
     position: absolute;
     z-index: 9;
     left: calc(100% - 300px);
+
     img {
       width: 300px;
     }
-    
+
   }
+
+
 }
 
 #bestTitle {
@@ -143,10 +153,12 @@ body {
 
   .slide-box {
     min-width: 260px !important;
-    height: 330px;
+    height: 360px;
+    width: 100px;
     background-color: white;
     border: 1px solid #333;
     border-radius: 20px;
+    bottom: 67px;
 
     .best-ment {
       margin-top: 50px;
@@ -156,30 +168,25 @@ body {
     }
 
     .ssh--btn-go-now {
-      // width: 160px;
-      // height: 35px;
-      padding: .5rem 1rem;
+      padding: 0.5rem 1rem;
       border: 1px solid transparent;
       border-radius: 1rem;
       background-color: #0d6efd;
       color: white;
     }
-
-      // background-color: red;
-      bottom: 67px;
-
-   
   }
 
-  .swiper {    
+  .swiper {
     width: 1700px;
     padding: 2rem 0;
     // border: 1px solid #333;
-      position: unset;
+    position: unset;
 
     .swiper-wrapper {
+
       // position: unset;
-      .swiper-slide { 
+      .swiper-slide {
+
         // position: unset;            
         &:hover {
           .pickbox {
@@ -187,21 +194,38 @@ body {
             transform: translate(-50%, -50%);
             transition: .5s;
           }
+
+          a:before {
+            background-color: rgba(0, 0, 0, .5);
+
+          }
+
+
         }
+
         a {
-          transition: .3s;
-          &:hover {
-            filter: brightness(50%);
-          }
-          img {
-            width: 260px;
-            height: 330px;
-            border-radius: 20px;
-            box-shadow: 8px 6px 17px -7px rgba(0,0,0,0.52);
-            -webkit-box-shadow: 8px 6px 17px -7px rgba(0,0,0,0.52);
-            -moz-box-shadow: 8px 6px 17px -7px rgba(0,0,0,0.52);
+          display: block;
+          transition: 0.3s;
+          height: 0;
+          padding-top: 133.39%;
+          background-size: cover;
+          border-radius: 5%;
+
+
+          &::before {
+            content: "";
+            display: block;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            background-color: transparent;
+            transition: 0.5s;
+            border-radius: 5%;
           }
         }
+
         .pickbox {
           opacity: 0;
           position: absolute;
@@ -224,48 +248,132 @@ body {
       }
 
     }
-    
+
     .swiper-button-prev {
-      position: absolute;
-      left: 60px;
-      top: 300px;
-      color: rgb(128, 149, 255);
+      // position: absolute;
+      // left: 60px;
+      // top: 300px;
+      // position: absolute;
+      // left: 60px;
+      width: 50px;
+      height: 50px;
+      // top: 300px;
+      // color: #0000008c;
+      background-image: url("https://d38cxpfv0ljg7q.cloudfront.net/assets/icon_prev_arrow_inactive.png");
+      background-size: cover;
     }
 
     .swiper-button-next {
-      position: absolute;
-      left: 160px;
-      top: 300px;
-      color: #0000008c;
+      // position: absolute;
+      // left: 160px;
+      width: 50px;
+      height: 50px;
+      // top: 300px;
+      // color: #0000008c;
+      background-image: url("https://d38cxpfv0ljg7q.cloudfront.net/assets/icon_next_arrow_inactive.png");
+      background-size: cover;
     }
-
-    .swiper-button-prev::after {
-      content: "←";
-
-    }
-
-    .swiper-button-next::after {
-      content: "→";
-      // font-size: 0;
-    } 
   }
+
+  .swiper-button-prev::after {
+    content: "";
+
+  }
+
+  .swiper-button-next::after {
+    content: "";
+    // font-size: 0;
+  }
+
+  .swiper-slide-active {
+    transform: translateY(-15px);
+    transition: .5s;
+
+    // scale: 1.05;
+    a {
+      box-shadow: 6px 6px 23px -6px rgba(14, 67, 104, 0.75);
+    }
+  }
+}
+
+
+/// 술고래픽 네비바 변경
+.slide-box {
+  display: none;
+}
+
+.ssh--btn-go-now {
+  padding: 0.5rem 1rem;
+  border: 1px solid transparent;
+  border-radius: 1rem;
+
+  font-family: "SOYOMapleBoldTTF";
+  font-size: 25px;
+  background-color: #0d6efd;
+  color: white;
 }
 
 // 반응형
-@media (max-width: 535px) { 
-  #bestTitle .slide-box {
-    display: none !important;   
-  }
-  .swiper-button-prev, .swiper-button-next {
-    display: none !important;
-  }   
+.mo-title {
+  // display: none;
+  font-size: 35px;
 }
 
-// 리액트서 추가작업
-// #bestTitle .swiper-button-prev::after {
-//   content: "←";
-// } 
-// #bestTitle .swiper-button-next::after {
-//   content: "→";
-//   color: rgb(109, 109, 109);
-// } 
+@media (max-width: 535px) {
+  #bestTitle .slide-box {
+    display: none !important;
+  }
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    display: none !important;
+  }
+
+  .mo-title {
+    display: block;
+  }
+}
+
+
+.subscribe-mobile-view {
+  display: none;
+
+  .tabbtns {
+    margin-bottom: 70px;
+    display: flex;
+    padding: 0 2rem;
+
+    button {
+      width: 33vw;
+      border: transparent;
+      border-radius: 1rem;
+      height: 40px;
+      font-size: 1.5rem;
+    }
+
+    button.on {
+      background-color: white;
+      border-top: 3px solid #0d6efd;
+    }
+
+    button.off {
+      background-color: #dcdcdc;
+      color: gray;
+      border-radius: 1rem 1rem 0 0;
+
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  #subscribe {
+    .subscribe-pc-view {
+      display: none;
+    }
+
+    .subscribe-mobile-view {
+      display: block;
+      width: 100vw;
+    }
+  }
+}

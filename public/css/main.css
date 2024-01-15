@@ -1,4 +1,4 @@
-.swiper{
+.swiper {
   width: 100%;
 }
 
@@ -8,6 +8,7 @@
   max-width: 1280px;
   margin: 0 auto;
 }
+
 a {
   text-decoration: none;
   color: #363062;
@@ -24,4 +25,3 @@ a {
   font-weight: 700;
   display: block;
 }
-

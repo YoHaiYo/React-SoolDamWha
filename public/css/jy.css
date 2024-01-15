@@ -1,21 +1,15 @@
-/* .swiper {
-  width: 100%;
-} */
-
 h2 {
   font-family: 'SOYOMapleBoldTTF', sans-serif;
 }
 
-/* Common */
-/* .wrap {
-  max-width: 1280px;
-  margin: 0 auto;
+li {
+  list-style: none;
 }
 
 a {
-  text-decoration: none;
-  color: inherit;
-} */
+  text-decoration: none !important;
+}
+
 
 /* itemTitle */
 #itemTitle * {
@@ -125,16 +119,16 @@ a {
   height: 30px;
   /* background-color: rgb(255, 255, 125); */
   background: center / contain no-repeat url(../assets/img/icon/star.png);
+  /* font-size: 0; */
 }
-#itemTitle .itemImgWrap .Imgbox .starNum i{
+
+#itemTitle .itemImgWrap .Imgbox .starNum i {
   color: #ffd147;
   font-size: 25px;
 }
+
 #itemTitle .itemImgWrap .Imgbox img {
-  margin-bottom: 20px;
   width: 100%;
-  /* object-fit: cover; */
-  /* transform: scale(1.0); */
   transition: .5s;
 }
 
@@ -164,7 +158,7 @@ a {
 #itemTitle .itemImgWrap .Imgbox>div {
   overflow: hidden;
   width: 290px;
-  height: 380px;
+  height: auto;
   display: block;
   border-radius: 20px;
 }
@@ -190,13 +184,14 @@ a {
   margin: 0 auto;
   width: 100px;
   height: 88px;
-  background: center/contain no-repeat url(../img/sooldamhwa_logo_1627542258\ copy.svg);
+  background: center/contain no-repeat url(../assets/img/icon/hd_logo.png);
   display: block;
 }
 
 #fd .ftinfo .ftdesc p {
   margin: 5px 0;
   font-size: 14px;
+  font-weight: 400;
 }
 
 #fd .ftinfo .ftinfoUrl {
@@ -205,6 +200,7 @@ a {
 }
 
 #fd .ftinfoUrl li {
+  display: inline;
   padding: 5px 15px;
   border-radius: 30px;
   background-color: #EAEAEA;
@@ -217,7 +213,7 @@ a {
 }
 
 #fd .rightFtInfo {
-  width: 240px;
+  width: 260px;
 }
 
 #fd .rightFtInfo span {
@@ -264,19 +260,33 @@ a {
   color: #FFDF80;
 }
 
-@media(max-width:1200px) {
+/* 제품섹션 ,footer 반응형 */
+@media(max-width:1140px) {
 
   #itemTitle .itemTitleBox li {
     margin: 0;
   }
+}
 
-  #itemTitle .itemTitleBox img {
-    width: 50px;
+@media(max-width:680px) {
+
+  /* footer */
+
+  .rightFtInfo {
+    margin: 0 auto;
+    text-align: center;
   }
 
-  #itemTitle .itemImgWrap>div {
-    width: 100%;
-    justify-content: center;
+  .rightFtInfo span {
+    margin-bottom: 0 !important;
+  }
+
+  .ftdesc {
+    padding: 1rem;
+  }
+
+  .ftdesc p {
+    margin-bottom: 0;
   }
 }
 
@@ -305,4 +315,33 @@ a {
 
 #itemTitle .hideMenu.on {
   display: block;
+}
+
+
+
+/* Subscribepage */
+.subscribepage_swiper .dsec_box {
+  font-family: 'seolleimcool-SemiBold';
+  background-color: #ffffff7e;
+  padding: 1rem;
+  transform: translateY(480px);
+  height: 200px;
+  opacity: 0;
+  transition: 1s;
+
+}
+
+.subscribepage_swiper .dsec_box p {
+  font-size: 2rem;
+
+}
+
+.subscribepage_swiper .swiper_img {
+  height: 480px;
+  background-size: 100% 100%;
+}
+
+.subscribepage_swiper .swiper-slide.swiper-slide-active .dsec_box {
+  opacity: 1;
+  transform: translateY(280px);
 }

@@ -3,7 +3,9 @@ import Formsdh from '../workroom/JR/Formsdh'
 
 function Contact() {
   return (
-    <Formsdh />
+    <>
+      <Formsdh />
+    </>
   )
 }
 
