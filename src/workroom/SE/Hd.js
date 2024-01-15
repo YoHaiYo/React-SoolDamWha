@@ -1,6 +1,7 @@
 import React from 'react'
 // import Resist from './resist'
 // import gnbdb from '../../data/gnb.json'
+import { Link } from 'react-router-dom';
 
 
 
@@ -11,9 +12,10 @@ function HD(props) {
         <header id="hd" className='d-flex justify-content-center align-items-center fixed-top bg-white pt-5 border-bottom position-relative'>
             <div className='text-center container-lg'>
                 <h1 id='Logo'>
-                    <a href="#">
+                    <Link to={`/`}>
                         <img src="./assets/img/icon/hd_logo.png" alt="로고" />
-                    </a>
+                    </Link>
+
                 </h1>
                 <ul id="gnb" className='d-flex justify-content-center'>
                     {

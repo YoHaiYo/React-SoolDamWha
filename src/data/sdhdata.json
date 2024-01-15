@@ -14,23 +14,23 @@
             "gnb": [
                 {
                     "gnbtext": "구독",
-                    "href": "#"
+                    "href": "subscribe"
                 },
                 {
                     "gnbtext": "전체상품",
-                    "href": "#"
+                    "href": "all"
                 },
                 {
                     "gnbtext": "베스트",
-                    "href": "#"
+                    "href": "best"
                 },
                 {
                     "gnbtext": "이벤트",
-                    "href": "#"
+                    "href": "event"
                 },
                 {
                     "gnbtext": "Q & A",
-                    "href": "#"
+                    "href": "qna"
                 }
             ],
             "mainbanner": [
@@ -63,6 +63,20 @@
             {
                 "imgsrc": "./assets/img/cheongju/cheongju03.jpg",
                 "nm": "청주 담화박스"
+            }
+        ],
+        "subscribepage": [
+            {
+                "imgsrc": "image92.jpg",
+                "text": "세심한 주류 품질 점검!| 좋은 술을 찾기 위한 고집| 전국 양조장에 직접 방문해 품질·위생을 검사해요."
+            },
+            {
+                "imgsrc": "image93.jpg",
+                "text": "언제든 쉬어가기!| 술담화에서는 한 달 구독도 가능해요| 내가 원하는 달만 구독할 수도 있죠"
+            },
+            {
+                "imgsrc": "image94.jpg",
+                "text": "집으로 찾아오는 나만의 소믈리에! | 소믈리에가 직접 먹어본 조합| 추천 안주와 재미있는 술 스토리가 담긴 큐레이션 카드도 들어있어요"
             }
         ],
         "bestswiper": [
@@ -836,24 +850,24 @@
             ],
             "gnb": [
                 {
-                    "gnbtext": "Subscribe",
-                    "href": "#"
+                    "gnbtext": "구독",
+                    "href": "subscribe"
                 },
                 {
-                    "gnbtext": "Product",
-                    "href": "#"
+                    "gnbtext": "전체상품",
+                    "href": "all"
                 },
                 {
-                    "gnbtext": "Best",
-                    "href": "#"
+                    "gnbtext": "베스트",
+                    "href": "best"
                 },
                 {
-                    "gnbtext": "Event",
-                    "href": "#"
+                    "gnbtext": "이벤트",
+                    "href": "event"
                 },
                 {
                     "gnbtext": "Q & A",
-                    "href": "#"
+                    "href": "qna"
                 }
             ],
             "mainbanner": [
@@ -885,6 +899,20 @@
             },
             {
                 "imgsrc": "./assets/img/cheongju/cheongju03.jpg",
+                "nm": "Cheongju Box"
+            }
+        ],
+        "subscribepage": [
+            {
+                "imgsrc": "./assets/img/subscribepage/image92.jpg",
+                "nm": "Hard liquor Box"
+            },
+            {
+                "imgsrc": "./assets/img/subscribepage/image93.jpg",
+                "nm": "Comprehensive Box"
+            },
+            {
+                "imgsrc": "./assets/img/subscribepage/image94.jpg",
                 "nm": "Cheongju Box"
             }
         ],

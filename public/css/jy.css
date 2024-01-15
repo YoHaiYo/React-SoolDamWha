@@ -271,9 +271,6 @@ a {
 @media(max-width:680px) {
 
   /* footer */
-  .ftinfoUrl {
-    /* margin: 1.5rem; */
-  }
 
   .rightFtInfo {
     margin: 0 auto;
@@ -318,4 +315,33 @@ a {
 
 #itemTitle .hideMenu.on {
   display: block;
+}
+
+
+
+/* Subscribepage */
+.subscribepage_swiper .dsec_box {
+  font-family: 'seolleimcool-SemiBold';
+  background-color: #ffffff7e;
+  padding: 1rem;
+  transform: translateY(480px);
+  height: 200px;
+  opacity: 0;
+  transition: 1s;
+
+}
+
+.subscribepage_swiper .dsec_box p {
+  font-size: 2rem;
+
+}
+
+.subscribepage_swiper .swiper_img {
+  height: 480px;
+  background-size: 100% 100%;
+}
+
+.subscribepage_swiper .swiper-slide.swiper-slide-active .dsec_box {
+  opacity: 1;
+  transform: translateY(280px);
 }
