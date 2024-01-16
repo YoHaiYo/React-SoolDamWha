@@ -10,14 +10,14 @@ function ProductCard({ datasrc, tap }) {
     }
 
     return (
-        <div className="itemImgWrap ">
+        <div className="itemImgWrap d-none d-sm-block">
             <div className="itemImgWrap_margin d-flex flex-wrap justify-content-center ">
                 {
                     datasrc[tap].productinfo && (
 
                         datasrc[tap].productinfo.slice(0, 8).map((vv, i) => {
                             return (
-                                <div className="Imgbox gwashilju" key={i}>
+                                <div className="Imgbox gwashilju">
                                     <div>
                                         <a href="#none">
                                             <img key={i} src={vv.imgsrc} alt="" />

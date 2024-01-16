@@ -11,9 +11,11 @@ import 'swiper/css/navigation';
 // import required modules
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 
-// import datasrc from '../../data/ssh.json'
 
 function BestSwiper(props) {
+
+
+
   return (
     <Swiper
       spaceBetween={30}
@@ -45,7 +47,7 @@ function BestSwiper(props) {
       {
         props.datasrc.map((el, idx) => {
           return (
-            <SwiperSlide key={`SwiperSlide${idx}`} >
+            <SwiperSlide key={`SwiperSlide${idx}`} className={``} >
               <a href="" style={{ backgroundImage: `url(${el.imgsrc})` }}>
                 <span className="pickbox d-block">
                   <strong className="picktitle d-block">{el.picktitle}</strong>

@@ -40,7 +40,7 @@ export default function ReviewCard() {
                   <div id="face">
                     <a className='face'><img src={e['faceimg']} alt="" />re15님</a>
                     <div className="rv-star">
-                      <div className="starNum">
+                      <div className="starNum d-flex justify-content-center">
 
                         {Array.from({ length: e.rvstar }, (_, index) => (
                           <span key={index}></span>

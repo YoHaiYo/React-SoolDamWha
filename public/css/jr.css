@@ -163,6 +163,13 @@ section #contact {
 
 
 /* --------------리뷰--------------- */
+#review a {
+  color: #333;
+}
+
+#review a.face {
+  font-weight: bold;
+}
 
 #review .swiper {
   height: 500px;
@@ -296,7 +303,7 @@ section #contact {
   margin-bottom: 0;
 }
 
-.starNum {
+#review .starNum {
   display: flex;
   width: 100px;
 
@@ -368,4 +375,12 @@ section #contact {
   text-align: center;
   margin-top: 5rem;
   font-size: 40px;
+}
+
+#face {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
 }
