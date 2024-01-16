@@ -10,7 +10,7 @@ function ProductCard({ datasrc, tap }) {
     }
 
     return (
-        <div className="itemImgWrap ">
+        <div className="itemImgWrap d-none d-sm-block">
             <div className="itemImgWrap_margin d-flex flex-wrap justify-content-center ">
                 {
                     datasrc[tap].productinfo && (

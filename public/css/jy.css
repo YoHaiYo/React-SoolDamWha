@@ -115,16 +115,16 @@ a {
 
 #itemTitle .itemImgWrap .Imgbox .starNum span {
   margin-bottom: 8px;
-  width: 30px;
-  height: 30px;
+  width: 30px !important;
+  height: 30px !important;
   /* background-color: rgb(255, 255, 125); */
-  background: center / contain no-repeat url(../assets/img/icon/star.png);
+  background: center / contain no-repeat url(../assets/img/icon/star.png) !important;
   /* font-size: 0; */
 }
 
 #itemTitle .itemImgWrap .Imgbox .starNum i {
   color: #ffd147;
-  font-size: 25px;
+  font-size: 25px !important;
 }
 
 #itemTitle .itemImgWrap .Imgbox img {

@@ -1,0 +1,93 @@
+#app {
+    height: 100%
+}
+
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #fff;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+#app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#productSwiper .swiper {
+    width: 300px;
+    height: auto;
+}
+
+#productSwiper .swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #000;
+    padding: 1rem;
+}
+
+#productSwiper .swiper-slide .Imgbox img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.swiper-slide:nth-child(1n) {
+    background-color: #FFDF80;
+}
+
+.swiper-slide:nth-child(2n) {
+    background-color: #3395ED;
+}
+
+.swiper-slide:nth-child(3n) {
+    background-color: #EAEAEA;
+}
+
+#productSwiper .swiper-slide .ItemDesc {
+    padding: 1rem;
+    text-align: center;
+}
+
+
+#productSwiper .swiper-slide .ItemDesc .productName {
+    font-family: 'SOYOMapleBoldTTF';
+}
+
+
+/* #productSwiper .swiper-slide .ItemDesc .starNum span{
+    display: block;
+} */
+
+#productSwiper .swiper-slide .ItemDesc .productPrice,
+#productSwiper .swiper-slide .ItemDesc .desc {
+    font-size: 18px;
+    font-weight: 300;
+}
