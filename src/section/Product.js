@@ -1,6 +1,7 @@
 import React,{useState} from 'react'
 import ProductCard from '../workroom/JY/ProductCard'
 import Category from '../workroom/JY/Category'
+import { MoreButton } from '../styled/Btns';
 
 function Product(props) {
   const [tap, setTap] = useState(0);
@@ -17,6 +18,7 @@ function Product(props) {
       </h2>
       <Category datasrc={props.datasrc} tap={tap} onCategoryClick={handleCategoryClick}></Category>
       <ProductCard datasrc={props.datasrc} tap={tap} />
+      <MoreButton>더보기</MoreButton>
     </section>
   )
 }
