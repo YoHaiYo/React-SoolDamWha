@@ -14,7 +14,7 @@ function Category({ datasrc, onCategoryClick }) {
     }
 
     return (
-        <ul className="d-flex justify-content-around itemTitleBox">
+        <ul className="d-flex justify-content-center itemTitleBox">
             {
                 datasrc.map((v, idx) => {
                     console.log(v)

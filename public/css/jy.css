@@ -48,7 +48,6 @@ a {
 
 #itemTitle .itemTitleBox li {
   width: auto;
-  height: 115px;
   font-size: 20px;
   font-weight: bold;
   cursor: pointer;
@@ -262,10 +261,25 @@ a {
 
 /* 제품섹션 ,footer 반응형 */
 @media(max-width:1140px) {
-
+  #itemTitle .itemTitleBox{
+    width: 0;
+  }
   #itemTitle .itemTitleBox li {
     margin: 0;
+    padding: 0;
   }
+
+  #itemTitle .itemTitleBox li img {
+    width: 50px;
+  }
+
+  #itemTitle .itemTitleBox li .itemTitle {
+    font-size: 17px;
+    width: 70px;
+  }
+
+  
+
 }
 
 @media(max-width:680px) {
