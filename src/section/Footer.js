@@ -9,7 +9,7 @@ function Footer(props) {
         {
           props.datasrc.map((el, i) => {
             return (
-              <div className="fdinfoArea d-md-flex justify-content-between">
+              <div className="fdinfoArea d-md-flex justify-content-between" key={i}>
                 <div className="ftinfo ">
                   <div className="ftdesc d-none d-md-block">
                     <p>{el.representative}</p>

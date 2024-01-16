@@ -48,7 +48,7 @@ function SubscribeCard(props) {
         {
           props.datasrc.map((el, idx) => {
             return (
-              tabnum === idx && <section>
+              tabnum === idx && <section key={idx}>
 
                 <div className="subscribe-wrap" key={`div${idx}`}>
                   <a href="" className={subscribecard.ssh}>

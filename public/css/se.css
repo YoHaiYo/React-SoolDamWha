@@ -169,10 +169,10 @@
   padding-top: 0;
 }
 
-#hd.down #gnb a {
+/* #hd.down #gnb a {
   padding: 25px 50px;
 
-}
+} */
 
 #hd.down #gnb {
   margin-bottom: 0;
@@ -232,10 +232,6 @@
 
 #languageSelector {
   outline: none !important;
-}
-
-#hd {
-  position: fixed !important;
 }
 
 #hd li {
@@ -355,7 +351,38 @@
 
 
 
+
+
 /* -------------------------------------------------header------------------------------------------------------------------ */
+
+/* body.down .loginbox {
+  display: none !important;
+} */
+
+#hd.down>div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#Logo img:nth-child(2) {
+  display: none;
+}
+
+#hd.down #Logo img:nth-child(2) {
+  margin-top: 10px;
+  display: block;
+
+}
+
+#Logo img:nth-child(1) {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+#hd.down #Logo img:nth-child(1) {
+  display: none;
+}
 
 /* 입점문의 */
 .formbtn {

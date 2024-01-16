@@ -121,7 +121,7 @@ function AllPage(props) {
           <div className="itemImgWrap_margin d-flex flex-wrap ">
             {sdhSorting.map((vv, i) => {
               return (
-                <div className="Imgbox gwashilju">
+                <div className="Imgbox gwashilju" key={i}>
                   <div>
                     <a href="">
                       <img src={vv.imgsrc} alt="" />

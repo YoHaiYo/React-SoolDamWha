@@ -1,5 +1,7 @@
 import React from 'react'
 import SubscribeCard from '../workroom/SH/SubscribeCard'
+import { Link } from 'react-router-dom';
+
 
 
 function Subscribe(props) {
@@ -13,7 +15,9 @@ function Subscribe(props) {
           <SubscribeCard datasrc={props.datasrc.item} />
         </div>
 
-        <button className="ssh--btn-apply">{props.datasrc.etc.btn}</button>
+        <Link to={`/subscribe`}>
+          <button className="ssh--btn-apply">{props.datasrc.etc.btn}</button>
+        </Link>
 
       </section>
 

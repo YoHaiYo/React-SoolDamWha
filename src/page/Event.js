@@ -8,7 +8,7 @@ function Event(props) {
       {
         props.datasrc.map((el, idx) => {
           return (
-            <a href="#none">
+            <a href="#none" key={idx}>
               <span style={{ background: `url(./assets/img/swiper_img/${el.background}) no-repeat center`, height: "240px", backgroundSize: "100% 100%" }} key={idx} className='eventbanner'>
                 <div className='eventtext'>
                   <strong>

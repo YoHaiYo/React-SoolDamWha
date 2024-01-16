@@ -1,8 +1,6 @@
 import React from 'react'
-
-
-
 import BestSwiper from '../workroom/SH/BestSwiper';
+import { Link } from 'react-router-dom';
 
 function Best(props) {
 
@@ -31,10 +29,12 @@ function Best(props) {
         </div>
 
 
-        <button className="ssh--btn-go-now">
-          {props.datasrc.etc.btn}
-          {/* <i className="bi bi-box-arrow-up-right"></i> */}
-        </button>
+        <Link to={`/best`}>
+          <button className="ssh--btn-go-now">
+            {props.datasrc.etc.btn}
+            {/* <i className="bi bi-box-arrow-up-right"></i> */}
+          </button>
+        </Link>
 
       </section>
     </>

@@ -28,11 +28,11 @@ export default (props) => {
                         return <SwiperSlide style={{
                             background: `url(./assets/img/swiper_img/${el.background}) no-repeat center`, height: "480px", backgroundSize: "auto 100%"
                         }} key={idx}>
-                            <div className='effecttext'>
+                            <div className='effecttext' key={idx}>
 
                                 <strong>{
                                     el.strong.split("|").map((e, i) => {
-                                        return <React.Fragment>
+                                        return <React.Fragment key={i}>
                                             {e}
                                             <br />
                                         </React.Fragment>

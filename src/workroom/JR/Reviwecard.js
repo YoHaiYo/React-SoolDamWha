@@ -33,7 +33,7 @@ export default function ReviewCard() {
         {
           sdhdata.ko.review.map((e, i) => {
             return (
-              <SwiperSlide className='w-260'>
+              <SwiperSlide className='w-260' key={i}>
                 <div >
                   <img src={e['img src']} alt="" className="ptrv" />
                   <p className='color-black'>{e.coment}</p>

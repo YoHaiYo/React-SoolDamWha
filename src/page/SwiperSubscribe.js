@@ -27,13 +27,13 @@ export default function Subscribepage(props) {
         {
           props.datasrc.map((el, i) => {
             return (
-              <React.Fragment key={i}>
+              <React.Fragment key={`SwiperSlide${i}`}>
                 <SwiperSlide>
                   <div style={{ background: `url(./assets/img/subscribepage/${el.imgsrc}) no-repeat center` }} className='swiper_img'>
                     <div className='dsec_box'>
                       <p className='text-center'>
                         {el.text.split('|').map((v, ii) => (
-                          <Fragment key={ii}>
+                          <Fragment key={`dsec_box${ii}`}>
                             {v}
                             <br />
                           </Fragment>

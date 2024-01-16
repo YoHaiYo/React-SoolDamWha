@@ -17,7 +17,7 @@ function ProductCard({ datasrc, tap }) {
 
                         datasrc[tap].productinfo.slice(0, 8).map((vv, i) => {
                             return (
-                                <div className="Imgbox gwashilju">
+                                <div className="Imgbox gwashilju" key={i}>
                                     <div>
                                         <a href="#none">
                                             <img key={i} src={vv.imgsrc} alt="" />

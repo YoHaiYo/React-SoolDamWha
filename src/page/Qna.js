@@ -9,7 +9,7 @@ const Qna = (props) => {
 
 
   return (
-    <section ref={faq} id="faq" className="align-items-center" style={{ marginTop: "240px", marginBottom: "100px" }}>
+    <section ref={faq} id="faq" className="align-items-center" style={{ marginTop: "280px", marginBottom: "100px" }}>
       <h2>Q. 자주묻는 질문</h2><br /><br />
       <div className="d-flex justify-content-center align-items-center">
         <ul>

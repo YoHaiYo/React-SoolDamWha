@@ -2,7 +2,7 @@ import React from 'react'
 import SwiperSubscribe from './SwiperSubscribe'
 
 function Subscribepage(props) {
-  console.log(props); // 확인용 로그
+  // console.log(props); // 확인용 로그
 
   return (
     <>
