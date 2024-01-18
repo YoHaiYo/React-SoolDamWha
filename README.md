@@ -1,26 +1,26 @@
 # Team-SolDamWha 프로젝트
 
-## 프로젝트 소개
+## 🚀 프로젝트 소개
 
-**Team-SolDamWha**은 프론트엔드반 술담화 리액트 프로젝트 팀입니다. 프로젝트는 다양한 플러그인과 기술을 활용하여 세련된 디자인과 기능을 제공합니다.
+**Team-SolDamWha**은 프론트엔드반 술담화 리액트 프로젝트 팀입니다. 술담화라는 전통주 구독 플랫폼을 재해석해서 사이트로 표현하는 웹 프로젝트입니다.
 
-## 배포용 링크
+## 🌐 배포용 링크
 
 https://sooldamwha.netlify.app/
 
-## 팀원 소개
+## 🌟 팀원 소개
 
 - [jiyy25](https://github.com/jiyy25)
 - [kimjaer](https://github.com/kimjaer)
 - [SeungEunChun](https://github.com/SeungEunChun)
 - [YoHaiYo](https://github.com/YoHaiYo)
 
-## 기획서
+## 📑 기획서
 
 - [노션 바로 가기](https://invented-level-d67.notion.site/9299e0485c414f87bd02d8b202c4364d?pvs=4)
 - [피그마 바로 가기](https://www.figma.com/file/WSM71CyE0wCWzO0NUIjMvK/%ED%94%84%EB%A1%A0%ED%8A%B8%ED%8C%80-%EC%9E%84%EC%8B%9C%EB%B0%A9!?type=design&node-id=0%3A1&mode=design&t=HmZvD6Zc8vn8ZghQ-1)
 
-## 사용 플러그인
+## 🛠️ 사용 플러그인
 
 - aos: 2.3.4
 - axios: 1.6.2
@@ -32,11 +32,11 @@ https://sooldamwha.netlify.app/
 - styled-components: 6.1.8
 - swiper: 11.0.5
 
-## 리액트 전 작업 깃허브
+## 🌐 리액트프로젝트 이전 웹 프로젝트 깃허브
 
 [작업 깃허브 바로 가기](https://github.com/YoHaiYo/Team-SoolDamWha)
 
-## 작업 고려사항
+## 🤔 작업 고려사항
 
 - 컴포넌트 계층구조: `component` 폴더 → `section` 폴더 → `King.js` → `index.js`
 - 팀원 작업폴더: `workroom` 폴더에서 팀원 이름으로 각각 작업 폴더 생성
