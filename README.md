@@ -13,6 +13,7 @@ https://sooldamwha.netlify.app/
 - [jiyy25](https://github.com/jiyy25) : 상품섹션, 푸터섹션, 구독페이지 작업.
 - [kimjaer](https://github.com/kimjaer) : 리뷰섹션, 입점문의섹션, Q & A 페이지 작업.
 - [SeungEunChun](https://github.com/SeungEunChun) : 헤더섹션, 메인배너섹션, 이벤트페이지 작업.
+- 
 ![SH](https://github.com/YoHaiYo/React-SoolDamWha.github.io/assets/124754510/4bf043ac-9ad9-4bce-b8ef-76d6b928f45d)
 
  [YoHaiYo](https://github.com/YoHaiYo) : 구독섹션, 베스트아이템(술고래픽)섹션, 전체상품페이지 작업.
