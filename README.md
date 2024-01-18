@@ -10,10 +10,10 @@ https://sooldamwha.netlify.app/
 
 ## 🌟 팀원 소개
 
-- [jiyy25](https://github.com/jiyy25)
-- [kimjaer](https://github.com/kimjaer)
-- [SeungEunChun](https://github.com/SeungEunChun)
-- [YoHaiYo](https://github.com/YoHaiYo)
+- [jiyy25](https://github.com/jiyy25) : 상품섹션, 푸터섹션, 구독페이지 작업.
+- [kimjaer](https://github.com/kimjaer) : 리뷰섹션, 입점문의섹션, Q & A 페이지 작업.
+- [SeungEunChun](https://github.com/SeungEunChun) : 헤더섹션, 메인배너섹션, 이벤트페이지 작업.
+- [YoHaiYo](https://github.com/YoHaiYo) : 구독섹션, 베스트아이템(술고래픽)섹션, 전체상품페이지 작업.
 
 ## 📑 기획서
 
