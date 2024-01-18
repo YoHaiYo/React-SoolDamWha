@@ -27,19 +27,18 @@ https://www.figma.com/file/WSM71CyE0wCWzO0NUIjMvK/%ED%94%84%EB%A1%A0%ED%8A%B8%ED
 
 
 # 사용플러그인
-- BOOTSTRAP 5.3.2
-- bootstrap-icons 1.11.1
-- SWIPER 11
-- ScrollMagic 2.0.8
-- AOS 2.3.1
-- jquery 2.2.4
-
+- aos: 2.3.4,
+- axios: 1.6.2,
+- bootstrap: 5.3.2,
+- gh-pages: 6.1.0,
+- react-bootstrap: 2.9.1,
+- react-router-dom: 6.21.2,
+- sass: 1.69.5,
+- styled-components: 6.1.8,
+- swiper: 11.0.5,
 
 # 리액트 전 작업 깃허브
 https://github.com/YoHaiYo/Team-SoolDamWha
-
-# 작업히스토리
-23.12.13. 깃허브 및 폴더세팅
 
 # 작업 고려사항
 - component폴더 -> section폴더 -> King.js -> index.js 순의 컴포넌트 계층구조.
