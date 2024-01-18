@@ -3,7 +3,7 @@
 프론트엔드반 술담화 리액트 - 프로젝트 방입니다.
 
 # 배포용링크
-https://yohaiyo.github.io/React-SoolDamWha.github.io/
+https://sooldamwha.netlify.app/
 
 # 팀원 소개
 
