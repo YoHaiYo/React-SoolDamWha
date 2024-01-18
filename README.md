@@ -10,10 +10,10 @@ https://sooldamwha.netlify.app/
 
 ## 🌟 팀원 소개
 
-![JR](https://github.com/YoHaiYo/React-SoolDamWha.github.io/assets/124754510/310410e2-7210-49ca-a8aa-b8f8d8c55beb) [jiyy25](https://github.com/jiyy25)
+![JR](https://github.com/YoHaiYo/React-SoolDamWha.github.io/assets/124754510/310410e2-7210-49ca-a8aa-b8f8d8c55beb) [kimjaer](https://github.com/kimjaer)
  : 상품섹션, 푸터섹션, 구독페이지 작업.
 
- ![JY](https://github.com/YoHaiYo/React-SoolDamWha.github.io/assets/124754510/c7a2e01a-9974-4c3f-9101-422323fc1291) [kimjaer](https://github.com/kimjaer)
+ ![JY](https://github.com/YoHaiYo/React-SoolDamWha.github.io/assets/124754510/c7a2e01a-9974-4c3f-9101-422323fc1291) [jiyy25](https://github.com/jiyy25) 
  : 리뷰섹션, 입점문의섹션, Q & A 페이지 작업.
  
  ![SE](https://github.com/YoHaiYo/React-SoolDamWha.github.io/assets/124754510/b4ee5657-ad51-47f9-94c1-13e2a8ed012b) [SeungEunChun](https://github.com/SeungEunChun)
