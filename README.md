@@ -25,7 +25,7 @@ https://sooldamwha.netlify.app/
 ## 📑 기획서
 
 - [노션 바로 가기](https://invented-level-d67.notion.site/9299e0485c414f87bd02d8b202c4364d?pvs=4)
-- [피그마 바로 가기](https://www.figma.com/file/WSM71CyE0wCWzO0NUIjMvK/%ED%94%84%EB%A1%A0%ED%8A%B8%ED%8C%80-%EC%9E%84%EC%8B%9C%EB%B0%A9!?type=design&node-id=0%3A1&mode=design&t=HmZvD6Zc8vn8ZghQ-1)
+- [피그마 바로 가기](https://www.figma.com/file/KUL9il7XOPOrt2ce4OYvXT/%EC%88%A0%EB%8B%B4%ED%99%94-%ED%94%BC%EA%B7%B8%EB%A7%88-%EB%B0%B0%ED%8F%AC%EC%9A%A9?type=design&node-id=1-1068&mode=design&t=OPx03nzqhn2vOAdr-0)
 
 ## 🛠️ 사용 플러그인
 
