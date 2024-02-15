@@ -1,0 +1,7 @@
+{
+    "host": "nodejs-008.cafe24.com",
+    "user": "node14",
+    "password": "dksrud12!",
+    "database": "node14",
+    "connectionLimit": 100
+}

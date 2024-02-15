@@ -1,0 +1,25 @@
+{
+  "name": "react_sool",
+  "version": "1.0.0",
+  "description": "리액트 술담화 프로젝트 노드 병합",
+  "main": "web.js",
+  "scripts": {
+    "server": "node ./web.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"npm run server\" \"npm run react\"",
+    "react": "cd project && npm run build"
+  },
+  "keywords": [
+    "React",
+    "Node",
+    "Mysql"
+  ],
+  "author": "Sooldamwha",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.2",
+    "express": "^4.18.2",
+    "mysql": "^2.18.1",
+    "path": "^0.12.7"
+  }
+}

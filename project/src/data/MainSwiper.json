@@ -1,0 +1,27 @@
+{
+    "mainbanner": [
+        {
+            "background": "event1.png"
+        },
+        {
+            "background": "event2.png"
+        },
+        {
+            "background": "event3.png"
+        }
+    ],
+    "effecttext": [
+        {
+            "strong": "첫 구매시 샘플 술 증정",
+            "Mtext": "신규 가입하고 궁금했던 술 체험해보세요"
+        },
+        {
+            "strong": "첫 구독은 10% 할인!",
+            "Mtext": "신규 가입 혜택 받고 소믈리에가 엄선한 전통주를 매월 경험하세요."
+        },
+        {
+            "strong": "리뷰 쓰면 쌓이는 포인트!",
+            "Mtext": "후기 인증시 2,000원 적립"
+        }
+    ]
+}
