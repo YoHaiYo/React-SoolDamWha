@@ -60,15 +60,15 @@ body {
 }
 
 #productSwiper .swiper-slide:nth-child(1n) {
-  background-color: #FFDF80;
+  background-color: #ffedb0;
 }
 
 #productSwiper .swiper-slide:nth-child(2n) {
-  background-color: #3395ED;
+  background-color: #9fcef7;
 }
 
 #productSwiper .swiper-slide:nth-child(3n) {
-  background-color: #EAEAEA;
+  background-color: #f0f0f0;
 }
 
 #productSwiper .swiper-slide .ItemDesc {

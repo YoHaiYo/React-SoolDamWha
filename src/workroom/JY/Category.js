@@ -14,7 +14,7 @@ function Category({ datasrc, onCategoryClick }) {
   }
 
   return (
-    <ul className="d-flex justify-content-around itemTitleBox">
+    <ul className="d-flex justify-content-center flex-wrap itemTitleBox container">
       {
         datasrc.map((v, idx) => {
           // console.log(v)
@@ -25,7 +25,7 @@ function Category({ datasrc, onCategoryClick }) {
               colorChange(idx)//클릭한 리스트의 색상을 바꿔주는 함수호출
             }}>
               <img src={v.imgsrc} alt="담화박스" />
-              <div className="itemTitle">{v.categorytitle}</div>
+              <div className="itemTitle text-center">{v.categorytitle}</div>
             </li>
           )
         })
