@@ -3,6 +3,7 @@ import ProductCard from '../workroom/JY/ProductCard'
 import Category from '../workroom/JY/Category'
 import { MoreButton } from '../styled/Btns';
 import ProductSwiper from '../workroom/JY/ProductSwiper'
+import { Link } from 'react-router-dom';
 
 function Product(props) {
   const [tap, setTap] = useState(0);
@@ -20,7 +21,7 @@ function Product(props) {
       <Category datasrc={props.datasrc} tap={tap} onCategoryClick={handleCategoryClick}></Category>
       <ProductCard datasrc={props.datasrc} tap={tap} />
       <ProductSwiper datasrc={props.datasrc} tap={tap}></ProductSwiper>
-      <MoreButton>더보기</MoreButton>
+      <MoreButton><Link to="/all">더보기</Link></MoreButton>
     </section>
   )
 }
