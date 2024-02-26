@@ -21,7 +21,7 @@ import Event from './page/Event';
 import Qna from './page/Qna';
 import Subscribepage from './page/Subscribepage';
 
-import LanguageSwitcher from './LanguageSwitcher'; // 새로 추가한 부분
+// import LanguageSwitcher from './LanguageSwitcher'; // 새로 추가한 부분
 
 const King = () => {
   const [language, setLanguage] = useState('ko'); // 초기 언어는 'ko'
@@ -34,7 +34,7 @@ const King = () => {
   return (
     <>
       {/* 네비 */}
-      <LanguageSwitcher changeLanguage={changeLanguage} /> {/* 언어 변경 컴포넌트 추가 */}
+      {/* <LanguageSwitcher changeLanguage={changeLanguage} /> 언어 변경 컴포넌트 추가 */}
       {/* <Header datasrc={datasrc[language].header} /> */}
       <HD datasrc={datasrc[language].header.gnb} />
       <Routes>

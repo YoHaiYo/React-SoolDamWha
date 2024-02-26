@@ -1,4 +1,4 @@
-/* .swiper {
+/* /* .swiper {
   width: 100%;
 } */
 
@@ -73,39 +73,40 @@
 }
 
 
-#promotionSwiper .bgimg1 {
-  background-image: url(../img/bgimg_1.png);
-  /* width: 1919px; */
-  background-size: auto 100%;
+/* #promotionSwiper .bgimg1 {
+  background-image: url(../img/bgimg_1.png); */
+/* width: 1919px; */
+/* background-size: auto 100%;
   background-repeat: no-repeat;
   height: 480px;
   background-position: 80% top;
-  background-color: #eecfa0;
+  background-color: #eecfa0; */
 
 
 }
 
+/* 
 #promotionSwiper .bgimg2 {
-  background-image: url(../img/event_2.png);
-  /* width: 1919px; */
-  background-size: auto 100%;
+  background-image: url(../img/event_2.png); */
+/* width: 1919px; */
+/* background-size: auto 100%;
   background-repeat: no-repeat;
   height: 480px;
 
 
 
-}
-
+} */
+/* 
 #promotionSwiper .bgimg3 {
   background-image: url(../img/event3.png);
   background-size: auto 100%;
-  background-color: #d8e2d5;
-  /* width: 1919px; */
-  height: 480px;
-  background-repeat: no-repeat;
-  /* background-position: 90% top; */
+  background-color: #d8e2d5; */
+/* width: 1919px; */
+/* height: 480px;
+  background-repeat: no-repeat; */
+/* background-position: 90% top; */
 
-}
+/* }
 
 #promotionSwiper .bgimg3 .effecttext {
   color: white;
@@ -140,16 +141,16 @@
   font-family: Spoqa Han Sans Neo !important;
   color: black;
   font-size: 14px;
-}
+} */
 
-#gnb {
+/* #gnb {
   font-family: Spoqa Han Sans Neo !important;
   color: #435585 !important;
   font-size: 20px;
-  font-weight: bold;
-  /* width: 486px;
+  font-weight: bold; */
+/* width: 486px;
   height: 45px; */
-  margin-bottom: 20px;
+/* margin-bottom: 20px;
 
 
 }
@@ -167,14 +168,14 @@
   display: flex;
   align-items: center;
   padding-top: 0;
-}
+} */
 
 /* #hd.down #gnb a {
   padding: 25px 50px;
 
 } */
 
-#hd.down #gnb {
+/* #hd.down #gnb {
   margin-bottom: 0;
   margin-left: 9rem;
 }
@@ -197,12 +198,12 @@
 
 #promotionSwiper .effecttext p {
   font-size: 1.5rem;
-  margin-top: 2rem;
-  /* margin-left: 1rem; */
+  margin-top: 2rem; */
+/* margin-left: 1rem; */
 }
 
 
-#login label {
+/* #login label {
   font-family: Spoqa Han Sans Neo !important;
   color: black;
   font-size: 14px;
@@ -289,11 +290,11 @@
   border-radius: 30px !important;
 
 
-}
+} */
 
 
 /*----------------Login---------------- */
-.login-wrapper {
+/* .login-wrapper {
   width: 400px;
   height: 350px;
   padding: 40px;
@@ -347,7 +348,7 @@
   background-image: url("checkbox-active.png");
   background-repeat: no-repeat;
   background-size: contain;
-}
+} */
 
 
 
@@ -359,7 +360,7 @@
   display: none !important;
 } */
 
-#hd.down>div {
+/* #hd.down>div {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -382,10 +383,11 @@
 
 #hd.down #Logo img:nth-child(1) {
   display: none;
-}
+} */
+
 
 /* 입점문의 */
-.formbtn {
+/* .formbtn {
   padding: .5rem;
   font-size: 1.5rem;
   font-weight: bold;
@@ -397,4 +399,4 @@
 
 .formbtn.close {
   padding: 0 1rem;
-}
+} */
