@@ -22,6 +22,7 @@ import Qna from './page/Qna';
 import Subscribepage from './page/Subscribepage';
 
 import LanguageSwitcher from './LanguageSwitcher'; // 새로 추가한 부분
+import BestPage from './page/BestPage';
 
 const King = () => {
   const [language, setLanguage] = useState('ko'); // 초기 언어는 'ko'
@@ -57,8 +58,8 @@ const King = () => {
 
         <Route path='/all' element={<AllPage datasrc={datasrc[language].product} />}></Route>
 
-        {/* best페이지는 임시로 all페이지 쓰기 */}
-        <Route path='/best' element={<AllPage datasrc={datasrc[language].product} />}></Route>
+
+        <Route path='/best' element={<BestPage datasrc={datasrc[language].bestswiper} />}></Route>
 
         <Route path='/event'
           element={<>
