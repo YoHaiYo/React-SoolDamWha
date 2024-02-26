@@ -31,20 +31,20 @@ function Formsdh() {
                 <div className="infoform row">
 
                   <div className="flex-column">
-                    <div className='d-flex'>
-                      <div className="him h-100 col-6 himname">
+                    <div className='d-lg-flex'>
+                      <div className="him h-100 col-lg-6 himname col-md-12">
                         <label for="name" className="me-4">이름</label>
                         <input className="ms-4" type="text" name="name" placeholder="이름" required />
                       </div>
-                      <div className="him h-100 col-6 himcall">
+                      <div className="him h-100 col-lg-6 himcall">
                         <label for="num">전화번호</label>
                         <input type="text" name="num" placeholder="010-0000-0000" required />
                       </div>
                     </div>
 
-                    <div className="him h-80 col-12">
+                    <div className="him h-80 col-lg-12 col-md-12">
                       <label for="email">이메일</label>
-                      <input className="ms-3" type="email" name="email" placeholder="example@example.com" required />
+                      <input type="email" name="email" placeholder="example@example.com" required />
                     </div>
                   </div>
 
