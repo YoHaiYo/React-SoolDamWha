@@ -348,10 +348,7 @@ section #contact {
 
 }
 
-#faq h3.act {
-  transition: 1s;
 
-}
 
 #faq h3::before {
   content: "＋";
@@ -386,4 +383,46 @@ section #contact {
   margin: 0 auto;
 } 
 
+/* qna > 입점문의 */
+#qna .qnabox{
+  /* max-width: 1440px; */
+  /* display: inline-block; */
+  justify-content: center;
+  align-items: center;
+}
 
+.nmemailzone{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  border-radius: 20%;
+}
+
+.nmzone,.emailzsone{
+  border-radius: 10px;
+  background-color: #FFDF80;
+
+}
+.nmzone input ,.emailzsone input{
+  border: 0;
+  text-align: start;
+  background-color: transparent;
+  
+}
+.nmzone{
+  margin-right: 0.6rem;
+}
+.nmzone label{
+  margin-right: 0.5rem;
+}
+.emailzsone label{
+  margin-right: 0.5rem;
+}
+.msgzone textarea{
+  border-radius: 10px;
+  background-color: #FFDF80;
+  border: 0;
+  padding-top: 0.8rem;
+  padding-left: 0.8rem;
+}
