@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import { Route, Routes } from 'react-router';
 
+//임의 scss 추가
+import './workroom/SE/stylese.scss'
+
 // data
 import datasrc from './data/sdhdata.json'
 

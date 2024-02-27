@@ -31,7 +31,7 @@ const Mains = () => {
     return (
         <Link to={`/event`}>
             <div>
-                <Swiper id='promotionSwiper' style={{ marginTop: "280px" }}
+                <Swiper id='promotionSwiper' style={{ marginTop: "270px" }}
                     modules={[EffectFade, Autoplay]} effect="fade"
                     loop={true}
                     autoplay={{

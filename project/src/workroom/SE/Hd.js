@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useRef, useState, useEffect } from 'react'
 // import Resist from './resist'
 // import gnbdb from '../../data/gnb.json'
 import { Link } from 'react-router-dom';
@@ -20,45 +20,56 @@ function HD(props) {
     //     }
     // }, [])
 
+    const Gnbmenu = useRef("")
+    const menucon = () => {
+        Gnbmenu.current.classList.toggle("d-none")
+    }
+
     return (
-        <header id="hd" className='fixed-top bg-white border-bottom pb-5 pb-lg-0'>
+        <header id='hd' className='fixed-top bg-white border-bottom'>
             <div className='container row mx-auto justify-content-between justify-content-lg-center align-items-center'>
-                <h1 id='Logo' className='order-lg-1'>
-                    <Link to='/' className='mx-auto'></Link>
-                </h1>
-                <button className='d-lg-none d-block'>
-                    햄버거
-                </button>
-                <ul id="Gnb" className='text-center justify-content-center container-lg mt-lg-5 d-lg-flex d-block order-lg-2'>
-                    {
-                        props.datasrc.map((v, i) => {
-                            return (
-
-                                <li key={i} className='mx-5'>
-                                    {/* <a href={v.href}>{v.gnbtext}</a>  */}
-                                    <Link to={`/${v.href}`}>{v.gnbtext}</Link>
-                                </li>
-                            )
-                        })
-                    }
-                </ul>
+                <h1 id='Logo' className='text-center align-item-center mb-0 mt-lg-5 p-0'><Link to="/"></Link></h1>
 
 
+                <i id='menuicon' className='d-lg-none d-flex p-0' onClick={menucon}><img src="https://m.scinic.com/maypop/img/icon_menu.svg" alt="메뉴" /></i>
 
-                <div id='signsection' className='d-flex d-block order-lg-0 justify-content-lg-end mt-3'>
-                    <ul className='d-flex'>
-                        <li className='mx-3'><a href="/">로그인</a></li>
-                        <li className='mx-3'><a href="/">회원가입</a></li>
+
+                <div id="Gnb" ref={Gnbmenu} className='text-center container-lg mt-lg-5 d-lg-block d-none'>
+                    <ul className='d-lg-flex justify-content-center'>
+                        {
+                            props.datasrc.map((v, i) => {
+                                return (
+
+                                    <li key={i} className='mx-5'>
+                                        {/* <a href={v.href}>{v.gnbtext}</a>  */}
+                                        <Link to={`/${v.href}`}>{v.gnbtext}</Link>
+                                    </li>
+                                )
+                            })
+                        }
                     </ul>
-                    <select id="languageSelect" className=''>
-                        {/* 기본선택 언어를 제일 위로 놓기 */}
-                        <option value="ko">한국어</option>
-                        <option value="en">English</option>
-                    </select>
+                    <div>
+                        <ul id='Login' className='d-flex position-absolute align-items-center justify-content-center justify-content-lg-end'>
+                            <li><Link to="/login">로그인</Link></li>
+                            <li className='ms-lg-2'><a href="#none">회원가입</a></li>
+                            <li className='ms-2'>
+                                <select id="languageSelect" className=''>
+                                    {/* 기본선택 언어를 제일 위로 놓기 */}
+                                    <option value="ko">한국어</option>
+                                    <option value="en">English</option>
+                                </select>
+                            </li>
+                        </ul>
+                    </div>
+
+
                 </div>
+
             </div>
 
-        </header>
+
+
+        </header >
 
 
     )
