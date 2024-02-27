@@ -17,9 +17,9 @@ function Product(props) {
           지금 당장 술 담아보기
         </a>
       </h2>
-      <Category datasrc={props.datasrc} tap={tap} onCategoryClick={handleCategoryClick}></Category>
+      {/* <Category datasrc={props.datasrc} tap={tap} onCategoryClick={handleCategoryClick}></Category> */}
       <ProductCard datasrc={props.datasrc} tap={tap} />
-      <ProductSwiper datasrc={props.datasrc} tap={tap}></ProductSwiper>
+      {/* <ProductSwiper datasrc={props.datasrc} tap={tap}></ProductSwiper> */}
       <MoreButton>더보기</MoreButton>
     </section>
   )

@@ -25,12 +25,13 @@ import Subscribepage from './page/Subscribepage';
 // import LanguageSwitcher from './LanguageSwitcher'; // 새로 추가한 부분
 
 const King = () => {
-  const [conswipe, setswipe] = useState([]);
+
+  const [kingData, SetKingData] = useState([]);
 
   const dataFetch = async () => {
     try {
-      const result = await axios.get('/store/ms_swiper');
-      setswipe([...result.data]);
+      const result = await axios.get('/store/productinfo');
+      SetKingData([...result.data]);
       console.log("KING Fetching", result)
     } catch (error) {
       console.log(error)
@@ -39,6 +40,8 @@ const King = () => {
   useEffect(() => {
     dataFetch();
   }, [])
+
+  console.log("Check DB", kingData)
 
   const [language, setLanguage] = useState('ko'); // 초기 언어는 'ko'
 
@@ -59,7 +62,8 @@ const King = () => {
             <MainSwiper datasrc={datasrc[language].header.mainbanner} />
             <Subscribe datasrc={datasrc[language].subscribe} />
             <Best datasrc={datasrc[language].bestswiper} />
-            <Product datasrc={datasrc[language].product}></Product>
+            {/* <Product datasrc={datasrc[language].product}></Product> */}
+            <Product datasrc={kingData}></Product>
             <Review />
             <Contact />
           </>}>
