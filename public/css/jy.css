@@ -368,3 +368,88 @@ a {
   justify-content: center !important;
   text-align: center !important;
 }
+
+
+/* 큐레이션카드 */
+.CurationWrap {
+  margin-bottom: 120px;
+}
+
+.Curation {
+  max-width: 950px;
+  height: 500px;
+}
+
+.Curation .CurationTexts {
+  width: 40%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.Curation .CurationTexts strong {
+  font-family: 'SOYOMapleBoldTTF';
+  font-size: 1.5rem;
+  transition: 0.5s;
+}
+
+.CurationTexts:hover .price {
+  font-size: 1.4rem !important;
+}
+
+.CurationTexts:hover strong {
+  font-size: 1.6rem;
+}
+
+.CurationTexts:hover .desc {
+  font-size: 1.4rem !important;
+}
+
+.Curation .CurationTexts .price {
+  font-family: 'Spoqa Han Sans';
+  font-size: 1.3rem;
+  transition: 0.5s;
+}
+
+.Curation .CurationTexts .desc {
+  font-family: 'Spoqa Han Sans';
+  padding: 1rem;
+  font-size: 1.3rem;
+  transition: 0.5s;
+}
+
+
+.Curation .CurationImg {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.Curation .CurationImg:hover {
+  background-position: 100% !important;
+}
+
+.Curation .tag {
+  font-family: 'ImcreSoojin';
+  font-size: 1.5rem;
+}
+
+.Curation button {
+  border-radius: 10px;
+  font-size: 1.3rem !important;
+  background-color: #41629b;
+  color: #fff;
+  font-family: 'Spoqa Han Sans';
+}
+
+.Curation button:hover {
+  background-color: #2f4772;
+  background-position: 30% !important;
+}
+
+.Curation .CurationImg {
+  width: 60%;
+  height: 100%;
+  background-repeat: no-repeat !important;
+  background-size: cover;
+  background-position: 50% 10%;
+  transition: 0.5s;
+}
