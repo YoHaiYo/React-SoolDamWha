@@ -21,16 +21,19 @@ import AllPage from './page/Allpage';
 import Event from './page/Event';
 import Qna from './page/Qna';
 import Subscribepage from './page/Subscribepage';
+import LanguageSwitcher from './LanguageSwitcher';
 
 // import LanguageSwitcher from './LanguageSwitcher'; // 새로 추가한 부분
 
 const King = () => {
 
   const [kingData, SetKingData] = useState([]);
+  const [language, setLanguage] = useState('ko'); // 초기 언어는 'ko'
+  const [table, setTable] = useState("productinfo");
 
   const dataFetch = async () => {
     try {
-      const result = await axios.get('/store/productinfo');
+      const result = await axios.get(`/store/${table}`);
       SetKingData([...result.data]);
       console.log("KING Fetching", result)
     } catch (error) {
@@ -39,11 +42,10 @@ const King = () => {
   }
   useEffect(() => {
     dataFetch();
-  }, [])
+  }, [table])
 
   console.log("Check DB", kingData)
 
-  const [language, setLanguage] = useState('ko'); // 초기 언어는 'ko'
 
   // changeLanguage : useState로 작성된 setLanguage로 언어선택 텍스트를 바꿔주는 함수
   // language : 각 컴포넌트에 뿌리는 datasrc의 객체접근을 ko,en 으로 변경해주는 변수
@@ -53,13 +55,17 @@ const King = () => {
   return (
     <>
       {/* 네비 */}
-      {/* <LanguageSwitcher changeLanguage={changeLanguage} /> 언어 변경 컴포넌트 추가 */}
+      {/* 언어 변경 컴포넌트 추가 */}
+      {/* <LanguageSwitcher changeLanguage={changeLanguage} /> */}
       {/* <Header datasrc={datasrc[language].header} /> */}
+
+
       <HD datasrc={datasrc[language].header.gnb} />
       <Routes>
         <Route path='/'
           element={<>
             <MainSwiper datasrc={datasrc[language].header.mainbanner} />
+            <button className="" onClick={() => { setTable("productinfo_en") }}>언어변경</button>
             <Subscribe datasrc={datasrc[language].subscribe} />
             <Best datasrc={datasrc[language].bestswiper} />
             {/* <Product datasrc={datasrc[language].product}></Product> */}
