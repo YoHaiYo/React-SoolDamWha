@@ -18,6 +18,7 @@ const Mains = () => {
         try {
             const result = await axios.get('/store/ms_swiper');
             setswipe([...result.data]);
+            // console.log("Fetching", result)
         } catch (error) {
             console.log(error)
         }

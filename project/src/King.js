@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Route, Routes } from 'react-router';
+import axios from 'axios'
 
 // data
 import datasrc from './data/sdhdata.json'
@@ -24,6 +25,21 @@ import Subscribepage from './page/Subscribepage';
 // import LanguageSwitcher from './LanguageSwitcher'; // 새로 추가한 부분
 
 const King = () => {
+  const [conswipe, setswipe] = useState([]);
+
+  const dataFetch = async () => {
+    try {
+      const result = await axios.get('/store/ms_swiper');
+      setswipe([...result.data]);
+      console.log("KING Fetching", result)
+    } catch (error) {
+      console.log(error)
+    }
+  }
+  useEffect(() => {
+    dataFetch();
+  }, [])
+
   const [language, setLanguage] = useState('ko'); // 초기 언어는 'ko'
 
   // changeLanguage : useState로 작성된 setLanguage로 언어선택 텍스트를 바꿔주는 함수
