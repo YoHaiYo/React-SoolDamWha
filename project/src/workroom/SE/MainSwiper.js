@@ -1,32 +1,21 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { EffectFade, Autoplay } from 'swiper/modules';
-import { useState, useEffect } from 'react'
+
 import 'swiper/css';
 import 'swiper/css/effect-fade';
 import { Link } from 'react-router-dom';
-import axios from 'axios'
+
 
 // import mainS from '../../data/MainSwiper.json'
 import React from 'react';
 
 
-const Mains = () => {
-
-    const [conswipe, setswipe] = useState([]);
-
-    const swipeapi = async () => {
-        try {
-            const result = await axios.get('/store/ms_swiper');
-            setswipe([...result.data]);
-        } catch (error) {
-            console.log(error)
-        }
-    }
+const Mains = (props) => {
 
 
-    useEffect(() => {
-        swipeapi();
-    }, [])
+
+
+
 
     return (
         <Link to={`/event`}>
@@ -46,7 +35,7 @@ const Mains = () => {
 
                 >
                     {
-                        conswipe && conswipe.map((el, idx) => {
+                        props.datasrc && props.datasrc.filter(gl => gl.gl_no === 0).map((el, idx) => {
                             return <SwiperSlide style={{
                                 background: `url(${el.ms_img})`, height: "480px", backgroundSize: "auto 100%"
                             }} key={`banner${idx}`}>

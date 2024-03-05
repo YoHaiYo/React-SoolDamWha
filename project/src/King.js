@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Route, Routes } from 'react-router';
 
 //임의 scss 추가
@@ -9,7 +9,7 @@ import datasrc from './data/sdhdata.json'
 
 // Section
 import Footer from './section/Footer';
-import Header from './section/Header';
+// import Header from './section/Header';
 import Subscribe from './section/Subscribe';
 import Best from './section/Best';
 import Product from './section/Product';
@@ -24,26 +24,51 @@ import Event from './page/Event';
 import Qna from './page/Qna';
 import Subscribepage from './page/Subscribepage';
 
+//SQL
+import axios from 'axios';
+
 // import LanguageSwitcher from './LanguageSwitcher'; // 새로 추가한 부분
 
 const King = () => {
   const [language, setLanguage] = useState('ko'); // 초기 언어는 'ko'
-
+  const [total, dbtotal] = useState(null);
   // changeLanguage : useState로 작성된 setLanguage로 언어선택 텍스트를 바꿔주는 함수
   // language : 각 컴포넌트에 뿌리는 datasrc의 객체접근을 ko,en 으로 변경해주는 변수
-  const changeLanguage = (newLanguage) => {
-    setLanguage(newLanguage);
-  };
+  // const changeLanguage = (newLanguage) => {
+  //   setLanguage(newLanguage);
+  // };
+
+  useEffect(() => {
+    const dbconnect = async (rt) => {
+      const [r, t] = rt.split('/');
+
+      const tableArr = ["ms_swiper", "productinfo"]
+
+      try {
+        const result = await axios.get(`/${rt}`);
+        dbtotal((prevdb) => ({ ...prevdb, [t]: [...result.data] }));
+        console.log(total) // for developer
+      } catch (error) {
+        console.log(error)
+      }
+    };
+
+    dbconnect("store/ms_swiper");
+    dbconnect("store/productinfo");
+    dbconnect("store/gnb")
+  }, [])
+
+
   return (
     <>
       {/* 네비 */}
       {/* <LanguageSwitcher changeLanguage={changeLanguage} /> 언어 변경 컴포넌트 추가 */}
       {/* <Header datasrc={datasrc[language].header} /> */}
-      <HD datasrc={datasrc[language].header.gnb} />
+      <HD datasrc={total && total['gnb'] && total['gnb']} setLanguage={setLanguage} />
       <Routes>
         <Route path='/'
           element={<>
-            <MainSwiper datasrc={datasrc[language].header.mainbanner} />
+            <MainSwiper datasrc={total && total['ms_swiper'] && total['ms_swiper']} />
             <Subscribe datasrc={datasrc[language].subscribe} />
             <Best datasrc={datasrc[language].bestswiper} />
             <Product datasrc={datasrc[language].product}></Product>

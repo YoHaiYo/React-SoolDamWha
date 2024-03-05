@@ -37,7 +37,7 @@ function HD(props) {
                 <div id="Gnb" ref={Gnbmenu} className='text-center container-lg mt-lg-5 d-lg-block d-none'>
                     <ul className='d-lg-flex justify-content-center'>
                         {
-                            props.datasrc.map((v, i) => {
+                            props.datasrc && props.datasrc.filter(lang => lang.gl_no === 0).map((v, i) => {
                                 return (
 
                                     <li key={i} className='mx-5'>
@@ -53,7 +53,7 @@ function HD(props) {
                             <li><Link to="/login">로그인</Link></li>
                             <li className='ms-lg-2'><a href="#none">회원가입</a></li>
                             <li className='ms-2'>
-                                <select id="languageSelect" className=''>
+                                <select id="languageSelect" className='' onChange={props.setLanguage}>
                                     {/* 기본선택 언어를 제일 위로 놓기 */}
                                     <option value="ko">한국어</option>
                                     <option value="en">English</option>

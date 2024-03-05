@@ -2,21 +2,30 @@ const express = require('express')
 const mysql = require('mysql')
 const mydb = require('../data/dbconfig.json')
 
-const swiperapi = express.Router();
+const mysqlapi = express.Router();
 
-const dbconnect = mysql.createPool(mydb)
+mysqlapi.use(express.json());
+mysqlapi.use(express.urlencoded({ extended: true }))
 
-swiperapi.get('/:tablenm', (req, res) => {
+const myconnection = mysql.createPool(mydb);
+
+
+
+mysqlapi.get('/:tablenm', (req, res) => {
     const tablenm = req.params.tablenm;
 
-    dbconnect.getConnection((err, connect) => {
-        if (err) throw console.log('db접속오류' + err)
-        connect.query(`SELECT * FROM ${tablenm}`, (error, result) => {
-            if (error) throw console.log('query오류' + error)
-            res.send(result)
-        })
+    myconnection.getConnection((err, connect) => {
+        if (err) throw console.log("DB ERROR" + err)
+        connect.query(`select * from ${tablenm}`, (error, result) => {
+            if (error) throw console.log("QUERY ERROR" + error)
+            res.send(result);
+            console.log(result) // for developer
+            connect.release(); // 해당 쿼리가 성공적으로 실행된 후 요청을 종료
+        }
+        )
+
     })
 })
 
 
-module.exports = swiperapi;
+module.exports = mysqlapi;
