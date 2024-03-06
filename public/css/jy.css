@@ -470,9 +470,10 @@ a {
   display: none;
 }
 
-.gudockForm .close{
+.gudockForm .close {
   margin-left: 95%;
-  background-color: transparent;
 }
 
-
+.gudockForm .close img {
+  width: 25px;
+}

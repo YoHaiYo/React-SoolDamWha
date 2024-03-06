@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { useForm } from "react-hook-form"
 import { MoreButton } from '../styled/Btns'
 import { textData } from './Curation';
+import xicon from '../workroom/JY/icon_close.svg'
 
 function FormPopup({ setGudock, gudock, bringData }) {
     const { register, handleSubmit, formState: { errors }, reset } = useForm();
@@ -36,7 +37,7 @@ function FormPopup({ setGudock, gudock, bringData }) {
     return (
         <div className={`gudockForm ${gudock ? 'd-block' : ""}`}>
 
-            <button className={`border-0 close `} onClick={handleClick}>닫기</button>
+            <div className='border-0 close' onClick={handleClick}><img src={xicon} alt="닫기" /></div>
             <form onSubmit={handleSubmit(onSubmit)} className='sooldamform mx-auto mt-5'>
                 <div className='m-2'>
                     <input type="text" {...register("u_name", { required: true })} placeholder='이름' className='border w-100 p-2' />
