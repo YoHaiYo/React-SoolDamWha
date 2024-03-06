@@ -453,3 +453,26 @@ a {
   background-position: 50% 10%;
   transition: 0.5s;
 }
+
+/* 구독폼 */
+.gudockForm {
+  position: fixed;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 99999;
+  width: 65%;
+  height: 90%;
+  padding: 2rem 2rem;
+  background-color: white;
+  border: 1px solid #333;
+  display: none;
+}
+
+.gudockForm .close{
+  margin-left: 95%;
+  background-color: transparent;
+}
+
+

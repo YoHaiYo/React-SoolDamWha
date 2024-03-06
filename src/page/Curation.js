@@ -1,8 +1,8 @@
-import React, { Fragment, useEffect } from 'react'
+import React, { Fragment, useEffect, useState } from 'react'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 
-const textData = [{
+export const textData = [{
     title: '종합 담화박스',
     price: '₩ 39,000원',
     description: '다양한 술을 원한다면? | 막걸리, 과실주, 청주, 증류주까지 | 다양한 술을 즐길 수 있어요!|매달 다양하게 즐기고 싶은 | 애주가를 위한 패키지!',
@@ -28,8 +28,16 @@ const textData = [{
     color: '#fff'
 }];
 
+//props로 전달할때 전달한 이름으로 props를 받아와야함 
+function Curation({ setGudock, gudock, onDataChange}) {
+    // let newData = 0;
 
-function Curation() {
+
+    // useEffect(() => {
+    //     onDataChange(newData)
+    // }, [bringData]); // 빈 배열을 전달하여 컴포넌트가 마운트될 때만 함수가 실행되도록 함
+
+
     useEffect(() => {
         Aos.init({
             duration: 1000,
@@ -37,7 +45,14 @@ function Curation() {
             once: true,
         })
     }, []);
+    const handleBtnClick = () => {
+        setGudock(!gudock)
+    }
+
+
+
     return (
+
         <div className='CurationWrap'>
             {
                 textData.map((text, idx) => {
@@ -65,7 +80,10 @@ function Curation() {
                                 backgroundImage: `url('${text.bg}')`
                             }}>
                                 <span className='mx-3 mt-2 tag' style={{ color: text.color }}>{text.tags}</span>
-                                <button className='border-0 p-2 m-3'>구독신청하기</button>
+                                <button className='border-0 p-2 m-3' onClick={() => {
+                                    onDataChange(idx)
+                                    handleBtnClick();
+                                }}>구독신청하기</button>
                             </div>
                         </div >
 
