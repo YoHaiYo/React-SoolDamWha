@@ -2,6 +2,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 
 
 function ProductCard({ datasrc, tap }) {
+    console.log(datasrc)
 
     let stars = [];
     for (let i = 0; i < 4; i++) {
@@ -13,9 +14,9 @@ function ProductCard({ datasrc, tap }) {
         <div className="itemImgWrap d-none d-sm-block">
             <div className="itemImgWrap_margin d-flex flex-wrap justify-content-center ">
                 {
-                    datasrc[tap].productinfo && (
+                    datasrc && (
 
-                        datasrc[tap].productinfo.slice(0, 8).map((vv, i) => {
+                        datasrc.slice(0, 8).map((vv, i) => {
                             return (
                                 <div className="Imgbox gwashilju">
                                     <div>
@@ -30,7 +31,7 @@ function ProductCard({ datasrc, tap }) {
                                             {Array.from({ length: vv.starNum }, (_, index) => (
                                                 <span key={index}></span>
                                             ))}
-                                            {/* Array.from은 새로운 배열을 만들거나 기존의 유사배열 객체나 반복가능한 객체를 배열로 변환하는 메서드이다. */}
+
                                         </div>
                                         <p className="desc" key={i}>{vv.desc}</p>
                                     </div>
@@ -47,3 +48,6 @@ function ProductCard({ datasrc, tap }) {
 }
 
 export default ProductCard
+
+
+//Array.from은 새로운 배열을 만들거나 기존의 유사배열 객체나 반복가능한 객체를 배열로 변환하는 메서드이다.

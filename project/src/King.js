@@ -47,12 +47,12 @@ const King = () => {
       try {
         const result = await axios.get(`/${rt}`);
         dbtotal((prevdb) => ({ ...prevdb, [t]: [...result.data] }));
-        console.log(total) // for developer
+        console.log(result) // for developer
       } catch (error) {
         console.log(error)
       }
     };
-
+    console.log(datasrc[language].product)
     dbconnect("store/ms_swiper");
     dbconnect("store/productinfo");
     dbconnect("store/gnb")
@@ -71,7 +71,11 @@ const King = () => {
             <MainSwiper datasrc={total && total['ms_swiper'] && total['ms_swiper']} />
             <Subscribe datasrc={datasrc[language].subscribe} />
             <Best datasrc={datasrc[language].bestswiper} />
-            <Product datasrc={datasrc[language].product}></Product>
+            {total && total['productinfo'] &&
+              <Product catesrc={datasrc[language].product}
+                datasrc={total['productinfo']}></Product>
+
+            }
             <Review />
             <Contact />
           </>}>
