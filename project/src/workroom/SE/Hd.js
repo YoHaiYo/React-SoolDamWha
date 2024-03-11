@@ -42,7 +42,7 @@ function HD(props) {
 
                                     <li key={i} className='mx-5'>
                                         {/* <a href={v.href}>{v.gnbtext}</a>  */}
-                                        <Link to={`/${v.href}`}>{v.gnbtext}</Link>
+                                        <Link to={`/${v.gnbhref}`}>{v.gnbtext}</Link>
                                     </li>
                                 )
                             })
