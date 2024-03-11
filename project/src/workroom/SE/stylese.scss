@@ -61,3 +61,59 @@ h1#Logo {
     font-size: 19px;
     font-weight: bold;
 }
+
+#promotionSwiper .swiper-slide {
+    position: relative;
+}
+
+#promotionSwiper .swiper-slide .effecttext {
+    position: absolute;
+    max-width: 500px;
+    width: 50vw;
+    right: 30%;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 0;
+    transition: 1s;
+    transform: translateY(50%);
+    color: black;
+
+}
+
+#promotionSwiper .swiper-slide.swiper-slide-active .effecttext {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+#promotionSwiper .effecttext p {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+
+    margin-left: 1rem;
+}
+
+#promotionSwiper .effecttext strong {
+    font-size: 2rem;
+}
+
+.eventtext {
+    font-family: Spoqa Han Sans Neo !important;
+    line-height: 3rem;
+    margin-left: 3rem;
+    font-size: 2rem;
+
+}
+
+.eventbanner {
+
+    display: block;
+    margin-bottom: 10px;
+    border-radius: 30px !important;
+
+
+}
