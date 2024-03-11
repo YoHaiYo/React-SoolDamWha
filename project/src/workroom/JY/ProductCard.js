@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 function ProductCard({ datasrc, tap }) {
     console.log(datasrc)
 
+
     let stars = [];
     for (let i = 0; i < 4; i++) {
         //   stars.push(i) += '<span></span>';
@@ -14,32 +15,30 @@ function ProductCard({ datasrc, tap }) {
         <div className="itemImgWrap d-none d-sm-block">
             <div className="itemImgWrap_margin d-flex flex-wrap justify-content-center ">
                 {
-                    datasrc && (
-
-                        datasrc.slice(0, 8).map((vv, i) => {
-                            return (
-                                <div className="Imgbox gwashilju">
-                                    <div>
-                                        <a href="#none">
-                                            <img key={i} src={vv.imgsrc} alt="" />
-                                        </a>
-                                    </div>
-                                    <div className="ItemDesc">
-                                        <div className="productName "><a href="#none">{vv.productName}</a></div>
-                                        <div className="productPrice ">{vv.productPrice}</div>
-                                        <div className="starNum d-flex">
-                                            {Array.from({ length: vv.starNum }, (_, index) => (
-                                                <span key={index}></span>
-                                            ))}
-
-                                        </div>
-                                        <p className="desc" key={i}>{vv.desc}</p>
-                                    </div>
+                    datasrc && datasrc.filter((prod) => prod.category_no == tap).slice(0, 8).map((vv, i) => {
+                        return (
+                            <div className="Imgbox gwashilju">
+                                <div>
+                                    <a href="#none">
+                                        <img key={i} src={vv.imgsrc} alt="" />
+                                    </a>
                                 </div>
+                                <div className="ItemDesc">
+                                    <div className="productName "><a href="#none">{vv.productName}</a></div>
+                                    <div className="productPrice ">{vv.productPrice}</div>
+                                    <div className="starNum d-flex">
+                                        {Array.from({ length: vv.starNum }, (_, index) => (
+                                            <span key={index}></span>
+                                        ))}
 
-                            )
-                        })
-                    )
+                                    </div>
+                                    <p className="desc" key={i}>{vv.desc}</p>
+                                </div>
+                            </div>
+
+                        )
+                    })
+
                 }
             </div>
         </div>

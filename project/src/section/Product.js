@@ -10,6 +10,7 @@ function Product(props) {
 
   const handleCategoryClick = (idx) => {
     setTap(idx);
+    console.log(idx)
   }
   console.log(props.datasrc)
 
