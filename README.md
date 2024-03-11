@@ -34,7 +34,7 @@ https://sooldamwha.netlify.app/
  : 구독섹션, 베스트아이템(술고래픽)섹션, 전체상품페이지 작업.
 
 ## 🛠️ 사용 플러그인
-  <Front Side>
+### Front End Side
 - aos: 2.3.4
 - axios: 1.6.2
 - bootstrap: 5.3.2
@@ -44,7 +44,7 @@ https://sooldamwha.netlify.app/
 - sass: 1.69.5
 - styled-components: 6.1.8
 - swiper: 11.0.5
- <Back Side>
+### Back End Side
 - express: 4.18.2
 - mysql: 2.18.1
 - path : 0.12.7
