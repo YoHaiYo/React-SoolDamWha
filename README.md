@@ -10,9 +10,9 @@ https://sooldamwha.netlify.app/
 
 ## 📖 한장으로 보는 술담화 개발여정
 
-- [노션 기획서 바로 가기]([https://invented-level-d67.notion.site/9299e0485c414f87bd02d8b202c4364d?pvs=4](https://www.notion.so/9299e0485c414f87bd02d8b202c4364d))
-- [PDF 기획서 바로 가기]([[https://invented-level-d67.notion.site/9299e0485c414f87bd02d8b202c4364d?pvs=4](https://www.notion.so/9299e0485c414f87bd02d8b202c4364d](https://file.notion.so/f/f/3eeb5bea-be87-40e2-ad02-1d1272cec098/43285ffa-7bc6-43e5-82b6-225d13200b9b/sooldamhwa.pdf?id=aaaa2767-bb4c-41f7-8b93-dfc352298f7e&table=block&spaceId=3eeb5bea-be87-40e2-ad02-1d1272cec098&expirationTimestamp=1709971200000&signature=0iq6dfvZYaMUd8DBg1_R-WLABYKzzqRxp12k-TD1H_8&downloadName=sooldamhwa.pdf)))
-- [노션 이슈처리 바로 가기]([[https://invented-level-d67.notion.site/9299e0485c414f87bd02d8b202c4364d?pvs=4](https://www.notion.so/9299e0485c414f87bd02d8b202c4364d](https://file.notion.so/f/f/3eeb5bea-be87-40e2-ad02-1d1272cec098/43285ffa-7bc6-43e5-82b6-225d13200b9b/sooldamhwa.pdf?id=aaaa2767-bb4c-41f7-8b93-dfc352298f7e&table=block&spaceId=3eeb5bea-be87-40e2-ad02-1d1272cec098&expirationTimestamp=1709971200000&signature=0iq6dfvZYaMUd8DBg1_R-WLABYKzzqRxp12k-TD1H_8&downloadName=sooldamhwa.pdf)))
+- [노션 기획서 바로 가기](https://www.notion.so/9299e0485c414f87bd02d8b202c4364d)
+- [PDF 기획서 바로 가기](https://file.notion.so/f/f/3eeb5bea-be87-40e2-ad02-1d1272cec098/43285ffa-7bc6-43e5-82b6-225d13200b9b/sooldamhwa.pdf?id=aaaa2767-bb4c-41f7-8b93-dfc352298f7e&table=block&spaceId=3eeb5bea-be87-40e2-ad02-1d1272cec098&expirationTimestamp=1710230400000&signature=6_Q_Kx6YnYOYzX6xZ-F4QnhjSoblKj9BzguMmcz5Y-g&downloadName=sooldamhwa.pdf)
+- [노션 이슈처리 바로 가기](https://www.notion.so/f8bc636e180443bf8b1b7c9c67038ff5)
 - [피그마 바로 가기](https://www.figma.com/file/KUL9il7XOPOrt2ce4OYvXT/%EC%88%A0%EB%8B%B4%ED%99%94-%ED%94%BC%EA%B7%B8%EB%A7%88-%EB%B0%B0%ED%8F%AC%EC%9A%A9?type=design&node-id=1-1068&mode=design&t=OPx03nzqhn2vOAdr-0)
 
 ## 🌟 팀원 소개
