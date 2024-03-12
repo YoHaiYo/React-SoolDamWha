@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 
 
 
@@ -12,9 +12,36 @@ function Formsdh() {
   }
 
 
+  // 요소의 위치 상태를 관리합니다. 초기 값은 'fixed'입니다.
+  const [position, setPosition] = useState('fixed');
+  // 스크롤 변경을 위한 기준값을 설정합니다. 예를 들어 페이지의 300px 위치입니다.
+  const scrollChangePosition = 4500;
+
+  useEffect(() => {
+    const handleScroll = () => {
+      // window.scrollY는 현재 스크롤 위치를 반환합니다.
+      const currentScrollY = window.scrollY;
+      console.log(currentScrollY)
+
+      if (currentScrollY > scrollChangePosition) {
+        setPosition('absolute');
+      } else {
+        setPosition('fixed');
+      }
+    };
+
+    // 스크롤 이벤트 리스너를 추가합니다.
+    window.addEventListener('scroll', handleScroll);
+
+    // 컴포넌트가 언마운트될 때 이벤트 리스너를 정리합니다.
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, [position]); // 빈 배열은 이 효과가 컴포넌트가 마운트될 때 한 번만 실행되어야 함을 의미합니다.
+
+
 
   return (
-    <div className='text-center fixed-bottom'>
+    <div className={`text-center ${position === 'absolute' ? `` : 'fixed-bottom'}`}
+    >
 
       <button className={`formbtn ${showForm ? "close" : "open"}`} onClick={toggleform}>
         {`${showForm ? "close" : "입점문의"}`}</button>
@@ -31,20 +58,20 @@ function Formsdh() {
                 <div className="infoform row">
 
                   <div className="flex-column">
-                    <div className='d-flex'>
-                      <div className="him h-100 col-6 himname">
+                    <div className='d-lg-flex'>
+                      <div className="him h-100 col-lg-6 himname col-md-12">
                         <label for="name" className="me-4">이름</label>
                         <input className="ms-4" type="text" name="name" placeholder="이름" required />
                       </div>
-                      <div className="him h-100 col-6 himcall">
+                      <div className="him h-100 col-lg-6 himcall">
                         <label for="num">전화번호</label>
                         <input type="text" name="num" placeholder="010-0000-0000" required />
                       </div>
                     </div>
 
-                    <div className="him h-80 col-12">
+                    <div className="him h-80 col-lg-12 col-md-12">
                       <label for="email">이메일</label>
-                      <input className="ms-3" type="email" name="email" placeholder="example@example.com" required />
+                      <input type="email" name="email" placeholder="example@example.com" required />
                     </div>
                   </div>
 

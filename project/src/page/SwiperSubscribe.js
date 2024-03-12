@@ -7,21 +7,25 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
 // import required modules
-import { Pagination, Navigation } from 'swiper/modules';
+import { Pagination, Navigation, Autoplay } from 'swiper/modules';
 
 
 export default function Subscribepage(props) {
   return (
-    <div className='subscribepage_swiper container' style={{ marginTop: "0px", marginBottom: "100px" }}>
+    <div className='subscribepage_swiper container' style={{ marginTop: "0px", marginBottom: "80px" }}>
       <Swiper
         slidesPerView={1}
         spaceBetween={30}
         loop={true}
+        autoplay={{
+          delay: 3000,
+          disableOnInteraction: true,
+        }}
         pagination={{
           clickable: true,
         }}
         navigation={true}
-        modules={[Pagination, Navigation]}
+        modules={[Pagination, Navigation, Autoplay]}
         className="SubscribepageSwiper"
       >
         {

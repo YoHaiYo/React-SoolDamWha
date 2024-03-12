@@ -10,13 +10,14 @@ import { EffectCards } from 'swiper/modules';
 
 export default function App({ datasrc, tap }) {
   return (
-    <div id='productSwiper' className='d-sm-none m-5'>
+    <div id='productSwiper' className='d-sm-none m-5 mx-auto'>
       <Swiper
         effect={'cards'}
         loop={true}
         grabCursor={true}
         modules={[EffectCards]}
         className="mySwiper"
+        initialSlide={5}
       >
 
         {

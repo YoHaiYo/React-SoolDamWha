@@ -53,7 +53,7 @@ const King = () => {
         console.log(error)
       }
     };
-    console.log(datasrc[language].product)
+    // console.log(datasrc[language].product)
     dbconnect("store/ms_swiper");
     dbconnect("store/productinfo");
     dbconnect("store/gnb")
