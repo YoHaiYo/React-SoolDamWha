@@ -5,8 +5,14 @@
 **Team-SolDamWha**은 프론트엔드반 술담화 리액트 프로젝트 팀입니다. 술담화라는 전통주 구독 플랫폼을 재해석해서 사이트로 표현하는 웹 프로젝트입니다.
 
 ## 🌐 배포용 링크
+### nodeJS + DB 버전
+http://sooldamwhareact.cafe24app.com/
 
+### 리액트버전
 https://sooldamwha.netlify.app/
+
+### 웹버전
+https://yohaiyo.github.io/Team-SoolDamWha/
 
 ## 📖 한장으로 보는 술담화 개발여정
 ![술담화개발여정](https://github.com/YoHaiYo/React-SoolDamWha.github.io/assets/124754510/aa70b5a4-6c98-4749-8bd0-d988086ddda1)
