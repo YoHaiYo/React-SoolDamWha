@@ -26,6 +26,7 @@ import Subscribepage from './page/Subscribepage';
 
 //SQL
 import axios from 'axios';
+import BestPage from './page/BestPage';
 
 // import LanguageSwitcher from './LanguageSwitcher'; // 새로 추가한 부분
 
@@ -47,17 +48,16 @@ const King = () => {
       try {
         const result = await axios.get(`/${rt}`);
         dbtotal((prevdb) => ({ ...prevdb, [t]: [...result.data] }));
-        console.log(result) // for developer
+        // console.log(result) // for developer
       } catch (error) {
         console.log(error)
       }
     };
-    console.log(datasrc[language].product)
+    // console.log(datasrc[language].product)
     dbconnect("store/ms_swiper");
     dbconnect("store/productinfo");
     dbconnect("store/gnb")
   }, [])
-
 
   return (
     <>
@@ -74,7 +74,6 @@ const King = () => {
             {total && total['productinfo'] &&
               <Product catesrc={datasrc[language].product}
                 datasrc={total['productinfo']}></Product>
-
             }
             <Review />
             <Contact />
@@ -89,8 +88,7 @@ const King = () => {
 
         <Route path='/all' element={<AllPage datasrc={datasrc[language].product} />}></Route>
 
-        {/* best페이지는 임시로 all페이지 쓰기 */}
-        <Route path='/best' element={<AllPage datasrc={datasrc[language].product} />}></Route>
+        <Route path='/best' element={<BestPage datasrc={datasrc[language].bestswiper} />}></Route>
 
         <Route path='/event'
           element={<>

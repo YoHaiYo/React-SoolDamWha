@@ -15,6 +15,7 @@ a {
 #itemTitle * {
   text-decoration: none;
   color: inherit;
+  font-family: 'Spoqa Han Sans';
 }
 
 
@@ -42,8 +43,8 @@ a {
 }
 
 #itemTitle .itemTitleBox {
-  width: 430px;
-  margin: 0 auto;
+  /* width: 430px; */
+  /* margin: 0 auto; */
 }
 
 #itemTitle .itemTitleBox li {
@@ -262,12 +263,13 @@ a {
 /* 제품섹션 ,footer 반응형 */
 @media(max-width:1140px) {
   #itemTitle .itemTitleBox {
-    width: 0;
+    /* width: 0; */
   }
 
   #itemTitle .itemTitleBox li {
-    margin: 0;
-    padding: 0;
+    /* margin: 0;
+    padding: 0; */
+    width: 50px !important;
   }
 
   #itemTitle .itemTitleBox li img {
@@ -276,7 +278,7 @@ a {
 
   #itemTitle .itemTitleBox li .itemTitle {
     font-size: 17px;
-    width: 70px;
+    /* width: 70px; */
   }
 
 
@@ -365,4 +367,113 @@ a {
   display: flex !important;
   justify-content: center !important;
   text-align: center !important;
+}
+
+
+/* 큐레이션카드 */
+.CurationWrap {
+  margin-bottom: 120px;
+}
+
+.Curation {
+  max-width: 950px;
+  height: 500px;
+}
+
+.Curation .CurationTexts {
+  width: 40%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.Curation .CurationTexts strong {
+  font-family: 'SOYOMapleBoldTTF';
+  font-size: 1.5rem;
+  transition: 0.5s;
+}
+
+.CurationTexts:hover .price {
+  font-size: 1.4rem !important;
+}
+
+.CurationTexts:hover strong {
+  font-size: 1.6rem;
+}
+
+.CurationTexts:hover .desc {
+  font-size: 1.4rem !important;
+}
+
+.Curation .CurationTexts .price {
+  font-family: 'Spoqa Han Sans';
+  font-size: 1.3rem;
+  transition: 0.5s;
+}
+
+.Curation .CurationTexts .desc {
+  font-family: 'Spoqa Han Sans';
+  padding: 1rem;
+  font-size: 1.3rem;
+  transition: 0.5s;
+}
+
+
+.Curation .CurationImg {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.Curation .CurationImg:hover {
+  background-position: 100% !important;
+}
+
+.Curation .tag {
+  font-family: 'ImcreSoojin';
+  font-size: 1.5rem;
+}
+
+.Curation button {
+  border-radius: 10px;
+  font-size: 1.3rem !important;
+  background-color: #41629b;
+  color: #fff;
+  font-family: 'Spoqa Han Sans';
+}
+
+.Curation button:hover {
+  background-color: #2f4772;
+  background-position: 30% !important;
+}
+
+.Curation .CurationImg {
+  width: 60%;
+  height: 100%;
+  background-repeat: no-repeat !important;
+  background-size: cover;
+  background-position: 50% 10%;
+  transition: 0.5s;
+}
+
+/* 구독폼 */
+.gudockForm {
+  position: fixed;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 99999;
+  width: 65%;
+  height: 90%;
+  padding: 2rem 2rem;
+  background-color: white;
+  border: 1px solid #333;
+  display: none;
+}
+
+.gudockForm .close {
+  margin-left: 95%;
+}
+
+.gudockForm .close img {
+  width: 25px;
 }

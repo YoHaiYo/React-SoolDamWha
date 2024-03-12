@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const port = 8005;
+const port = 8004;
 const path = require("path");
 const mysqlapi = require('./api/restapi')
 app.use('/store', mysqlapi)

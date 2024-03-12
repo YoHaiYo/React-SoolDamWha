@@ -1,0 +1,43 @@
+#bestPage {
+  font-family: "Noto Sans KR", sans-serif !important;
+
+  .itemImgWrap {
+    margin: 2rem 0;
+
+    .Imgbox {
+      margin: 1rem;
+      position: relative;
+
+      .rank {
+        display: inline-block;
+        text-align: center;
+        background-color: #6497cb;
+        width: 30px;
+        height: 30px;
+        color: white;
+        position: absolute;
+        top: 0;
+        left: 0;
+
+      }
+
+      img {
+        width: 250px !important;
+      }
+
+      .ItemDesc {
+        text-align: center;
+
+        .productName {
+          a {
+            font-size: 1.4rem;
+          }
+        }
+
+        .producthashtag {
+          font-size: 1.1rem;
+        }
+      }
+    }
+  }
+}
