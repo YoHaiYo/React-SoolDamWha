@@ -3,6 +3,7 @@ import ProductCard from '../workroom/JY/ProductCard'
 import Category from '../workroom/JY/Category'
 import { MoreButton } from '../styled/Btns';
 import ProductSwiper from '../workroom/JY/ProductSwiper'
+import { Link } from 'react-router-dom';
 
 function Product(props) {
   //현 컴포넌트가 king.js에서 props.datasrc 로 전체상품 데이터 가져온것 확인
@@ -26,7 +27,8 @@ function Product(props) {
       <Category datasrc={props.catesrc} tap={tap} onCategoryClick={handleCategoryClick}></Category>
       <ProductCard datasrc={props.datasrc} tap={tap} />
       {/* <ProductSwiper datasrc={props.datasrc} tap={tap}></ProductSwiper>
-      <MoreButton>더보기</MoreButton> */}
+      */}
+      <MoreButton><Link to="/all">더보기</Link></MoreButton>
     </section>
   )
 }
