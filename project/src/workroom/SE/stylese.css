@@ -108,3 +108,11 @@ h1#Logo {
   margin-bottom: 10px;
   border-radius: 30px !important;
 }
+
+#hd.down #Logo {
+  display: none;
+}
+
+.sub-logo img {
+  height: 2rem !important;
+}

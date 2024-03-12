@@ -9,16 +9,16 @@ import { Link } from 'react-router-dom';
 
 
 function HD(props) {
-    // const scrolldown = () => {
-    //     document.querySelector("#hd").classList = window.scrollY > 0 ? "fixed-top bg-white border-bottom down" : "fixed-top bg-white border-bottom";
-    //     document.body.classList = window.scrollY > 0 ? " down" : "";
-    // }
-    // useEffect(() => {
-    //     window.addEventListener("scroll", scrolldown)
-    //     return () => {
-    //         window.removeEventListener("scroll", scrolldown)
-    //     }
-    // }, [])
+    const scrolldown = () => {
+        document.querySelector("#hd").classList = window.scrollY > 0 ? "fixed-top bg-white border-bottom down" : "fixed-top bg-white border-bottom";
+        document.body.classList = window.scrollY > 0 ? " down" : "";
+    }
+    useEffect(() => {
+        window.addEventListener("scroll", scrolldown)
+        return () => {
+            window.removeEventListener("scroll", scrolldown)
+        }
+    }, [])
 
     const Gnbmenu = useRef("")
     const menucon = () => {
@@ -35,6 +35,7 @@ function HD(props) {
 
 
                 <div id="Gnb" ref={Gnbmenu} className='text-center container-lg mt-lg-5 d-lg-block d-none'>
+                    {/* <div className='sub-logo'><img src='/assets/img/icon/sub_logo.png'></img></div> */}
                     <ul className='d-lg-flex justify-content-center'>
                         {
                             props.datasrc && props.datasrc.filter(lang => lang.gl_no === 0).map((v, i) => {
