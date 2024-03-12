@@ -15,7 +15,7 @@ https://sooldamwha.netlify.app/
 https://yohaiyo.github.io/Team-SoolDamWha/
 
 ## 📖 한장으로 보는 술담화 개발여정
-![술담화개발여정](https://github.com/YoHaiYo/React-SoolDamWha.github.io/assets/124754510/aa70b5a4-6c98-4749-8bd0-d988086ddda1)
+![술담화개발여정-edit](https://github.com/YoHaiYo/React-SoolDamWha.github.io/assets/124754510/8feeee73-8103-4b9d-8159-f52d5c0f1e70)
 
 - [노션 기획서 바로 가기](https://www.notion.so/9299e0485c414f87bd02d8b202c4364d)
 - [PDF 기획서 바로 가기](https://file.notion.so/f/f/3eeb5bea-be87-40e2-ad02-1d1272cec098/43285ffa-7bc6-43e5-82b6-225d13200b9b/sooldamhwa.pdf?id=aaaa2767-bb4c-41f7-8b93-dfc352298f7e&table=block&spaceId=3eeb5bea-be87-40e2-ad02-1d1272cec098&expirationTimestamp=1710230400000&signature=6_Q_Kx6YnYOYzX6xZ-F4QnhjSoblKj9BzguMmcz5Y-g&downloadName=sooldamhwa.pdf)
