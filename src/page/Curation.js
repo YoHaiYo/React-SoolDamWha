@@ -29,7 +29,7 @@ export const textData = [{
 }];
 
 //props로 전달할때 전달한 이름으로 props를 받아와야함 
-function Curation({ setGudock, gudock, onDataChange}) {
+function Curation({ setGudock, gudock, onDataChange }) {
     // let newData = 0;
 
 

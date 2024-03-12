@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { useForm } from "react-hook-form"
 import { MoreButton } from '../styled/Btns'
 import { textData } from './Curation';
-import xicon from '../workroom/JY/icon_close.svg'
+import  xicon  from '../workroom/JY/icon_close.svg'
 
 function FormPopup({ setGudock, gudock, bringData }) {
     const { register, handleSubmit, formState: { errors }, reset } = useForm();
