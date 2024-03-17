@@ -18,7 +18,7 @@ https://yohaiyo.github.io/Team-SoolDamWha/
 ![술담화개발여정-edit](https://github.com/YoHaiYo/React-SoolDamWha.github.io/assets/124754510/8feeee73-8103-4b9d-8159-f52d5c0f1e70)
 
 - [노션 기획서 바로 가기](https://www.notion.so/9299e0485c414f87bd02d8b202c4364d)
-- [PDF 기획서 바로 가기](https://file.notion.so/f/f/3eeb5bea-be87-40e2-ad02-1d1272cec098/43285ffa-7bc6-43e5-82b6-225d13200b9b/sooldamhwa.pdf?id=aaaa2767-bb4c-41f7-8b93-dfc352298f7e&table=block&spaceId=3eeb5bea-be87-40e2-ad02-1d1272cec098&expirationTimestamp=1710230400000&signature=6_Q_Kx6YnYOYzX6xZ-F4QnhjSoblKj9BzguMmcz5Y-g&downloadName=sooldamhwa.pdf)
+- [PDF 기획서 바로 가기](https://drive.google.com/file/d/1366eIzDtRNTGAVXXUHlCVr7gvMVtRuwX/view?usp=drive_link)
 - [노션 이슈처리 바로 가기](https://www.notion.so/f8bc636e180443bf8b1b7c9c67038ff5)
 - [피그마 바로 가기](https://www.figma.com/file/KUL9il7XOPOrt2ce4OYvXT/%EC%88%A0%EB%8B%B4%ED%99%94-%ED%94%BC%EA%B7%B8%EB%A7%88-%EB%B0%B0%ED%8F%AC%EC%9A%A9?type=design&node-id=1-1068&mode=design&t=OPx03nzqhn2vOAdr-0)
 
